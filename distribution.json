@@ -1,0 +1,3161 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "KekeCraft-1.20.1",
+      "name": "KekeCraft (Minecraft 1.20.1)",
+      "description": "KekeCraft Running Minecraft 1.20.1 (Forge v47.2.0)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7397,
+            "MD5": "f538b3b9ad1668b3d92945741f841071",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.2.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16542,
+                "MD5": "374162e774d7cf1b09af7af4d7805982",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/versions/1.20.1-forge-47.2.0/1.20.1-forge-47.2.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 117589,
+                "MD5": "549205a1ba89e1c0735d9a46a338e715",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16371,
+                "MD5": "ab1c94373972048884a363d08bd1720d",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4996,
+                "MD5": "1bb13fed852f5088675101b9c6b538a0",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2672123,
+                "MD5": "5902d79463abb7a3746c777c3919143e",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4791112,
+                "MD5": "d805b1803123c683648f2e65dd98f3a8",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264245,
+                "MD5": "6ea3c95084cc6dec3205fae098bb8cab",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170333,
+                "MD5": "7050197358f88cf4ea899066fc97625d",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:aiimprovements:0.5.2@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29553,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/AI-Improvements-1.20-0.5.2.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.2.2@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 343714,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/balm-forge-1.20.1-7.2.2.jar",
+            "MD5": "90f95b82b672106e0bb96e95cdc776e5"
+          }
+        },
+        {
+          "id": "io.github.noeppi_noeppi.mods:bingolobby:1.20.1-4.0.2@jar",
+          "name": "BingoLobby",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62223,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/BingoLobby-1.20.1-4.0.2.jar",
+            "MD5": "ffd981552e43d94107c7c5a33e8f1345"
+          }
+        },
+        {
+          "id": "io.github.noeppi_noeppi.mods:bongo:1.20.1-4.0.5@jar",
+          "name": "Bongo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 531360,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Bongo-1.20.1-4.0.5.jar",
+            "MD5": "058448437997653706892d95923d7db5"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "com.natamus:collective:7.51@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 604748,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/collective-1.20.1-7.51.jar",
+            "MD5": "c5e1e10694c2a1d4b478315fcccd4cc0"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:12.0.2@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115280,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Controlling-forge-1.20.1-12.0.2.jar",
+            "MD5": "952274bc9994bba9733e8747558f73fa"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.6@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24736,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/cupboard-1.20.1-2.6.jar",
+            "MD5": "29fa1151f99dff55b0581e67eba5079e"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:18.0.1@jar",
+          "name": "Default Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87943,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/defaultoptions-forge-1.20-18.0.1.jar",
+            "MD5": "1784bcb1bd23f47ba2d048fc69ac743c"
+          }
+        },
+        {
+          "id": "com.paran:dhdisabler:1.0.0@jar",
+          "name": "Distant Horizons Disabler",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4711,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/dhdisabler-1.0.0.jar",
+            "MD5": "18c48941e3155a8def90590e83bdb15c"
+          }
+        },
+        {
+          "id": "com.pockyl:dhturbo:1.6.0@jar",
+          "name": "Turbo for Distant Horizons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 667159,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/dhturbo-forge-1.20.1-1.6.0.jar",
+            "MD5": "d1440843364dfae69c564f192583d0d2"
+          }
+        },
+        {
+          "id": "com.mrbysco:distantfriends:0.5.6@jar",
+          "name": "Distant Friends",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52436,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/DistantFriends-forge-1.20.1-0.5.6.jar",
+            "MD5": "46ea033a407bdc7b1b711edbbaeb6e9b"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:3.3.3@jar",
+          "name": "Distant Horizons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27700542,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/DistantHorizons-3.3.3-1.20.1-fabric-forge.jar",
+            "MD5": "cd391f28811d041063acaaad7fa18323"
+          }
+        },
+        {
+          "id": "com.dynview:dynview:2.3@jar",
+          "name": "Dynamic view distance",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23700,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/dynview-1.20.1-3.9.jar",
+            "MD5": "d4eeb78227cea37d365711650419a5b9"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "com.hrznstudio:emojiful:4.2.0@jar",
+          "name": "Emojiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 262412,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Emojiful-Forge-1.20.1-4.2.0.jar",
+            "MD5": "0ba360de4747e64c6325b74c0055479a"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.11.3@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1515076,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/entityculling-forge-1.11.3-mc1.20.1.jar",
+            "MD5": "cedd6c1c525e8ee36afd71f21aa7bc0b"
+          }
+        },
+        {
+          "id": "de.melanx:excavar:1.20.1-3.1.0@jar",
+          "name": "Excavar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54107,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Excavar-1.20.1-3.1.0.jar",
+            "MD5": "50e168761b2d284e980b3dcba1ef7d4c"
+          }
+        },
+        {
+          "id": "com.farsight:farsight_view:1.20.1-3.6@jar",
+          "name": "Farsight mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 373943,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/farsight-1.20.1-3.6.jar",
+            "MD5": "fe17f2261bf8704b7b12a9cd726a8fa8"
+          }
+        },
+        {
+          "id": "net.olafski:fastleafdecay:31@jar",
+          "name": "Fast Leaf Decay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9833,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/FastLeafDecay-31.jar",
+            "MD5": "f9962d78568b9f71b70916238253d33c"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:fastsuite:5.0.1@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20315,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/FastSuite-1.20.1-5.0.1.jar",
+            "MD5": "a355432ffcf3e2f60fa9a19268468be5"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "net.morimori0317.gmrg:gamemenuremovegfarb:2.1.2@jar",
+          "name": "Game Menu Remove GFARB",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57110,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+            "MD5": "2c45c4c4f8c506a70232d6a6d3e90843"
+          }
+        },
+        {
+          "id": "se.gory_moon:globalgamerules:8.0.0.11@jar",
+          "name": "Global GameRules",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18898,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/GlobalGameRules-1.20-8.0.0.11.jar",
+            "MD5": "213ec471fd76e3821a0a1e296c28b0ba"
+          }
+        },
+        {
+          "id": "com.natamus:hiddenrecipebook:4.6@jar",
+          "name": "Hidden Recipe Book",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 34268,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/hiddenrecipebook-1.20.1-4.6.jar",
+            "MD5": "44b5892443cf1b5d66318ab875c03267"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.5.5+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 532063,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+            "MD5": "4d776686d7da62146099484b8c9e14af"
+          }
+        },
+        {
+          "id": "cpw.mods:inventorysorter:23.0.1@jar",
+          "name": "Simple Inventory Sorter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52148,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/inventorysorter-1.20.1-23.0.1.jar",
+            "MD5": "2adaeb7ef5ca7bc39024e536c22168a4"
+          }
+        },
+        {
+          "id": "me.pieking1215:invmove:0.9.3@jar",
+          "name": "InvMove",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 270522,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/InvMove-0.9.3+1.20.1-Forge.jar",
+            "MD5": "55f6bdd0218d14ca0f1cdba6fd429f54"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.8.0@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 525770,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Jade-1.20.1-forge-11.8.0.jar",
+            "MD5": "ab2a3eefd01651ebbf8063d4b75de1b2"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.74.0.234@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4805946,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/jei-1.20.1-forge-15.74.0.234.jar",
+            "MD5": "1776262e184bcc5ec265b30987efa70f"
+          }
+        },
+        {
+          "id": "de.melanx:jea:1.20.1-5.0.1@jar",
+          "name": "Just Enough Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37823,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/JustEnoughAdvancements-1.20.1-5.0.1.jar",
+            "MD5": "ea76bc67233a0473aac7ca84e085a02a"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "org.moddingx:libx:1.20.1-5.0.14@jar",
+          "name": "LibX",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1258082,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/LibX-1.20.1-5.0.14.jar",
+            "MD5": "3c0c0cdac0482e1f78a28614bebce36a"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.33.82@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 334490,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/lootr-forge-1.20-0.7.33.83.jar",
+            "MD5": "a7106bcdf779667df2f914545290c732"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.2@jar",
+          "name": "Melody",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37178,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6"
+          }
+        },
+        {
+          "id": "net.mezzdev.config:mezz_config:0.6.11@jar",
+          "name": "MezzConfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 386655,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/mezz_config-1.20.1-forge-0.6.11.jar",
+            "MD5": "e86484a019423b616bf4d1f1f5e9fe79"
+          }
+        },
+        {
+          "id": "io.github.noeppi_noeppi.mods:minemention:1.20.1-3.0.1@jar",
+          "name": "Minemention",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52129,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/MineMention-1.20.1-3.0.1.jar",
+            "MD5": "73f957efbdd2f2ac059e45d26a4a745a"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.27.91+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1012942,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/modernfix-forge-5.27.91+mc1.20.1.jar",
+            "MD5": "b01fa4427f855cc157e043789262dcf6"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "com.focamacho:myserveriscompatible:1.0@jar",
+          "name": "MyServerIsCompatible",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3482,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/MyServerIsCompatible-1.20-1.0.jar",
+            "MD5": "61d6f7c70030cbdacbbb0053cf120b79"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.20.1-1.11.2-forge@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 215119,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/NaturesCompass-1.20.1-1.11.2-forge.jar",
+            "MD5": "7c05072645b1aae529b1e38c74b87c4c"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "net.darkhax:openloader:19.0.3@jar",
+          "name": "OpenLoader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23840,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/OpenLoader-Forge-1.20.1-19.0.3.jar",
+            "MD5": "bad4e09bd31737f36417c02468683692"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:packmenu:6.1.1@jar",
+          "name": "PackMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 543149,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/PackMenu-1.20.1-6.1.1.jar",
+            "MD5": "e7c40ecb15942e7c88da9d4f859cdb10"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.1@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285463,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Placebo-1.20.1-8.6.1.jar",
+            "MD5": "99019d3495ebaaf5805eb7aba8de9371"
+          }
+        },
+        {
+          "id": "com.quickskin.mod:quickskin:4.0.0@jar",
+          "name": "Quick Skin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5660643,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Quick-Skin-Forge-1.20.1-4.0.0.jar",
+            "MD5": "4206c95c2532e1b14c888cd9d5624a13"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77732,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511601,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
+          }
+        },
+        {
+          "id": "toni.sodiumextras:sodiumextras:1.0.6@jar",
+          "name": "Sodium Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 438540,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/sodiumextras-forge-1.0.7-1.20.1.jar",
+            "MD5": "823adea3bcfd64dbdbaec46950cf4108"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443978,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+            "MD5": "75807590ae2648ecdeb855705868ce59"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsmodcompat:sodiumoptionsmodcompat:1.0.0@jar",
+          "name": "Sodium Options Mod Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181056,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+            "MD5": "b4ba44d85f2714e818cc8534f46c8914"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.53@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3114590,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/spark-1.10.53-forge.jar",
+            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98"
+          }
+        },
+        {
+          "id": "com.girafi:waddles:0.9.4@jar",
+          "name": "Waddles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 249865,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Waddles-1.20.1-0.9.4.jar",
+            "MD5": "aca9f02ff7e3a49be43502fb2c7f056b"
+          }
+        },
+        {
+          "id": "io.github.gaming32.worldhost:world_host:0.5.2+1.20.1-forge@jar",
+          "name": "World Host",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 540038,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/world-host-0.5.2+1.20.1-forge.jar",
+            "MD5": "34405e15240d7bdb4df0786ef43fe305"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimapfair:24.1.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1442659,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/Xaeros_Minimap_FP24.1.1_Forge_1.20.jar",
+            "MD5": "d32b1bcdd255f8c4a9d717197103d4a5"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.38.4@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 925318,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/forgemods/required/XaerosWorldMap_1.38.4_Forge_1.20.jar",
+            "MD5": "b8bff8270301e1cf16954525c39c58e7"
+          }
+        },
+        {
+          "id": "aiimprovements-common.toml",
+          "name": "aiimprovements-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6211,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/aiimprovements-common.toml",
+            "MD5": "71450aa2f5b19702f457be0d519bf725",
+            "path": "config/aiimprovements-common.toml"
+          }
+        },
+        {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1361,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/appleskin-client.toml",
+            "MD5": "999dd7d912a7eb915c59b1025710ca12",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "balm-common.toml",
+          "name": "balm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 553,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/balm-common.toml",
+            "MD5": "bcb937860bc4782a1532a5bc3aead312",
+            "path": "config/balm-common.toml"
+          }
+        },
+        {
+          "id": "bingolobby-preset-skyblock-edition.zip",
+          "name": "bingolobby-preset-skyblock-edition.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3000809,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/bingolobby-preset-skyblock-edition.zip",
+            "MD5": "aa735e9f180530ef75f466cac96ef714",
+            "path": "config/bingolobby-preset-skyblock-edition.zip"
+          }
+        },
+        {
+          "id": "bingolobby-preset.zip",
+          "name": "bingolobby-preset.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2522790,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/bingolobby-preset.zip",
+            "MD5": "f140267f10a01b484b237190c4e83a1a",
+            "path": "config/bingolobby-preset.zip"
+          }
+        },
+        {
+          "id": "bingolobby.json5",
+          "name": "bingolobby.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1730,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/bingolobby.json5",
+            "MD5": "60ca1e0bb7d9ee4718642e8b2eb36891",
+            "path": "config/bingolobby.json5"
+          }
+        },
+        {
+          "id": "bongo-client.toml",
+          "name": "bongo-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 440,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/bongo-client.toml",
+            "MD5": "1c02adaa0e95b197134d2ab54cfe42c2",
+            "path": "config/bongo-client.toml"
+          }
+        },
+        {
+          "id": "chloride-client.toml",
+          "name": "chloride-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5015,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/chloride-client.toml",
+            "MD5": "137f2fb1f09f173e2f6c17c4386c13c7",
+            "path": "config/chloride-client.toml"
+          }
+        },
+        {
+          "id": "collective.json5",
+          "name": "collective.json5",
+          "type": "File",
+          "artifact": {
+            "size": 136,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/collective.json5",
+            "MD5": "4bc0589f7d41e546e60c8b8953bd61cb",
+            "path": "config/collective.json5"
+          }
+        },
+        {
+          "id": "create-client.toml",
+          "name": "create-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 295,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/create-client.toml",
+            "MD5": "63c728e8c608f43c9f96ed3d4243e6e3",
+            "path": "config/create-client.toml"
+          }
+        },
+        {
+          "id": "cupboard.json",
+          "name": "cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/cupboard.json",
+            "MD5": "7725e2ad17f08b6221f0ecdeda137888",
+            "path": "config/cupboard.json"
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/defaultoptions/keybindings.txt",
+            "MD5": "d9bfaa1039b1d701167391e5f705e343",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 72,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/defaultoptions/options.txt",
+            "MD5": "6b18a4f04d1388287df8265e4907cd84",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 61,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/defaultoptions/servers.dat",
+            "MD5": "181b50b468ba835312b3d7e1874aece0",
+            "path": "config/defaultoptions/servers.dat"
+          }
+        },
+        {
+          "id": "defaultoptions-common.toml",
+          "name": "defaultoptions-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 381,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/defaultoptions-common.toml",
+            "MD5": "083d969a19f2ff58483dcb436a18cbdd",
+            "path": "config/defaultoptions-common.toml"
+          }
+        },
+        {
+          "id": "dhturbo-common.toml",
+          "name": "dhturbo-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3609,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/dhturbo-common.toml",
+            "MD5": "2bc580d49ceda6291f44f85cf4570e51",
+            "path": "config/dhturbo-common.toml"
+          }
+        },
+        {
+          "id": "distantfriends-common.toml",
+          "name": "distantfriends-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 455,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/distantfriends-common.toml",
+            "MD5": "f230d96fc7a7b532b688cefe139ac3a8",
+            "path": "config/distantfriends-common.toml"
+          }
+        },
+        {
+          "id": "DistantHorizons.toml",
+          "name": "DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 37977,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/DistantHorizons.toml",
+            "MD5": "2ddd30b6e9478c8334c2057b3acf908e",
+            "path": "config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "dynview-common.toml",
+          "name": "dynview-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1269,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/dynview-common.toml",
+            "MD5": "d893e6323dc94c14357c55df0fdf3afe",
+            "path": "config/dynview-common.toml"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "9177020f953ce89656406588bc00c651",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "emojiful-client.toml",
+          "name": "emojiful-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 832,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/emojiful-client.toml",
+            "MD5": "c7a00f29ed2d6f2504f3d9b7e683e1ec",
+            "path": "config/emojiful-client.toml"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 2248,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/entityculling.json",
+            "MD5": "4b613a5aed83e0410c9d37c77b480d6a",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "excavar-client.toml",
+          "name": "excavar-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 536,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/excavar-client.toml",
+            "MD5": "0d7e842ff91d0aac425ca83a75913b09",
+            "path": "config/excavar-client.toml"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 26,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "fe5f2f91fcc0653b93634a414aa90cd5",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4399,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "ade471e4e63f432514deaf6874708db1",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "cherry_blossom.json",
+          "name": "cherry_blossom.json",
+          "type": "File",
+          "artifact": {
+            "size": 9349,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/cherry_blossom.json",
+            "MD5": "90e358ee1c6bbd1d17bbcdad0a504f3d",
+            "path": "config/fancymenu/ui_themes/cherry_blossom.json"
+          }
+        },
+        {
+          "id": "cozy_campfire.json",
+          "name": "cozy_campfire.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/cozy_campfire.json",
+            "MD5": "02b0cd78a482dbd7ec793e123f4c007b",
+            "path": "config/fancymenu/ui_themes/cozy_campfire.json"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 9329,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "cbf30e731636c918d598f1ad9b0ea371",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "dark_high_contrast.json",
+          "name": "dark_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9359,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/dark_high_contrast.json",
+            "MD5": "4b532a7a5c5ecd839e55a3c083c8bca3",
+            "path": "config/fancymenu/ui_themes/dark_high_contrast.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 9331,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "f3980d6eed1064c36d794d7b1030fd06",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "light_high_contrast.json",
+          "name": "light_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9361,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/light_high_contrast.json",
+            "MD5": "700ff9cd0e95ac2234e0494af729226a",
+            "path": "config/fancymenu/ui_themes/light_high_contrast.json"
+          }
+        },
+        {
+          "id": "pumpkin_soup.json",
+          "name": "pumpkin_soup.json",
+          "type": "File",
+          "artifact": {
+            "size": 9345,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/pumpkin_soup.json",
+            "MD5": "d322c4bde872420ddeb2eaa124d0f16a",
+            "path": "config/fancymenu/ui_themes/pumpkin_soup.json"
+          }
+        },
+        {
+          "id": "purple_void.json",
+          "name": "purple_void.json",
+          "type": "File",
+          "artifact": {
+            "size": 9343,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/purple_void.json",
+            "MD5": "79df3b7ab7a74d55e3f5bb70cd996dea",
+            "path": "config/fancymenu/ui_themes/purple_void.json"
+          }
+        },
+        {
+          "id": "spooky_season.json",
+          "name": "spooky_season.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/ui_themes/spooky_season.json",
+            "MD5": "c45cc6e6bd9c4a296227e764dcf1e953",
+            "path": "config/fancymenu/ui_themes/spooky_season.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "farsight.json",
+          "name": "farsight.json",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/farsight.json",
+            "MD5": "6890a1825bb1529a13650cd17409b8b6",
+            "path": "config/farsight.json"
+          }
+        },
+        {
+          "id": "fastsuite.cfg",
+          "name": "fastsuite.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 742,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fastsuite.cfg",
+            "MD5": "7d7c38f1deb6139437aa3e6e14874f61",
+            "path": "config/fastsuite.cfg"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1516,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/ferritecore-mixin.toml",
+            "MD5": "ab9006eb6d50292a11f757c0ae658ac0",
+            "path": "config/ferritecore-mixin.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 886,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/fml.toml",
+            "MD5": "1dded416906c0647c9fcc83b3fc73b6c",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1399,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/forge-client.toml",
+            "MD5": "17ce4f44d2b8e9186512d7bc94501b18",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "globalgamerules-common.toml",
+          "name": "globalgamerules-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7870,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/globalgamerules-common.toml",
+            "MD5": "0cffa8e062618bf5c7f1f44535a3543f",
+            "path": "config/globalgamerules-common.toml"
+          }
+        },
+        {
+          "id": "hiddenrecipebook.json5",
+          "name": "hiddenrecipebook.json5",
+          "type": "File",
+          "artifact": {
+            "size": 334,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/hiddenrecipebook.json5",
+            "MD5": "7b689c6b277c5f6c274f61e045a32ff1",
+            "path": "config/hiddenrecipebook.json5"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1060,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/immediatelyfast.json",
+            "MD5": "7b2d05a9b2f2745055edf3c8d1d0b155",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "inventorysorter-client.toml",
+          "name": "inventorysorter-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 129,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/inventorysorter-client.toml",
+            "MD5": "da45382a1c5c5e0802a7f005c5ef7752",
+            "path": "config/inventorysorter-client.toml"
+          }
+        },
+        {
+          "id": "unrecognized.json",
+          "name": "unrecognized.json",
+          "type": "File",
+          "artifact": {
+            "size": 530,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/invmove/unrecognized.json",
+            "MD5": "f4c857fa44c47431f090208895ecbfc7",
+            "path": "config/invmove/unrecognized.json"
+          }
+        },
+        {
+          "id": "vanilla.json",
+          "name": "vanilla.json",
+          "type": "File",
+          "artifact": {
+            "size": 1092,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/invmove/vanilla.json",
+            "MD5": "95587492c4a51a3beaa4b7d8869499fe",
+            "path": "config/invmove/vanilla.json"
+          }
+        },
+        {
+          "id": "invmove.json",
+          "name": "invmove.json",
+          "type": "File",
+          "artifact": {
+            "size": 449,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/invmove.json",
+            "MD5": "fe69d57296c02c07d25f1bc0686488ed",
+            "path": "config/invmove.json"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "96a520226b75288fb7bcacc90ef64579",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 309,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "352007cefa34b15aa3f1068475ec87cc",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 974,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jade/jade.json",
+            "MD5": "5abbd905945aaae92773915966069679",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1699,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jade/plugins.json",
+            "MD5": "b44beffd7e2e2bc9c5f102b56a25c949",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 2978,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "8c95f7a379a99b9caa66f8ad1534e99b",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "jea.json5",
+          "name": "jea.json5",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jea.json5",
+            "MD5": "88c6a78a5642f5d9f63c87287844adc5",
+            "path": "config/jea.json5"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "blacklist.json",
+          "name": "blacklist.json",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/blacklist.json",
+            "MD5": "ea5744cdc731b505949494bc512d338d",
+            "path": "config/jei/blacklist.json"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 16999,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/client/default/jei-client.ini",
+            "MD5": "4caaed4503cebaf32989c114c4f419d9",
+            "path": "config/jei/client/default/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1655,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/client/default/jei-colors.ini",
+            "MD5": "d91575351ff8a83528a98a215b127bdb",
+            "path": "config/jei/client/default/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1174,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/client/default/jei-debug.ini",
+            "MD5": "da1cc755422f3aa23e559f19828b13f0",
+            "path": "config/jei/client/default/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 863,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/client/default/jei-mod-id-format.ini",
+            "MD5": "c886f44e6e70c67b4dec1fd9a14121da",
+            "path": "config/jei/client/default/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 76,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/client/ingredient-list-mod-sort-order.ini",
+            "MD5": "177ab78da7f2af382ae7f5c1dd3a709d",
+            "path": "config/jei/client/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/client/ingredient-list-type-sort-order.ini",
+            "MD5": "f0cbb43cc4363e328a42c5f46f83083a",
+            "path": "config/jei/client/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/client/recipe-category-sort-order.ini",
+            "MD5": "371784f975b6053e29482dd90f10c32e",
+            "path": "config/jei/client/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 45,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "153dddec22c433950da419fb7e63e929",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini.bak.1",
+          "name": "ingredient-list-mod-sort-order.ini.bak.1",
+          "type": "File",
+          "artifact": {
+            "size": 45,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini.bak.1",
+            "MD5": "153dddec22c433950da419fb7e63e929",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini.bak.1"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 117,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "69a531dc64d8ccda3cfd67167de2c027",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini.bak.1",
+          "name": "ingredient-list-type-sort-order.ini.bak.1",
+          "type": "File",
+          "artifact": {
+            "size": 117,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini.bak.1",
+            "MD5": "69a531dc64d8ccda3cfd67167de2c027",
+            "path": "config/jei/ingredient-list-type-sort-order.ini.bak.1"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 5308,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "4eae275f7923681afc75082b3ebff045",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini.bak.1",
+          "name": "jei-client.ini.bak.1",
+          "type": "File",
+          "artifact": {
+            "size": 5308,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-client.ini.bak.1",
+            "MD5": "4eae275f7923681afc75082b3ebff045",
+            "path": "config/jei/jei-client.ini.bak.1"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1337,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "a23718add9e4884ca9d259aedd73161b",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini.bak.1",
+          "name": "jei-colors.ini.bak.1",
+          "type": "File",
+          "artifact": {
+            "size": 1337,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-colors.ini.bak.1",
+            "MD5": "a23718add9e4884ca9d259aedd73161b",
+            "path": "config/jei/jei-colors.ini.bak.1"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 425,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "f5fb09cb8828526cfe9b9a44a9632134",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini.bak.1",
+          "name": "jei-debug.ini.bak.1",
+          "type": "File",
+          "artifact": {
+            "size": 425,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-debug.ini.bak.1",
+            "MD5": "f5fb09cb8828526cfe9b9a44a9632134",
+            "path": "config/jei/jei-debug.ini.bak.1"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 416,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "d9df39bf869d7344ef78697b986e3b05",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini.bak.1",
+          "name": "jei-mod-id-format.ini.bak.1",
+          "type": "File",
+          "artifact": {
+            "size": 416,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/jei-mod-id-format.ini.bak.1",
+            "MD5": "d9df39bf869d7344ef78697b986e3b05",
+            "path": "config/jei/jei-mod-id-format.ini.bak.1"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 377,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "3929a9c8ebb6cd4ea9a391b779170c26",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini.bak.1",
+          "name": "recipe-category-sort-order.ini.bak.1",
+          "type": "File",
+          "artifact": {
+            "size": 377,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/recipe-category-sort-order.ini.bak.1",
+            "MD5": "3929a9c8ebb6cd4ea9a391b779170c26",
+            "path": "config/jei/recipe-category-sort-order.ini.bak.1"
+          }
+        },
+        {
+          "id": "jei-server.ini",
+          "name": "jei-server.ini",
+          "type": "File",
+          "artifact": {
+            "size": 760,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/server/world/default/jei-server.ini",
+            "MD5": "c1f5437bf7e20ff95a4a00cb7369b21d",
+            "path": "config/jei/server/world/default/jei-server.ini"
+          }
+        },
+        {
+          "id": "bookmarks.ini",
+          "name": "bookmarks.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jei/world/server/BEXSZO_57cad0e8/bookmarks.ini",
+            "MD5": "a47e675441249945af9e6ff40a2900c0",
+            "path": "config/jei/world/server/BEXSZO_57cad0e8/bookmarks.ini"
+          }
+        },
+        {
+          "id": "jeresources-common.toml",
+          "name": "jeresources-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jeresources-common.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
+            "path": "config/jeresources-common.toml"
+          }
+        },
+        {
+          "id": "jeresources.toml",
+          "name": "jeresources.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/jeresources.toml",
+            "MD5": "832deacf307999a65c4a3bc40ab0dfa7",
+            "path": "config/jeresources.toml"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "lootr-client.toml",
+          "name": "lootr-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 177,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/lootr-client.toml",
+            "MD5": "4b12f5f6083aace53342261b791484e2",
+            "path": "config/lootr-client.toml"
+          }
+        },
+        {
+          "id": "lootr-common.toml",
+          "name": "lootr-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6194,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/lootr-common.toml",
+            "MD5": "f50b0984010f1f09424476e156ff839f",
+            "path": "config/lootr-common.toml"
+          }
+        },
+        {
+          "id": "settings.ini",
+          "name": "settings.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1452,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/mezz_config/client/default/settings.ini",
+            "MD5": "18753ae443123c75636ab3cdd455bbc1",
+            "path": "config/mezz_config/client/default/settings.ini"
+          }
+        },
+        {
+          "id": "client.json5",
+          "name": "client.json5",
+          "type": "File",
+          "artifact": {
+            "size": 158,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/minemention/client.json5",
+            "MD5": "71fb5c0491295a2130e59deb0903d06f",
+            "path": "config/minemention/client.json5"
+          }
+        },
+        {
+          "id": "mentions.json5",
+          "name": "mentions.json5",
+          "type": "File",
+          "artifact": {
+            "size": 371,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/minemention/mentions.json5",
+            "MD5": "d734cf4f5f91d94b139c0d689e89e2f3",
+            "path": "config/minemention/mentions.json5"
+          }
+        },
+        {
+          "id": "minemention.json5",
+          "name": "minemention.json5",
+          "type": "File",
+          "artifact": {
+            "size": 482,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/minemention.json5",
+            "MD5": "66e4b3d6da761bbeaca08f852fd63230",
+            "path": "config/minemention.json5"
+          }
+        },
+        {
+          "id": "modernfix-common.toml",
+          "name": "modernfix-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 107,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/modernfix-common.toml",
+            "MD5": "1d50de2e9c0bda2952844de7a3306d10",
+            "path": "config/modernfix-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 6643,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/modernfix-mixins.properties",
+            "MD5": "e45e143ab517790502cbb3c9e3ce3d72",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 143,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/MouseTweaks.cfg",
+            "MD5": "3ddc00a945dcb5baa6b3334b9aa5f6f8",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "naturescompass-client.toml",
+          "name": "naturescompass-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 432,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/naturescompass-client.toml",
+            "MD5": "dfe7626832ede6b7b53e6a898b96e5d9",
+            "path": "config/naturescompass-client.toml"
+          }
+        },
+        {
+          "id": "naturescompass-common.toml",
+          "name": "naturescompass-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1142,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/naturescompass-common.toml",
+            "MD5": "d80b82667a1fe6b49421b7a7db5ebd8a",
+            "path": "config/naturescompass-common.toml"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 267,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/oculus.properties",
+            "MD5": "976e91fc29630efaa9a82eab0815fe19",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "advanced_options.json",
+          "name": "advanced_options.json",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/advanced_options.json",
+            "MD5": "74f5871299b5cf75250b7bcb31223447",
+            "path": "config/openloader/advanced_options.json"
+          }
+        },
+        {
+          "id": "consume.json",
+          "name": "consume.json",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/consume.json",
+            "MD5": "1a048b82e77977bff7cbab2fdde5a891",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/consume.json"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 209,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/default.json",
+            "MD5": "5273bd8d94919a0ac328733852574754",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/default.json"
+          }
+        },
+        {
+          "id": "end_portal.json",
+          "name": "end_portal.json",
+          "type": "File",
+          "artifact": {
+            "size": 297,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/end_portal.json",
+            "MD5": "656b50db0b2b70261197fcc5337dfa5a",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/end_portal.json"
+          }
+        },
+        {
+          "id": "lock.json",
+          "name": "lock.json",
+          "type": "File",
+          "artifact": {
+            "size": 54,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/lock.json",
+            "MD5": "d75f7ffab5c08e8f96197a34655d3ddd",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/lock.json"
+          }
+        },
+        {
+          "id": "no_start_tp.json",
+          "name": "no_start_tp.json",
+          "type": "File",
+          "artifact": {
+            "size": 56,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/no_start_tp.json",
+            "MD5": "ab26929a314d87285202c488c1c3bb0d",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/no_start_tp.json"
+          }
+        },
+        {
+          "id": "pvp.json",
+          "name": "pvp.json",
+          "type": "File",
+          "artifact": {
+            "size": 96,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/pvp.json",
+            "MD5": "7bebceebda6fe8424a7bfef2fd2e17d4",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/pvp.json"
+          }
+        },
+        {
+          "id": "teleportation_radius_1000.json",
+          "name": "teleportation_radius_1000.json",
+          "type": "File",
+          "artifact": {
+            "size": 52,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_1000.json",
+            "MD5": "7ebd8987863b622776ff1ff7c17187b7",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_1000.json"
+          }
+        },
+        {
+          "id": "teleportation_radius_1500.json",
+          "name": "teleportation_radius_1500.json",
+          "type": "File",
+          "artifact": {
+            "size": 52,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_1500.json",
+            "MD5": "5a7d470fb0acd959f2428b4e61fc2856",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_1500.json"
+          }
+        },
+        {
+          "id": "teleportation_radius_2000.json",
+          "name": "teleportation_radius_2000.json",
+          "type": "File",
+          "artifact": {
+            "size": 52,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_2000.json",
+            "MD5": "3d795b18dcb4083772c1311e5e4afb02",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_2000.json"
+          }
+        },
+        {
+          "id": "teleportation_radius_500.json",
+          "name": "teleportation_radius_500.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_500.json",
+            "MD5": "17a1a98b11f1b29b61ef2a262c4e4662",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/teleportation_radius_500.json"
+          }
+        },
+        {
+          "id": "time1h.json",
+          "name": "time1h.json",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/time1h.json",
+            "MD5": "9017ab89ac6ea44fbce2a98c65e99caa",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/time1h.json"
+          }
+        },
+        {
+          "id": "time1h30m.json",
+          "name": "time1h30m.json",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/time1h30m.json",
+            "MD5": "242cb309ba2302792e12e93a374f0a2f",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/time1h30m.json"
+          }
+        },
+        {
+          "id": "time2h.json",
+          "name": "time2h.json",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/time2h.json",
+            "MD5": "69a818b225c3b2e9950ed015a412434e",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/time2h.json"
+          }
+        },
+        {
+          "id": "time30m.json",
+          "name": "time30m.json",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/time30m.json",
+            "MD5": "f22116e3781e6af64fdeb7eabc603291",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/time30m.json"
+          }
+        },
+        {
+          "id": "time45m.json",
+          "name": "time45m.json",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/time45m.json",
+            "MD5": "17bbbf0fa4069a2180e58d8af324a4bf",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/time45m.json"
+          }
+        },
+        {
+          "id": "tp1.json",
+          "name": "tp1.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/tp1.json",
+            "MD5": "af432fbc199d115fd25fcd5d301f698a",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/tp1.json"
+          }
+        },
+        {
+          "id": "tp2.json",
+          "name": "tp2.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/tp2.json",
+            "MD5": "850b73418dedcb8264da55b9e6e29b18",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/tp2.json"
+          }
+        },
+        {
+          "id": "tp3.json",
+          "name": "tp3.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/tp3.json",
+            "MD5": "4b3fb290c80d2a9c7f196bc84a42362a",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/tp3.json"
+          }
+        },
+        {
+          "id": "vulnerable.json",
+          "name": "vulnerable.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/vulnerable.json",
+            "MD5": "b9a84b22b5372d53be4bbc92163e89f2",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/vulnerable.json"
+          }
+        },
+        {
+          "id": "win_all.json",
+          "name": "win_all.json",
+          "type": "File",
+          "artifact": {
+            "size": 82,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/win_all.json",
+            "MD5": "ecea7d49d0f3514b27013e4685a6235a",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/win_all.json"
+          }
+        },
+        {
+          "id": "win_one.json",
+          "name": "win_one.json",
+          "type": "File",
+          "artifact": {
+            "size": 56,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/win_one.json",
+            "MD5": "1289d5146a2dc1ec4628f4baa4a02c30",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/win_one.json"
+          }
+        },
+        {
+          "id": "win_row_and_column.json",
+          "name": "win_row_and_column.json",
+          "type": "File",
+          "artifact": {
+            "size": 69,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_settings/win_row_and_column.json",
+            "MD5": "4a01bc9eb04887d8b257cce37bae51a1",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_settings/win_row_and_column.json"
+          }
+        },
+        {
+          "id": "advancement_hard.json",
+          "name": "advancement_hard.json",
+          "type": "File",
+          "artifact": {
+            "size": 6517,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_tasks/advancement_hard.json",
+            "MD5": "4e8c4be84b99fc16d22ad6954fa578aa",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_tasks/advancement_hard.json"
+          }
+        },
+        {
+          "id": "advancement_normal.json",
+          "name": "advancement_normal.json",
+          "type": "File",
+          "artifact": {
+            "size": 6323,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_tasks/advancement_normal.json",
+            "MD5": "2c4abe4b7d49d089570ad268566f569e",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_tasks/advancement_normal.json"
+          }
+        },
+        {
+          "id": "slightly_hard.json",
+          "name": "slightly_hard.json",
+          "type": "File",
+          "artifact": {
+            "size": 6192,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/bingo_tasks/slightly_hard.json",
+            "MD5": "d33c9398db637a131b05bfab9e979d83",
+            "path": "config/openloader/data/castbingo/data/castbingo/bingo_tasks/slightly_hard.json"
+          }
+        },
+        {
+          "id": "better_chests.json",
+          "name": "better_chests.json",
+          "type": "File",
+          "artifact": {
+            "size": 263,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/recipes/better_chests.json",
+            "MD5": "195e087705bd37e5ddba1713b01482a9",
+            "path": "config/openloader/data/castbingo/data/castbingo/recipes/better_chests.json"
+          }
+        },
+        {
+          "id": "better_sticks.json",
+          "name": "better_sticks.json",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/castbingo/recipes/better_sticks.json",
+            "MD5": "533942c391a00233910ab965f8345af6",
+            "path": "config/openloader/data/castbingo/data/castbingo/recipes/better_sticks.json"
+          }
+        },
+        {
+          "id": "natures_compass.json",
+          "name": "natures_compass.json",
+          "type": "File",
+          "artifact": {
+            "size": 432,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/data/naturescompass/recipes/natures_compass.json",
+            "MD5": "992b6f7f241e3ab855667e0b7f116590",
+            "path": "config/openloader/data/castbingo/data/naturescompass/recipes/natures_compass.json"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 109,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/castbingo/pack.mcmeta",
+            "MD5": "dc272d6861f61ab22156a1f57bb4d982",
+            "path": "config/openloader/data/castbingo/pack.mcmeta"
+          }
+        },
+        {
+          "id": "emotes.zip",
+          "name": "emotes.zip",
+          "type": "File",
+          "artifact": {
+            "size": 67956,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/data/emotes.zip",
+            "MD5": "b03ed8d1584503dfdeb4a68ac7529a1d",
+            "path": "config/openloader/data/emotes.zip"
+          }
+        },
+        {
+          "id": "death.ogg",
+          "name": "death.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 202711,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/assets/minecraft/sounds/mob/endermen/death.ogg",
+            "MD5": "76bd960d1a951e19cbc7785da975fe36",
+            "path": "config/openloader/resources/castbingo/assets/minecraft/sounds/mob/endermen/death.ogg"
+          }
+        },
+        {
+          "id": "hit1.ogg",
+          "name": "hit1.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 24501,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/assets/minecraft/sounds/mob/endermen/hit1.ogg",
+            "MD5": "7dac474704a7aca3886db8d6ade6a959",
+            "path": "config/openloader/resources/castbingo/assets/minecraft/sounds/mob/endermen/hit1.ogg"
+          }
+        },
+        {
+          "id": "hit2.ogg",
+          "name": "hit2.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 29494,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/assets/minecraft/sounds/mob/endermen/hit2.ogg",
+            "MD5": "0f3d265ea9fa9d1d3a747a15c56f64cf",
+            "path": "config/openloader/resources/castbingo/assets/minecraft/sounds/mob/endermen/hit2.ogg"
+          }
+        },
+        {
+          "id": "ambient1.ogg",
+          "name": "ambient1.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 18144,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/assets/minecraft/sounds/mob/ghast/ambient1.ogg",
+            "MD5": "5dd64d85afef90fce9a1230b7584a2bf",
+            "path": "config/openloader/resources/castbingo/assets/minecraft/sounds/mob/ghast/ambient1.ogg"
+          }
+        },
+        {
+          "id": "ambient2.ogg",
+          "name": "ambient2.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 46679,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/assets/minecraft/sounds/mob/ghast/ambient2.ogg",
+            "MD5": "93367383b5c22283714a15bc12935b99",
+            "path": "config/openloader/resources/castbingo/assets/minecraft/sounds/mob/ghast/ambient2.ogg"
+          }
+        },
+        {
+          "id": "ambient.ogg",
+          "name": "ambient.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 16045,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/assets/minecraft/sounds/mob/phantom/ambient.ogg",
+            "MD5": "97a4026c5c388b2e2bf6ef3abd5e1381",
+            "path": "config/openloader/resources/castbingo/assets/minecraft/sounds/mob/phantom/ambient.ogg"
+          }
+        },
+        {
+          "id": "sounds.json",
+          "name": "sounds.json",
+          "type": "File",
+          "artifact": {
+            "size": 804,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/assets/minecraft/sounds.json",
+            "MD5": "d396defdc7ba848f304cecb1834add18",
+            "path": "config/openloader/resources/castbingo/assets/minecraft/sounds.json"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 85,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/pack.mcmeta",
+            "MD5": "76e5e2f40e4b605d132bef68bb77a035",
+            "path": "config/openloader/resources/castbingo/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 4304,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/openloader/resources/castbingo/pack.png",
+            "MD5": "41b439c5286d59e9a54360e6dfa4ddc9",
+            "path": "config/openloader/resources/castbingo/pack.png"
+          }
+        },
+        {
+          "id": "origeon.json",
+          "name": "origeon.json",
+          "type": "File",
+          "artifact": {
+            "size": 2071,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/origeon.json",
+            "MD5": "f4523d351bf6048b27f582c63370e159",
+            "path": "config/origeon.json"
+          }
+        },
+        {
+          "id": "packmenu.cfg",
+          "name": "packmenu.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4166,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/packmenu.cfg",
+            "MD5": "da9abce0032318e71de8c466d8c07234",
+            "path": "config/packmenu.cfg"
+          }
+        },
+        {
+          "id": "quickskin-client.json",
+          "name": "quickskin-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 2072,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/quickskin-client.json",
+            "MD5": "50f63baa30471c45ce5eff5d94b5f744",
+            "path": "config/quickskin-client.json"
+          }
+        },
+        {
+          "id": "quickskin-nicknames.txt",
+          "name": "quickskin-nicknames.txt",
+          "type": "File",
+          "artifact": {
+            "size": 816,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/quickskin-nicknames.txt",
+            "MD5": "eebdfa1307881778761f0ff2711d41ec",
+            "path": "config/quickskin-nicknames.txt"
+          }
+        },
+        {
+          "id": "quickskin-server.json",
+          "name": "quickskin-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 364,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/quickskin-server.json",
+            "MD5": "4f75ca9e1bd3f11ca685050bd0d533d6",
+            "path": "config/quickskin-server.json"
+          }
+        },
+        {
+          "id": "quickskin_preferences.json",
+          "name": "quickskin_preferences.json",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/quickskin_preferences.json",
+            "MD5": "a7d077ac5db5138a68aca6c0de449531",
+            "path": "config/quickskin_preferences.json"
+          }
+        },
+        {
+          "id": "sodiumdynamiclights-client.toml",
+          "name": "sodiumdynamiclights-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/sodiumdynamiclights-client.toml",
+            "MD5": "61a3e0cdd3b5aec59041283cc39218bb",
+            "path": "config/sodiumdynamiclights-client.toml"
+          }
+        },
+        {
+          "id": "sodiumextras-client.toml",
+          "name": "sodiumextras-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4966,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/sodiumextras-client.toml",
+            "MD5": "f60e9a1c84eca21bf50e63aa89e60a44",
+            "path": "config/sodiumextras-client.toml"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 117,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/spark/config.json",
+            "MD5": "fd707ecbb3f9675d81535e88b7712d0b",
+            "path": "config/spark/config.json"
+          }
+        },
+        {
+          "id": "transition.json",
+          "name": "transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/transition.json",
+            "MD5": "31ba5caa4bcc56c2527e5d001e4f0f07",
+            "path": "config/transition.json"
+          }
+        },
+        {
+          "id": "trender.json",
+          "name": "trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/trender.json",
+            "MD5": "57d19d218711f08f8d7ce8c69f21d59f",
+            "path": "config/trender.json"
+          }
+        },
+        {
+          "id": "waddles-common.toml",
+          "name": "waddles-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 208,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/waddles-common.toml",
+            "MD5": "ae0e22d6cd7c28b4df9219e542d0007a",
+            "path": "config/waddles-common.toml"
+          }
+        },
+        {
+          "id": "waterconfig.toml",
+          "name": "waterconfig.toml",
+          "type": "File",
+          "artifact": {
+            "size": 677,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/waterconfig.toml",
+            "MD5": "70bbcf60930cb35d1983e1da484954a1",
+            "path": "config/waterconfig.toml"
+          }
+        },
+        {
+          "id": "world-host.json5",
+          "name": "world-host.json5",
+          "type": "File",
+          "artifact": {
+            "size": 331,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/world-host.json5",
+            "MD5": "b134764ff1046f3c5f64d11e01b1a3c5",
+            "path": "config/world-host.json5"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/xaerominimap-common.txt",
+            "MD5": "3806362283e66fca780eff39eb5e5e8d",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3656,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/xaerominimap.txt",
+            "MD5": "8726898276135073041222ffb79567f6",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/xaerominimap_entities.json",
+            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap-common.txt",
+          "name": "xaeroworldmap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/xaeroworldmap-common.txt",
+            "MD5": "8e5a59e4a1fb2a8b5e938a24f9f84fe9",
+            "path": "config/xaeroworldmap-common.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap.txt",
+          "name": "xaeroworldmap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1219,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/config/xaeroworldmap.txt",
+            "MD5": "a4cd28e17e4e9ba2a85e23ed36265b08",
+            "path": "config/xaeroworldmap.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 437426,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_0.png",
+            "MD5": "41f1c0888006a29f56cb3352f1b2cebf",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 489914,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_1.png",
+            "MD5": "687b12501288f1c99aafae111e17fb7b",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 450298,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_2.png",
+            "MD5": "fc874241006cae4a10cdc599029b5acc",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 387773,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_3.png",
+            "MD5": "82fa0c0cd128ac87b8e925ce27441311",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 17323,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_4.png",
+            "MD5": "8204cace56d34abe3dc85dbdcfed5cab",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 603541,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_5.png",
+            "MD5": "65c333e59fd8654eebc060d1626eec73",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_5.png"
+          }
+        },
+        {
+          "id": "accessibility.json",
+          "name": "accessibility.json",
+          "type": "File",
+          "artifact": {
+            "size": 305,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/accessibility.json",
+            "MD5": "074393e249134d11a842e0a5988764ae",
+            "path": "packmenu/resources/assets/packmenu/buttons/accessibility.json"
+          }
+        },
+        {
+          "id": "discord.json",
+          "name": "discord.json",
+          "type": "File",
+          "artifact": {
+            "size": 321,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/discord.json",
+            "MD5": "f824ce91fab42f2c2f49e250c63215e0",
+            "path": "packmenu/resources/assets/packmenu/buttons/discord.json"
+          }
+        },
+        {
+          "id": "gportal.json",
+          "name": "gportal.json",
+          "type": "File",
+          "artifact": {
+            "size": 380,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/gportal.json",
+            "MD5": "beda774a9c2d00e49b4ea59a94a206e6",
+            "path": "packmenu/resources/assets/packmenu/buttons/gportal.json"
+          }
+        },
+        {
+          "id": "language.json",
+          "name": "language.json",
+          "type": "File",
+          "artifact": {
+            "size": 297,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/language.json",
+            "MD5": "f9ae0e997454cd090ace7d7a1d0cdd82",
+            "path": "packmenu/resources/assets/packmenu/buttons/language.json"
+          }
+        },
+        {
+          "id": "mods.json",
+          "name": "mods.json",
+          "type": "File",
+          "artifact": {
+            "size": 347,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/mods.json",
+            "MD5": "03c43050e79aef9293dc7e1ace2f828d",
+            "path": "packmenu/resources/assets/packmenu/buttons/mods.json"
+          }
+        },
+        {
+          "id": "multiplayer.json",
+          "name": "multiplayer.json",
+          "type": "File",
+          "artifact": {
+            "size": 351,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/multiplayer.json",
+            "MD5": "b936706c6103f1d411cdfab8cf61918a",
+            "path": "packmenu/resources/assets/packmenu/buttons/multiplayer.json"
+          }
+        },
+        {
+          "id": "options.json",
+          "name": "options.json",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/options.json",
+            "MD5": "9065ca0a290dade196c75fa7179ea0ee",
+            "path": "packmenu/resources/assets/packmenu/buttons/options.json"
+          }
+        },
+        {
+          "id": "quit.json",
+          "name": "quit.json",
+          "type": "File",
+          "artifact": {
+            "size": 317,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/quit.json",
+            "MD5": "40f60eaca44878b83b844c0ea2ecdb9e",
+            "path": "packmenu/resources/assets/packmenu/buttons/quit.json"
+          }
+        },
+        {
+          "id": "reloadbutton.json",
+          "name": "reloadbutton.json",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/reloadbutton.json",
+            "MD5": "c8a39c287ecfa0d378d51a11d8e585ae",
+            "path": "packmenu/resources/assets/packmenu/buttons/reloadbutton.json"
+          }
+        },
+        {
+          "id": "singleplayer.json",
+          "name": "singleplayer.json",
+          "type": "File",
+          "artifact": {
+            "size": 354,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/singleplayer.json",
+            "MD5": "25b495bdd6fd3e8974f20d2767061b73",
+            "path": "packmenu/resources/assets/packmenu/buttons/singleplayer.json"
+          }
+        },
+        {
+          "id": "twitch.json",
+          "name": "twitch.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/twitch.json",
+            "MD5": "e9e59ad8c70093c882fea304c1a4c998",
+            "path": "packmenu/resources/assets/packmenu/buttons/twitch.json"
+          }
+        },
+        {
+          "id": "youtube.json",
+          "name": "youtube.json",
+          "type": "File",
+          "artifact": {
+            "size": 327,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/buttons/youtube.json",
+            "MD5": "bb1762e974a50ec8e8bb3621c7928e88",
+            "path": "packmenu/resources/assets/packmenu/buttons/youtube.json"
+          }
+        },
+        {
+          "id": "buttons.png",
+          "name": "buttons.png",
+          "type": "File",
+          "artifact": {
+            "size": 10849,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/buttons.png",
+            "MD5": "76b7b89869a4f26744886c2358cf89f9",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/buttons.png"
+          }
+        },
+        {
+          "id": "empty.png",
+          "name": "empty.png",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/empty.png",
+            "MD5": "e7d31ac53d124242b574c8090362ffc6",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/empty.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 5878,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/logo.png",
+            "MD5": "52c61d5acfcd9da1cfe862ca53da139f",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/logo.png"
+          }
+        },
+        {
+          "id": "reload.png",
+          "name": "reload.png",
+          "type": "File",
+          "artifact": {
+            "size": 735,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/reload.png",
+            "MD5": "961c4989e98d2417e833273e3be97fe6",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/reload.png"
+          }
+        },
+        {
+          "id": "widgets.png",
+          "name": "widgets.png",
+          "type": "File",
+          "artifact": {
+            "size": 15444,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/widgets.png",
+            "MD5": "b78f86edd7bea58867cd74675bcd6b73",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/widgets.png"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 101,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/pack.mcmeta",
+            "MD5": "37bcb3b2444c1b26623a9a021332cac6",
+            "path": "packmenu/resources/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 36566,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/packmenu/resources/pack.png",
+            "MD5": "65c6155458b41ea72e397356a2609007",
+            "path": "packmenu/resources/pack.png"
+          }
+        },
+        {
+          "id": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+          "name": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+          "type": "File",
+          "artifact": {
+            "size": 1791406,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+            "MD5": "73eac5d017a268ea8175c2025c2863ad",
+            "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
+          }
+        },
+        {
+          "id": "BSL_v8.4.zip",
+          "name": "BSL_v8.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1105442,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/BSL_v8.4.zip",
+            "MD5": "9cbe8c2b70a992a50853875482eec66a",
+            "path": "shaderpacks/BSL_v8.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.9.3.zip",
+          "name": "ComplementaryUnbound_r5.9.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 553400,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+            "MD5": "e9c0e174f43125d45b192ef684f5d4d4",
+            "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip"
+          }
+        },
+        {
+          "id": "Derivative-26.1.zip",
+          "name": "Derivative-26.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 18344997,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/Derivative-26.1.zip",
+            "MD5": "ec890920707c9fdc787a882e16a8b25f",
+            "path": "shaderpacks/Derivative-26.1.zip"
+          }
+        },
+        {
+          "id": "Eclipse-Shader-Unstable (2).zip",
+          "name": "Eclipse-Shader-Unstable (2).zip",
+          "type": "File",
+          "artifact": {
+            "size": 47105592,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/Eclipse-Shader-Unstable%20(2).zip",
+            "MD5": "02787050890af6790278a90d5a42c3b7",
+            "path": "shaderpacks/Eclipse-Shader-Unstable (2).zip"
+          }
+        },
+        {
+          "id": "Luminara Shader 1.5.zip",
+          "name": "Luminara Shader 1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 6355139,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/Luminara%20Shader%201.5.zip",
+            "MD5": "a9fa7f989bd8994b0ad2c8ce7f95e95e",
+            "path": "shaderpacks/Luminara Shader 1.5.zip"
+          }
+        },
+        {
+          "id": "Lumina_Event_Horizon_v1.3.9.zip",
+          "name": "Lumina_Event_Horizon_v1.3.9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 496046,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/Lumina_Event_Horizon_v1.3.9.zip",
+            "MD5": "b68a6220c193e02112baf029974c1bc7",
+            "path": "shaderpacks/Lumina_Event_Horizon_v1.3.9.zip"
+          }
+        },
+        {
+          "id": "Solas-Shader-V3.9.zip",
+          "name": "Solas-Shader-V3.9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1243081,
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/KekeCraft-1.20.1/files/shaderpacks/Solas-Shader-V3.9.zip",
+            "MD5": "1087f8ad52b975ce3067f18fa8677bec",
+            "path": "shaderpacks/Solas-Shader-V3.9.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

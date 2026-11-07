@@ -1,0 +1,40 @@
+{
+  "entity.enderman.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.entity.enderman.hurt",
+    "sounds": [
+      {
+        "name": "mob/endermen/hit1",
+        "volume": 0.7
+      },
+      {
+        "name": "mob/endermen/hit2",
+        "volume": 0.7
+      }
+    ]
+  },
+  "entity.ghast.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.entity.ghast.ambient",
+    "sounds": [
+      {
+        "name": "mob/ghast/ambient1",
+        "volume": 0.7
+      },
+      {
+        "name": "mob/ghast/ambient2",
+        "volume": 0.7
+      }
+    ]
+  },
+  "entity.phantom.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.entity.phantom.ambient",
+    "sounds": [
+      {
+        "name": "mob/phantom/ambient",
+        "volume": 0.6
+      }
+    ]
+  }
+}

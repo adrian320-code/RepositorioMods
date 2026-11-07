@@ -1,0 +1,12 @@
+{
+  "game": {
+    "winCondition": "bongo.all",
+    "leaderboard": true,
+    "invulnerable": false,
+    "friendlyFire": false,
+    "pvp": false
+  },
+  "level": {
+    "teleporter": "bongo.no_tp"
+  }
+}

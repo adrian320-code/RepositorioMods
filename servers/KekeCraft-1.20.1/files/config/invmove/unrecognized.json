@@ -1,0 +1,12 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "net.minecraft.client.gui.screens.OptionsScreen": true,
+    "org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen": true,
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen": true,
+    "com.seibel.distanthorizons.common.wrappers.gui.classicConfig.DhConfigScreen_forge": true,
+    "net.minecraft.client.gui.screens.controls.ControlsScreen": true,
+    "com.blamejared.controlling.client.NewKeyBindsScreen": true
+  },
+  "hideBackground": {}
+}
