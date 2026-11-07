@@ -2128,7 +2128,7 @@
           "artifact": {
             "size": 267,
             "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/servers/KekeCraft-1.20.1/files/config/oculus.properties",
-            "MD5": "976e91fc29630efaa9a82eab0815fe19",
+            "MD5": "4770920030f2d89289d12beae29d8363",
             "path": "config/oculus.properties"
           }
         },
@@ -2755,7 +2755,7 @@
           "artifact": {
             "size": 5531,
             "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/servers/KekeCraft-1.20.1/files/config/xaerominimap_entities.json",
-            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
+            "MD5": "e87f24bcf76e9dd754062655420a3773",
             "path": "config/xaerominimap_entities.json"
           }
         },
