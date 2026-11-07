@@ -1169,9 +1169,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 72,
+            "size": 8102,
             "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/servers/KekeCraft-1.20.1/files/config/defaultoptions/options.txt",
-            "MD5": "6b18a4f04d1388287df8265e4907cd84",
+            "MD5": "a06aefb7c148171041ef0d5bc347a130",
             "path": "config/defaultoptions/options.txt"
           }
         },
