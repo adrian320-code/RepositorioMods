@@ -1,6 +1,7 @@
 {
-  "md5": "7477768c8679e47d66bc09cc9066b685",
+  "md5": "dc3a5f33f0e9ea568e605c48ce8ed5ec",
   "servers": {
-    "KekeCraft-1.20.1": "1.0.0"
+    "KekeCraft-1.20.1": "1.0.0",
+    "DistantHorizons2": "1.5.0"
   }
 }

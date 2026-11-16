@@ -3156,6 +3156,3402 @@
           }
         }
       ]
+    },
+    {
+      "id": "DistantHorizons2",
+      "mainServer": false,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": ">=25.x",
+        "suggestedMajor": 25
+      },
+      "name": "DIstante el horizonte bro",
+      "description": "dasdsadfg",
+      "version": "1.5.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "26.2",
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/libraries/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar",
+            "path": "net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "fabric-loader-0.19.3-26.2",
+              "name": "Fabric version manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2778,
+                "MD5": "24761f60b1e480ec7030616173c8ada6",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/versions/fabric-loader-0.19.3-26.2/fabric-loader-0.19.3-26.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "org.ow2.asm:asm:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+                "path": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "org.ow2.asm:asm-analysis:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+                "path": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "org.ow2.asm:asm-commons:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+                "path": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "org.ow2.asm:asm-tree:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+                "path": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "org.ow2.asm:asm-util:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+                "path": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.__keke_runtime__/libraries/net/fabricmc/sponge-mixin/0.17.3%2Bmixin.0.8.7/sponge-mixin-0.17.3%2Bmixin.0.8.7.jar",
+                "path": "net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": ".curseclient",
+          "name": ".curseclient",
+          "type": "File",
+          "artifact": {
+            "size": 36,
+            "MD5": "67be378410ade1372a5a783b3d33159e",
+            "path": ".curseclient",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.curseclient"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-base-0.4.1-beta.1.0+26.2-9311ca2c8841d3c8.jar",
+          "name": ".fabric/processedMods/c2me-base-0.4.1-beta.1.0+26.2-9311ca2c8841d3c8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 409722,
+            "MD5": "bb6b15b72d634863806c89efb4ebbce6",
+            "path": ".fabric/processedMods/c2me-base-0.4.1-beta.1.0+26.2-9311ca2c8841d3c8.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-base-0.4.1-beta.1.0%2B26.2-9311ca2c8841d3c8.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-client-uncapvd-0.4.1-beta.1.0+26.2-debe614e80ee25cc.jar",
+          "name": ".fabric/processedMods/c2me-client-uncapvd-0.4.1-beta.1.0+26.2-debe614e80ee25cc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25427,
+            "MD5": "78a15f34acf29bbec5f168536dac3149",
+            "path": ".fabric/processedMods/c2me-client-uncapvd-0.4.1-beta.1.0+26.2-debe614e80ee25cc.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-client-uncapvd-0.4.1-beta.1.0%2B26.2-debe614e80ee25cc.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-fixes-chunkio-threading-issta.1.0+26.2-5042d71ac467c188.jar",
+          "name": ".fabric/processedMods/c2me-fixes-chunkio-threading-issta.1.0+26.2-5042d71ac467c188.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11666,
+            "MD5": "312ffe06784a66b8930e1fec8fd21616",
+            "path": ".fabric/processedMods/c2me-fixes-chunkio-threading-issta.1.0+26.2-5042d71ac467c188.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-fixes-chunkio-threading-issta.1.0%2B26.2-5042d71ac467c188.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-fixes-general-threading-issta.1.0+26.2-fe0a9d6d6c74bb54.jar",
+          "name": ".fabric/processedMods/c2me-fixes-general-threading-issta.1.0+26.2-fe0a9d6d6c74bb54.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14284,
+            "MD5": "f67cc982eecc20493a476d8e42ceb118",
+            "path": ".fabric/processedMods/c2me-fixes-general-threading-issta.1.0+26.2-fe0a9d6d6c74bb54.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-fixes-general-threading-issta.1.0%2B26.2-fe0a9d6d6c74bb54.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-fixes-worldgen-threading-ista.1.0+26.2-621c4be21924e75c.jar",
+          "name": ".fabric/processedMods/c2me-fixes-worldgen-threading-ista.1.0+26.2-621c4be21924e75c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 130274,
+            "MD5": "2aa5b8f3fa9e262d6836c9c608f6c71b",
+            "path": ".fabric/processedMods/c2me-fixes-worldgen-threading-ista.1.0+26.2-621c4be21924e75c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-fixes-worldgen-threading-ista.1.0%2B26.2-621c4be21924e75c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-fixes-worldgen-vanilla-bugsta.1.0+26.2-a870952bbfaa59f9.jar",
+          "name": ".fabric/processedMods/c2me-fixes-worldgen-vanilla-bugsta.1.0+26.2-a870952bbfaa59f9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9804,
+            "MD5": "fc4c8432392b02c08de67fb76f9a5c9b",
+            "path": ".fabric/processedMods/c2me-fixes-worldgen-vanilla-bugsta.1.0+26.2-a870952bbfaa59f9.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-fixes-worldgen-vanilla-bugsta.1.0%2B26.2-a870952bbfaa59f9.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-notickvd-0.4.1-beta.1.0+26.2-a510ceddeca3b909.jar",
+          "name": ".fabric/processedMods/c2me-notickvd-0.4.1-beta.1.0+26.2-a510ceddeca3b909.jar",
+          "type": "File",
+          "artifact": {
+            "size": 99594,
+            "MD5": "80c2628a14b398e070cab26fc0749ba7",
+            "path": ".fabric/processedMods/c2me-notickvd-0.4.1-beta.1.0+26.2-a510ceddeca3b909.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-notickvd-0.4.1-beta.1.0%2B26.2-a510ceddeca3b909.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-allocs-0.4.1-beta.1.0+26.2-b123f8ddfbf23347.jar",
+          "name": ".fabric/processedMods/c2me-opts-allocs-0.4.1-beta.1.0+26.2-b123f8ddfbf23347.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45513,
+            "MD5": "e47b21bce0246c10e520757b67506ba3",
+            "path": ".fabric/processedMods/c2me-opts-allocs-0.4.1-beta.1.0+26.2-b123f8ddfbf23347.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-allocs-0.4.1-beta.1.0%2B26.2-b123f8ddfbf23347.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-chunkio-0.4.1-beta.1.0+26.2-bc252f61702856a0.jar",
+          "name": ".fabric/processedMods/c2me-opts-chunkio-0.4.1-beta.1.0+26.2-bc252f61702856a0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13339,
+            "MD5": "ae170f8cfd292bff0bcacefb03938bbf",
+            "path": ".fabric/processedMods/c2me-opts-chunkio-0.4.1-beta.1.0+26.2-bc252f61702856a0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-chunkio-0.4.1-beta.1.0%2B26.2-bc252f61702856a0.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-dfc-0.4.1-beta.1.0+26.2-18a5661a024bdbd0.jar",
+          "name": ".fabric/processedMods/c2me-opts-dfc-0.4.1-beta.1.0+26.2-18a5661a024bdbd0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 501669,
+            "MD5": "cd0b48b328092a082dc9b2a257723d94",
+            "path": ".fabric/processedMods/c2me-opts-dfc-0.4.1-beta.1.0+26.2-18a5661a024bdbd0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-dfc-0.4.1-beta.1.0%2B26.2-18a5661a024bdbd0.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-math-0.4.1-beta.1.0+26.2-1234d3b12a7df164.jar",
+          "name": ".fabric/processedMods/c2me-opts-math-0.4.1-beta.1.0+26.2-1234d3b12a7df164.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11737,
+            "MD5": "cd63ea107af8695a14aa7743bc72da36",
+            "path": ".fabric/processedMods/c2me-opts-math-0.4.1-beta.1.0+26.2-1234d3b12a7df164.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-math-0.4.1-beta.1.0%2B26.2-1234d3b12a7df164.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-natives-math-0.4.1-beta.1.0+26.2-dbf9e8d239f439c4.jar",
+          "name": ".fabric/processedMods/c2me-opts-natives-math-0.4.1-beta.1.0+26.2-dbf9e8d239f439c4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2779147,
+            "MD5": "fd84d9e8de1132f3fd5255225dd80171",
+            "path": ".fabric/processedMods/c2me-opts-natives-math-0.4.1-beta.1.0+26.2-dbf9e8d239f439c4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-natives-math-0.4.1-beta.1.0%2B26.2-dbf9e8d239f439c4.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-scheduling-0.4.1-beta.1.0+26.2-b36db61610aaeab2.jar",
+          "name": ".fabric/processedMods/c2me-opts-scheduling-0.4.1-beta.1.0+26.2-b36db61610aaeab2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 51698,
+            "MD5": "cec78ed7801d3afd87f241de70aa36a4",
+            "path": ".fabric/processedMods/c2me-opts-scheduling-0.4.1-beta.1.0+26.2-b36db61610aaeab2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-scheduling-0.4.1-beta.1.0%2B26.2-b36db61610aaeab2.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-worldgen-general-0.4.1ta.1.0+26.2-5c50ed662f869015.jar",
+          "name": ".fabric/processedMods/c2me-opts-worldgen-general-0.4.1ta.1.0+26.2-5c50ed662f869015.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16691,
+            "MD5": "4163ffe5031fa4c611e41a0cde9366c8",
+            "path": ".fabric/processedMods/c2me-opts-worldgen-general-0.4.1ta.1.0+26.2-5c50ed662f869015.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-worldgen-general-0.4.1ta.1.0%2B26.2-5c50ed662f869015.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-opts-worldgen-vanilla-0.4.1ta.1.0+26.2-23ef8046e72e9588.jar",
+          "name": ".fabric/processedMods/c2me-opts-worldgen-vanilla-0.4.1ta.1.0+26.2-23ef8046e72e9588.jar",
+          "type": "File",
+          "artifact": {
+            "size": 42266,
+            "MD5": "b2f59c7005bd4e47cde66e3975cc28c0",
+            "path": ".fabric/processedMods/c2me-opts-worldgen-vanilla-0.4.1ta.1.0+26.2-23ef8046e72e9588.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-opts-worldgen-vanilla-0.4.1ta.1.0%2B26.2-23ef8046e72e9588.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-rewrites-chunk-serializer-0eta.1.0+26.2-52aaae6f4082a51.jar",
+          "name": ".fabric/processedMods/c2me-rewrites-chunk-serializer-0eta.1.0+26.2-52aaae6f4082a51.jar",
+          "type": "File",
+          "artifact": {
+            "size": 106520,
+            "MD5": "a3a51e89ce8be6ba3ec0e2b3f9de32ce",
+            "path": ".fabric/processedMods/c2me-rewrites-chunk-serializer-0eta.1.0+26.2-52aaae6f4082a51.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-rewrites-chunk-serializer-0eta.1.0%2B26.2-52aaae6f4082a51.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-rewrites-chunk-system-0.4.1eta.1.0+26.2-63bcd577eb9fb88.jar",
+          "name": ".fabric/processedMods/c2me-rewrites-chunk-system-0.4.1eta.1.0+26.2-63bcd577eb9fb88.jar",
+          "type": "File",
+          "artifact": {
+            "size": 326008,
+            "MD5": "971ac4927a887983261848ccad7b2eaa",
+            "path": ".fabric/processedMods/c2me-rewrites-chunk-system-0.4.1eta.1.0+26.2-63bcd577eb9fb88.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-rewrites-chunk-system-0.4.1eta.1.0%2B26.2-63bcd577eb9fb88.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-rewrites-chunkio-0.4.1-beta.1.0+26.2-4b3959425d309cad.jar",
+          "name": ".fabric/processedMods/c2me-rewrites-chunkio-0.4.1-beta.1.0+26.2-4b3959425d309cad.jar",
+          "type": "File",
+          "artifact": {
+            "size": 52458,
+            "MD5": "f2771522540f8f5f14713f92d85997ac",
+            "path": ".fabric/processedMods/c2me-rewrites-chunkio-0.4.1-beta.1.0+26.2-4b3959425d309cad.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-rewrites-chunkio-0.4.1-beta.1.0%2B26.2-4b3959425d309cad.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-server-utils-0.4.1-beta.1.0+26.2-63644fe885ddadf3.jar",
+          "name": ".fabric/processedMods/c2me-server-utils-0.4.1-beta.1.0+26.2-63644fe885ddadf3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11634,
+            "MD5": "3d5083530cb6e6fcfa89e20923ef714c",
+            "path": ".fabric/processedMods/c2me-server-utils-0.4.1-beta.1.0+26.2-63644fe885ddadf3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-server-utils-0.4.1-beta.1.0%2B26.2-63644fe885ddadf3.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/c2me-threading-lighting-0.4.1-beta.1.0+26.2-d60b1e7e94bb6dfd.jar",
+          "name": ".fabric/processedMods/c2me-threading-lighting-0.4.1-beta.1.0+26.2-d60b1e7e94bb6dfd.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14994,
+            "MD5": "451a9994ff0d214b2f06bd33afc53334",
+            "path": ".fabric/processedMods/c2me-threading-lighting-0.4.1-beta.1.0+26.2-d60b1e7e94bb6dfd.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/c2me-threading-lighting-0.4.1-beta.1.0%2B26.2-d60b1e7e94bb6dfd.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_electronwill_night-config_core-3.8.3-ec8464e95c95ef14.jar",
+          "name": ".fabric/processedMods/com_electronwill_night-config_core-3.8.3-ec8464e95c95ef14.jar",
+          "type": "File",
+          "artifact": {
+            "size": 387380,
+            "MD5": "de17c271e1ecc15ee7dad5bceff0126d",
+            "path": ".fabric/processedMods/com_electronwill_night-config_core-3.8.3-ec8464e95c95ef14.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/com_electronwill_night-config_core-3.8.3-ec8464e95c95ef14.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_electronwill_night-config_toml-3.8.3-bcffcb53b86355d6.jar",
+          "name": ".fabric/processedMods/com_electronwill_night-config_toml-3.8.3-bcffcb53b86355d6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 40096,
+            "MD5": "44d36d0e5c7326e18d3ca1bd28b6b246",
+            "path": ".fabric/processedMods/com_electronwill_night-config_toml-3.8.3-bcffcb53b86355d6.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/com_electronwill_night-config_toml-3.8.3-bcffcb53b86355d6.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_github_ben-manes_caffeine_cafeine-3.2.1-2cc25d61f21f7b75.jar",
+          "name": ".fabric/processedMods/com_github_ben-manes_caffeine_cafeine-3.2.1-2cc25d61f21f7b75.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2206823,
+            "MD5": "8b7231d882d194daa41523835188f73c",
+            "path": ".fabric/processedMods/com_github_ben-manes_caffeine_cafeine-3.2.1-2cc25d61f21f7b75.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/com_github_ben-manes_caffeine_cafeine-3.2.1-2cc25d61f21f7b75.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_ibm_async_asyncutil-0.1.0-64bf2acb3768b0df.jar",
+          "name": ".fabric/processedMods/com_ibm_async_asyncutil-0.1.0-64bf2acb3768b0df.jar",
+          "type": "File",
+          "artifact": {
+            "size": 306260,
+            "MD5": "4153fda3d66df2fe7791985a9c27ea63",
+            "path": ".fabric/processedMods/com_ibm_async_asyncutil-0.1.0-64bf2acb3768b0df.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/com_ibm_async_asyncutil-0.1.0-64bf2acb3768b0df.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_ishland_c2me_tests_tests-0.4.1-beta.1.0-ceb9c87fd87765d2.jar",
+          "name": ".fabric/processedMods/com_ishland_c2me_tests_tests-0.4.1-beta.1.0-ceb9c87fd87765d2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2070,
+            "MD5": "01ad96ea1a60f2316032c4584b319a9a",
+            "path": ".fabric/processedMods/com_ishland_c2me_tests_tests-0.4.1-beta.1.0-ceb9c87fd87765d2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/com_ishland_c2me_tests_tests-0.4.1-beta.1.0-ceb9c87fd87765d2.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-api-base-2.0.4+ece063239e-25b880d50d5aa2e2.jar",
+          "name": ".fabric/processedMods/fabric-api-base-2.0.4+ece063239e-25b880d50d5aa2e2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29032,
+            "MD5": "9abd77d48206c249b95be1d377884353",
+            "path": ".fabric/processedMods/fabric-api-base-2.0.4+ece063239e-25b880d50d5aa2e2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-api-base-2.0.4%2Bece063239e-25b880d50d5aa2e2.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-api-lookup-api-v1-2.0.17+11e1c9a39e-a13a661444277d33.jar",
+          "name": ".fabric/processedMods/fabric-api-lookup-api-v1-2.0.17+11e1c9a39e-a13a661444277d33.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47778,
+            "MD5": "41f65cdcbd664af8467b4c04c812f9cf",
+            "path": ".fabric/processedMods/fabric-api-lookup-api-v1-2.0.17+11e1c9a39e-a13a661444277d33.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-api-lookup-api-v1-2.0.17%2B11e1c9a39e-a13a661444277d33.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-biome-api-v1-18.0.6+c7bd5b8e9e-9885bfedbd54269e.jar",
+          "name": ".fabric/processedMods/fabric-biome-api-v1-18.0.6+c7bd5b8e9e-9885bfedbd54269e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 76336,
+            "MD5": "2968ca0c2437ad7b9d71a10b1db59fa1",
+            "path": ".fabric/processedMods/fabric-biome-api-v1-18.0.6+c7bd5b8e9e-9885bfedbd54269e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-biome-api-v1-18.0.6%2Bc7bd5b8e9e-9885bfedbd54269e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-block-api-v1-3.0.3+ec56b6019e-fac5a88311e6d915.jar",
+          "name": ".fabric/processedMods/fabric-block-api-v1-3.0.3+ec56b6019e-fac5a88311e6d915.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16787,
+            "MD5": "f5f737fcdd3545de1196ed490b48c778",
+            "path": ".fabric/processedMods/fabric-block-api-v1-3.0.3+ec56b6019e-fac5a88311e6d915.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-block-api-v1-3.0.3%2Bec56b6019e-fac5a88311e6d915.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-block-getter-api-v2-2.0.7+ec56b6019e-bb86b4c6e6d03fce.jar",
+          "name": ".fabric/processedMods/fabric-block-getter-api-v2-2.0.7+ec56b6019e-bb86b4c6e6d03fce.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19743,
+            "MD5": "8cac2dccd086fec7ead26b68c44c2cc4",
+            "path": ".fabric/processedMods/fabric-block-getter-api-v2-2.0.7+ec56b6019e-bb86b4c6e6d03fce.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-block-getter-api-v2-2.0.7%2Bec56b6019e-bb86b4c6e6d03fce.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-client-gametest-api-v1-5.+991fd34125-253d2ba474c5a994.jar",
+          "name": ".fabric/processedMods/fabric-client-gametest-api-v1-5.+991fd34125-253d2ba474c5a994.jar",
+          "type": "File",
+          "artifact": {
+            "size": 134777,
+            "MD5": "96354222176519ad29177ab0f4f10a15",
+            "path": ".fabric/processedMods/fabric-client-gametest-api-v1-5.+991fd34125-253d2ba474c5a994.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-client-gametest-api-v1-5.%2B991fd34125-253d2ba474c5a994.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-command-api-v2-3.1.0+00cb03469e-f16b38c25d1c371e.jar",
+          "name": ".fabric/processedMods/fabric-command-api-v2-3.1.0+00cb03469e-f16b38c25d1c371e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 35417,
+            "MD5": "481e14b3e33c0166ecd94792214e5fe1",
+            "path": ".fabric/processedMods/fabric-command-api-v2-3.1.0+00cb03469e-f16b38c25d1c371e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-command-api-v2-3.1.0%2B00cb03469e-f16b38c25d1c371e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-content-registries-v0-11.+b7a678a99e-ea7bb634ed56f9b2.jar",
+          "name": ".fabric/processedMods/fabric-content-registries-v0-11.+b7a678a99e-ea7bb634ed56f9b2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 93341,
+            "MD5": "3acd0365e8c31bbfc559cca8d60d75ea",
+            "path": ".fabric/processedMods/fabric-content-registries-v0-11.+b7a678a99e-ea7bb634ed56f9b2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-content-registries-v0-11.%2Bb7a678a99e-ea7bb634ed56f9b2.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-convention-tags-v2-4.6.4+2aae60389e-d7b3680d083a3e7a.jar",
+          "name": ".fabric/processedMods/fabric-convention-tags-v2-4.6.4+2aae60389e-d7b3680d083a3e7a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 255155,
+            "MD5": "1b5bffc8eefb1c61d673ad62ea5be551",
+            "path": ".fabric/processedMods/fabric-convention-tags-v2-4.6.4+2aae60389e-d7b3680d083a3e7a.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-convention-tags-v2-4.6.4%2B2aae60389e-d7b3680d083a3e7a.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-crash-report-info-v1-1.0.+086d547a9e-9685a2b83148644a.jar",
+          "name": ".fabric/processedMods/fabric-crash-report-info-v1-1.0.+086d547a9e-9685a2b83148644a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15251,
+            "MD5": "e454322602ecaa3a6084156caad67847",
+            "path": ".fabric/processedMods/fabric-crash-report-info-v1-1.0.+086d547a9e-9685a2b83148644a.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-crash-report-info-v1-1.0.%2B086d547a9e-9685a2b83148644a.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-creative-tab-api-v1-5.0.1+d871b99e9e-549507a515b62127.jar",
+          "name": ".fabric/processedMods/fabric-creative-tab-api-v1-5.0.1+d871b99e9e-549507a515b62127.jar",
+          "type": "File",
+          "artifact": {
+            "size": 51752,
+            "MD5": "d27e40681a5fe2fbf8453eb67835aaa4",
+            "path": ".fabric/processedMods/fabric-creative-tab-api-v1-5.0.1+d871b99e9e-549507a515b62127.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-creative-tab-api-v1-5.0.1%2Bd871b99e9e-549507a515b62127.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-data-attachment-api-v1-2.+aa0fd6fe9e-7fe2d9414731e145.jar",
+          "name": ".fabric/processedMods/fabric-data-attachment-api-v1-2.+aa0fd6fe9e-7fe2d9414731e145.jar",
+          "type": "File",
+          "artifact": {
+            "size": 110411,
+            "MD5": "cd9ed438dc1df6c18abc1701f98f9e4c",
+            "path": ".fabric/processedMods/fabric-data-attachment-api-v1-2.+aa0fd6fe9e-7fe2d9414731e145.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-data-attachment-api-v1-2.%2Baa0fd6fe9e-7fe2d9414731e145.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-data-generation-api-v1-25+5e56e5409e-7123add92667598d.jar",
+          "name": ".fabric/processedMods/fabric-data-generation-api-v1-25+5e56e5409e-7123add92667598d.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148771,
+            "MD5": "497a6eab06b738b88d6f956b1b2df4a8",
+            "path": ".fabric/processedMods/fabric-data-generation-api-v1-25+5e56e5409e-7123add92667598d.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-data-generation-api-v1-25%2B5e56e5409e-7123add92667598d.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-debug-api-v1-1.0.2+c792624d9e-fcacde4d4dcd26ce.jar",
+          "name": ".fabric/processedMods/fabric-debug-api-v1-1.0.2+c792624d9e-fcacde4d4dcd26ce.jar",
+          "type": "File",
+          "artifact": {
+            "size": 26954,
+            "MD5": "fc93cd01a8e2c2b2f6762b9729abca04",
+            "path": ".fabric/processedMods/fabric-debug-api-v1-1.0.2+c792624d9e-fcacde4d4dcd26ce.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-debug-api-v1-1.0.2%2Bc792624d9e-fcacde4d4dcd26ce.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-dimensions-v1-5.1.9+9cbf5da59e-d294b5ad9a84addb.jar",
+          "name": ".fabric/processedMods/fabric-dimensions-v1-5.1.9+9cbf5da59e-d294b5ad9a84addb.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25814,
+            "MD5": "e21316fca486ffa76056081a3d6c6c55",
+            "path": ".fabric/processedMods/fabric-dimensions-v1-5.1.9+9cbf5da59e-d294b5ad9a84addb.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-dimensions-v1-5.1.9%2B9cbf5da59e-d294b5ad9a84addb.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-entity-events-v1-5.0.5+06488ac19e-9ac0c9834212b60c.jar",
+          "name": ".fabric/processedMods/fabric-entity-events-v1-5.0.5+06488ac19e-9ac0c9834212b60c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 72443,
+            "MD5": "19c5fdc807a44c48897faf604ff1f2e1",
+            "path": ".fabric/processedMods/fabric-entity-events-v1-5.0.5+06488ac19e-9ac0c9834212b60c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-entity-events-v1-5.0.5%2B06488ac19e-9ac0c9834212b60c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-events-interaction-v0-5.2+8f57f7ee9e-75260fe88e30946e.jar",
+          "name": ".fabric/processedMods/fabric-events-interaction-v0-5.2+8f57f7ee9e-75260fe88e30946e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 64949,
+            "MD5": "40cb05a70e5d4ffb2917885151585684",
+            "path": ".fabric/processedMods/fabric-events-interaction-v0-5.2+8f57f7ee9e-75260fe88e30946e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-events-interaction-v0-5.2%2B8f57f7ee9e-75260fe88e30946e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-game-rule-api-v1-4.0.8+46a6d00c9e-ab6893826dc6645e.jar",
+          "name": ".fabric/processedMods/fabric-game-rule-api-v1-4.0.8+46a6d00c9e-ab6893826dc6645e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50874,
+            "MD5": "4d70a0d435155fd190a272ae359abbdc",
+            "path": ".fabric/processedMods/fabric-game-rule-api-v1-4.0.8+46a6d00c9e-ab6893826dc6645e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-game-rule-api-v1-4.0.8%2B46a6d00c9e-ab6893826dc6645e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-item-api-v1-14.1.6+0ecb053f9e-1f7d2c1bfa236bb5.jar",
+          "name": ".fabric/processedMods/fabric-item-api-v1-14.1.6+0ecb053f9e-1f7d2c1bfa236bb5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 68800,
+            "MD5": "1f82516312e3bbbd7ac7a9a820f730bd",
+            "path": ".fabric/processedMods/fabric-item-api-v1-14.1.6+0ecb053f9e-1f7d2c1bfa236bb5.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-item-api-v1-14.1.6%2B0ecb053f9e-1f7d2c1bfa236bb5.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-key-mapping-api-v1-2.0.5+e2bdee789e-60e99e09fbe3406d.jar",
+          "name": ".fabric/processedMods/fabric-key-mapping-api-v1-2.0.5+e2bdee789e-60e99e09fbe3406d.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16005,
+            "MD5": "fbe7ad3dfc9046617d93d59daed9e31f",
+            "path": ".fabric/processedMods/fabric-key-mapping-api-v1-2.0.5+e2bdee789e-60e99e09fbe3406d.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-key-mapping-api-v1-2.0.5%2Be2bdee789e-60e99e09fbe3406d.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-lifecycle-events-v1-4.1.3+4575b05f9e-8459bc916ac3f0fe.jar",
+          "name": ".fabric/processedMods/fabric-lifecycle-events-v1-4.1.3+4575b05f9e-8459bc916ac3f0fe.jar",
+          "type": "File",
+          "artifact": {
+            "size": 97389,
+            "MD5": "dfad2b4017b619a72d2068c9a1fe6582",
+            "path": ".fabric/processedMods/fabric-lifecycle-events-v1-4.1.3+4575b05f9e-8459bc916ac3f0fe.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-lifecycle-events-v1-4.1.3%2B4575b05f9e-8459bc916ac3f0fe.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-loot-api-v3-3.0.17+06488ac19e-13194bd6e826ad33.jar",
+          "name": ".fabric/processedMods/fabric-loot-api-v3-3.0.17+06488ac19e-13194bd6e826ad33.jar",
+          "type": "File",
+          "artifact": {
+            "size": 32685,
+            "MD5": "0f80a778011d804e307b2a2589fcb0b7",
+            "path": ".fabric/processedMods/fabric-loot-api-v3-3.0.17+06488ac19e-13194bd6e826ad33.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-loot-api-v3-3.0.17%2B06488ac19e-13194bd6e826ad33.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-menu-api-v1-2.0.16+086d547a9e-a000a58fb2ae4359.jar",
+          "name": ".fabric/processedMods/fabric-menu-api-v1-2.0.16+086d547a9e-a000a58fb2ae4359.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23785,
+            "MD5": "1c808ddf79a811821e532898e762511d",
+            "path": ".fabric/processedMods/fabric-menu-api-v1-2.0.16+086d547a9e-a000a58fb2ae4359.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-menu-api-v1-2.0.16%2B086d547a9e-a000a58fb2ae4359.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-message-api-v1-7.0.7+086d547a9e-cf819ae38243f7ec.jar",
+          "name": ".fabric/processedMods/fabric-message-api-v1-7.0.7+086d547a9e-cf819ae38243f7ec.jar",
+          "type": "File",
+          "artifact": {
+            "size": 39739,
+            "MD5": "ddc2019088aba7cbc1de52880a25bb61",
+            "path": ".fabric/processedMods/fabric-message-api-v1-7.0.7+086d547a9e-cf819ae38243f7ec.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-message-api-v1-7.0.7%2B086d547a9e-cf819ae38243f7ec.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-model-loading-api-v1-8.0.+c80601bb9e-448175872e3cd595.jar",
+          "name": ".fabric/processedMods/fabric-model-loading-api-v1-8.0.+c80601bb9e-448175872e3cd595.jar",
+          "type": "File",
+          "artifact": {
+            "size": 87695,
+            "MD5": "ec1374b976d75538f85561ee7da4ddc6",
+            "path": ".fabric/processedMods/fabric-model-loading-api-v1-8.0.+c80601bb9e-448175872e3cd595.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-model-loading-api-v1-8.0.%2Bc80601bb9e-448175872e3cd595.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-networking-api-v1-6.3.3+72073ef09e-2a8e95fc3a6a06c6.jar",
+          "name": ".fabric/processedMods/fabric-networking-api-v1-6.3.3+72073ef09e-2a8e95fc3a6a06c6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 225407,
+            "MD5": "7e3a39516d5402b1d5ea82656a56ce5d",
+            "path": ".fabric/processedMods/fabric-networking-api-v1-6.3.3+72073ef09e-2a8e95fc3a6a06c6.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-networking-api-v1-6.3.3%2B72073ef09e-2a8e95fc3a6a06c6.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-object-builder-api-v1-24.6+46a6d00c9e-ae697c0e6c0de4c.jar",
+          "name": ".fabric/processedMods/fabric-object-builder-api-v1-24.6+46a6d00c9e-ae697c0e6c0de4c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 52623,
+            "MD5": "ab44e49bf4ac5e70162380d13ef2722e",
+            "path": ".fabric/processedMods/fabric-object-builder-api-v1-24.6+46a6d00c9e-ae697c0e6c0de4c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-object-builder-api-v1-24.6%2B46a6d00c9e-ae697c0e6c0de4c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-particles-v1-5.0.18+d1756aa99e-56a5b10ce400ea7c.jar",
+          "name": ".fabric/processedMods/fabric-particles-v1-5.0.18+d1756aa99e-56a5b10ce400ea7c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 51433,
+            "MD5": "c5f5db17086f8279968acbecc54176ea",
+            "path": ".fabric/processedMods/fabric-particles-v1-5.0.18+d1756aa99e-56a5b10ce400ea7c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-particles-v1-5.0.18%2Bd1756aa99e-56a5b10ce400ea7c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-permission-api-v1-1.0.2+7c33558a9e-ab2a596734e50bd9.jar",
+          "name": ".fabric/processedMods/fabric-permission-api-v1-1.0.2+7c33558a9e-ab2a596734e50bd9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 39155,
+            "MD5": "36d7e3187a47636c004df764abf771d2",
+            "path": ".fabric/processedMods/fabric-permission-api-v1-1.0.2+7c33558a9e-ab2a596734e50bd9.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-permission-api-v1-1.0.2%2B7c33558a9e-ab2a596734e50bd9.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-recipe-api-v1-9.0.20+11e1c9a39e-46f9eacf18f0873.jar",
+          "name": ".fabric/processedMods/fabric-recipe-api-v1-9.0.20+11e1c9a39e-46f9eacf18f0873.jar",
+          "type": "File",
+          "artifact": {
+            "size": 92655,
+            "MD5": "c2455e29c019017dc9178b26251fe203",
+            "path": ".fabric/processedMods/fabric-recipe-api-v1-9.0.20+11e1c9a39e-46f9eacf18f0873.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-recipe-api-v1-9.0.20%2B11e1c9a39e-46f9eacf18f0873.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-registry-sync-v0-7.1.0+c7bd5b8e9e-3637392bc1db93b1.jar",
+          "name": ".fabric/processedMods/fabric-registry-sync-v0-7.1.0+c7bd5b8e9e-3637392bc1db93b1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 118123,
+            "MD5": "4df05e62a01663c2f33bc3c9f2822732",
+            "path": ".fabric/processedMods/fabric-registry-sync-v0-7.1.0+c7bd5b8e9e-3637392bc1db93b1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-registry-sync-v0-7.1.0%2Bc7bd5b8e9e-3637392bc1db93b1.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-renderer-api-v1-14.0.2+93d3a2f59e-9883b2c02705a6dd.jar",
+          "name": ".fabric/processedMods/fabric-renderer-api-v1-14.0.2+93d3a2f59e-9883b2c02705a6dd.jar",
+          "type": "File",
+          "artifact": {
+            "size": 121251,
+            "MD5": "0c9763b7c3d78add8b70f0492099a4af",
+            "path": ".fabric/processedMods/fabric-renderer-api-v1-14.0.2+93d3a2f59e-9883b2c02705a6dd.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-renderer-api-v1-14.0.2%2B93d3a2f59e-9883b2c02705a6dd.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-renderer-indigo-9.0.2+e73ab60d9e-eeac985383f08e1f.jar",
+          "name": ".fabric/processedMods/fabric-renderer-indigo-9.0.2+e73ab60d9e-eeac985383f08e1f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 90975,
+            "MD5": "f9dd58fda268ca5675b8313cf212cd96",
+            "path": ".fabric/processedMods/fabric-renderer-indigo-9.0.2+e73ab60d9e-eeac985383f08e1f.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-renderer-indigo-9.0.2%2Be73ab60d9e-eeac985383f08e1f.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-rendering-fluids-v1-6.0.4+06488ac19e-21f8668f95a82569.jar",
+          "name": ".fabric/processedMods/fabric-rendering-fluids-v1-6.0.4+06488ac19e-21f8668f95a82569.jar",
+          "type": "File",
+          "artifact": {
+            "size": 22058,
+            "MD5": "0d2bd964866ac31acba728b91a51c8da",
+            "path": ".fabric/processedMods/fabric-rendering-fluids-v1-6.0.4+06488ac19e-21f8668f95a82569.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-rendering-fluids-v1-6.0.4%2B06488ac19e-21f8668f95a82569.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-rendering-v1-25.1.6+46a6d00c9e-92ba9f67de4688f3.jar",
+          "name": ".fabric/processedMods/fabric-rendering-v1-25.1.6+46a6d00c9e-92ba9f67de4688f3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 183451,
+            "MD5": "d79d6f4de2ad841c0172a36f5fdb24fd",
+            "path": ".fabric/processedMods/fabric-rendering-v1-25.1.6+46a6d00c9e-92ba9f67de4688f3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-rendering-v1-25.1.6%2B46a6d00c9e-92ba9f67de4688f3.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-resource-conditions-api-v+10e9a28b9e-f834ed286ec08414.jar",
+          "name": ".fabric/processedMods/fabric-resource-conditions-api-v+10e9a28b9e-f834ed286ec08414.jar",
+          "type": "File",
+          "artifact": {
+            "size": 55438,
+            "MD5": "0b203985f412b92de637df974d2a6fa8",
+            "path": ".fabric/processedMods/fabric-resource-conditions-api-v+10e9a28b9e-f834ed286ec08414.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-resource-conditions-api-v%2B10e9a28b9e-f834ed286ec08414.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-resource-loader-v0-3.3.20+4fc5413f9e-20c73f9845cf9cc2.jar",
+          "name": ".fabric/processedMods/fabric-resource-loader-v0-3.3.20+4fc5413f9e-20c73f9845cf9cc2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17841,
+            "MD5": "1f73676f403057ba13619ee3e515639e",
+            "path": ".fabric/processedMods/fabric-resource-loader-v0-3.3.20+4fc5413f9e-20c73f9845cf9cc2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-resource-loader-v0-3.3.20%2B4fc5413f9e-20c73f9845cf9cc2.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-resource-loader-v1-2.0.13+9edec1269e-8c7eff74cf255b70.jar",
+          "name": ".fabric/processedMods/fabric-resource-loader-v1-2.0.13+9edec1269e-8c7eff74cf255b70.jar",
+          "type": "File",
+          "artifact": {
+            "size": 133456,
+            "MD5": "cafde2859de8dbcee27f9acaa5a19595",
+            "path": ".fabric/processedMods/fabric-resource-loader-v1-2.0.13+9edec1269e-8c7eff74cf255b70.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-resource-loader-v1-2.0.13%2B9edec1269e-8c7eff74cf255b70.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-screen-api-v1-5.0.3+086d547a9e-7ecfa802ee7fc7b0.jar",
+          "name": ".fabric/processedMods/fabric-screen-api-v1-5.0.3+086d547a9e-7ecfa802ee7fc7b0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 53601,
+            "MD5": "26512ea8d99502dbee82372b920cfe78",
+            "path": ".fabric/processedMods/fabric-screen-api-v1-5.0.3+086d547a9e-7ecfa802ee7fc7b0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-screen-api-v1-5.0.3%2B086d547a9e-7ecfa802ee7fc7b0.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-serialization-api-v1-2.0.+11a26f319e-3a7d22f929fdbe1c.jar",
+          "name": ".fabric/processedMods/fabric-serialization-api-v1-2.0.+11a26f319e-3a7d22f929fdbe1c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19272,
+            "MD5": "b8c95f70fdc25d27ae69177322984671",
+            "path": ".fabric/processedMods/fabric-serialization-api-v1-2.0.+11a26f319e-3a7d22f929fdbe1c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-serialization-api-v1-2.0.%2B11a26f319e-3a7d22f929fdbe1c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-sound-api-v1-2.0.5+11a26f319e-c68f9afbb542dcfc.jar",
+          "name": ".fabric/processedMods/fabric-sound-api-v1-2.0.5+11a26f319e-c68f9afbb542dcfc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14620,
+            "MD5": "29188ed0690e0c182f89c4e781d9af6d",
+            "path": ".fabric/processedMods/fabric-sound-api-v1-2.0.5+11a26f319e-c68f9afbb542dcfc.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-sound-api-v1-2.0.5%2B11a26f319e-c68f9afbb542dcfc.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-tag-api-v1-2.1.3+794df31d9e-cc467d204a56cd60.jar",
+          "name": ".fabric/processedMods/fabric-tag-api-v1-2.1.3+794df31d9e-cc467d204a56cd60.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47240,
+            "MD5": "51f015d05b35e11347458fd90d9bd806",
+            "path": ".fabric/processedMods/fabric-tag-api-v1-2.1.3+794df31d9e-cc467d204a56cd60.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-tag-api-v1-2.1.3%2B794df31d9e-cc467d204a56cd60.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-transfer-api-v1-8.0.11+39b5a3929e-a7e0071eff3231dc.jar",
+          "name": ".fabric/processedMods/fabric-transfer-api-v1-8.0.11+39b5a3929e-a7e0071eff3231dc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 192604,
+            "MD5": "a4e788f041586d4afd278049a0be4e5e",
+            "path": ".fabric/processedMods/fabric-transfer-api-v1-8.0.11+39b5a3929e-a7e0071eff3231dc.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-transfer-api-v1-8.0.11%2B39b5a3929e-a7e0071eff3231dc.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-transitive-access-widener+e098252d9e-289a130dc51d7007.jar",
+          "name": ".fabric/processedMods/fabric-transitive-access-widener+e098252d9e-289a130dc51d7007.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11988,
+            "MD5": "88e07cffe25a99dbef4ddaa18b8ab2c7",
+            "path": ".fabric/processedMods/fabric-transitive-access-widener+e098252d9e-289a130dc51d7007.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/fabric-transitive-access-widener%2Be098252d9e-289a130dc51d7007.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/io_github_douira_glsl-transforme-3.0.0-pre3-a5fd0f336ec8f100.jar",
+          "name": ".fabric/processedMods/io_github_douira_glsl-transforme-3.0.0-pre3-a5fd0f336ec8f100.jar",
+          "type": "File",
+          "artifact": {
+            "size": 730183,
+            "MD5": "f0ef1777fe0983fbda9277afa2e8ac95",
+            "path": ".fabric/processedMods/io_github_douira_glsl-transforme-3.0.0-pre3-a5fd0f336ec8f100.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/io_github_douira_glsl-transforme-3.0.0-pre3-a5fd0f336ec8f100.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/io_reactivex_rxjava3_rxjava-3.1.12-d5b0cf511a7d829e.jar",
+          "name": ".fabric/processedMods/io_reactivex_rxjava3_rxjava-3.1.12-d5b0cf511a7d829e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6515002,
+            "MD5": "49d4635e2a19b715c7fa52a28fb9957a",
+            "path": ".fabric/processedMods/io_reactivex_rxjava3_rxjava-3.1.12-d5b0cf511a7d829e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/io_reactivex_rxjava3_rxjava-3.1.12-d5b0cf511a7d829e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/mixinextras-0.5.4-edfcdd3df0b35281.jar",
+          "name": ".fabric/processedMods/mixinextras-0.5.4-edfcdd3df0b35281.jar",
+          "type": "File",
+          "artifact": {
+            "size": 727805,
+            "MD5": "d5070aa9700de60274a740d4c2640b4d",
+            "path": ".fabric/processedMods/mixinextras-0.5.4-edfcdd3df0b35281.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/mixinextras-0.5.4-edfcdd3df0b35281.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/mixinsquared-0.3.7-beta.1-acb564e0dbe7aa5a.jar",
+          "name": ".fabric/processedMods/mixinsquared-0.3.7-beta.1-acb564e0dbe7aa5a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 337004,
+            "MD5": "80ddb9ffb0fb93f13349115d546ed57a",
+            "path": ".fabric/processedMods/mixinsquared-0.3.7-beta.1-acb564e0dbe7aa5a.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/mixinsquared-0.3.7-beta.1-acb564e0dbe7aa5a.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/net_objecthunter_exp4j-0.4.8-d061ac0f2a6964e6.jar",
+          "name": ".fabric/processedMods/net_objecthunter_exp4j-0.4.8-d061ac0f2a6964e6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 87764,
+            "MD5": "f501fe03137dd72adda9d3a8091f68c0",
+            "path": ".fabric/processedMods/net_objecthunter_exp4j-0.4.8-d061ac0f2a6964e6.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/net_objecthunter_exp4j-0.4.8-d061ac0f2a6964e6.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_anarres_jcpp-1.4.14-ae60d2cfc52c368e.jar",
+          "name": ".fabric/processedMods/org_anarres_jcpp-1.4.14-ae60d2cfc52c368e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 76612,
+            "MD5": "1e1b0259f6f99c2582b6c94b2b2a4487",
+            "path": ".fabric/processedMods/org_anarres_jcpp-1.4.14-ae60d2cfc52c368e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/org_anarres_jcpp-1.4.14-ae60d2cfc52c368e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-b805d86546810326.jar",
+          "name": ".fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-b805d86546810326.jar",
+          "type": "File",
+          "artifact": {
+            "size": 330031,
+            "MD5": "5860e5de90e50410c47dc529818b1033",
+            "path": ".fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-b805d86546810326.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-b805d86546810326.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jctools_jctools-core-4.0.5-698c532e169ed8dd.jar",
+          "name": ".fabric/processedMods/org_jctools_jctools-core-4.0.5-698c532e169ed8dd.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1124730,
+            "MD5": "5e7a01897a976c9dac50b2bb04c0ac04",
+            "path": ".fabric/processedMods/org_jctools_jctools-core-4.0.5-698c532e169ed8dd.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/org_jctools_jctools-core-4.0.5-698c532e169ed8dd.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_reactivestreams_reactive-streams-1.0.4-ab5a2fc406d98885.jar",
+          "name": ".fabric/processedMods/org_reactivestreams_reactive-streams-1.0.4-ab5a2fc406d98885.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25015,
+            "MD5": "dfc67d9323acf6940db906427e203ddc",
+            "path": ".fabric/processedMods/org_reactivestreams_reactive-streams-1.0.4-ab5a2fc406d98885.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.fabric/processedMods/org_reactivestreams_reactive-streams-1.0.4-ab5a2fc406d98885.jar"
+          }
+        },
+        {
+          "id": ".mixin.out/class/net/minecraft/world/level/levelgen/SurfaceRules$BiomeConditionSource.class",
+          "name": ".mixin.out/class/net/minecraft/world/level/levelgen/SurfaceRules$BiomeConditionSource.class",
+          "type": "File",
+          "artifact": {
+            "size": 9588,
+            "MD5": "bebaa19b232b9579dc387f1a13275183",
+            "path": ".mixin.out/class/net/minecraft/world/level/levelgen/SurfaceRules$BiomeConditionSource.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/.mixin.out/class/net/minecraft/world/level/levelgen/SurfaceRules%24BiomeConditionSource.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class",
+          "type": "File",
+          "artifact": {
+            "size": 3422,
+            "MD5": "3c3d35f06b6d4e47aa50bfbd3c4e61eb",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_0_barrier.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 767,
+            "MD5": "b7efe7eef23103aa0ac1a3316c1af5af",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1133,
+            "MD5": "0cd6f6a0a7f82a72e28ad03e0409901c",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_0_barrier.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class",
+          "type": "File",
+          "artifact": {
+            "size": 3454,
+            "MD5": "8561389fed2de6511342a3add0e83bf0",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 784,
+            "MD5": "30f174bb680c99d699e59c3f96a42ad3",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1150,
+            "MD5": "313db81e34f148383cf87e9fe13b3e0c",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_1_fluid_level_floodedness.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class",
+          "type": "File",
+          "artifact": {
+            "size": 67944,
+            "MD5": "773784e5bbc7d89f2733d3757225e79a",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 42492,
+            "MD5": "7f6617c0153887530ffb399151731419",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 43791,
+            "MD5": "cc6d48cce119ea140ceecf3742418a88",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_10_preliminary_surface_level.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class",
+          "type": "File",
+          "artifact": {
+            "size": 118406,
+            "MD5": "09fc02e68710767466c43319b3726cd2",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_11_final_density.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 75402,
+            "MD5": "74cd85258f0891ae8c960cbb50c053cb",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 78027,
+            "MD5": "8d6b3cdd5d7975dec1d4330c47298d19",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_11_final_density.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class",
+          "type": "File",
+          "artifact": {
+            "size": 5629,
+            "MD5": "7c24dc779ea90cd7ddbea14759655889",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1591,
+            "MD5": "15c65646bdf32da11d3a7bfdb39a8523",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1603,
+            "MD5": "646ceb0d50dd0fd890cb30f15aebbcf5",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_12_vein_toggle.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class",
+          "type": "File",
+          "artifact": {
+            "size": 8542,
+            "MD5": "b1683f97446f5bb5aa73d59e00473c3b",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2631,
+            "MD5": "82b4393c48757be950ae164192f5dd5c",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2643,
+            "MD5": "c06d77cb810f0eff4f748624d4420bdf",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_13_vein_ridged.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class",
+          "type": "File",
+          "artifact": {
+            "size": 3092,
+            "MD5": "f4b1f0d0fe39cd325699ed1190667966",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 592,
+            "MD5": "414b7d855f6e1759538e2e123beabfeb",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1135,
+            "MD5": "e77474ac8b3f182607de8c65698f5477",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_14_vein_gap.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class",
+          "type": "File",
+          "artifact": {
+            "size": 119213,
+            "MD5": "2c3e75b84b347129540268b1744fbdf6",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 75603,
+            "MD5": "917f4bc2042c40d6bf35b0994f9d9cc9",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 78228,
+            "MD5": "db59ebf6c4349183676d26c72a84833e",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_15_final_final_density.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class",
+          "type": "File",
+          "artifact": {
+            "size": 5775,
+            "MD5": "e3812575917016a64d2464fb6251cdd3",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2028,
+            "MD5": "9468f6b17e701a949afa873cb8cefa72",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2403,
+            "MD5": "4f053e00cb80f44b53be41108e1d0011",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_16_multiNoiseSampler_temperature.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class",
+          "type": "File",
+          "artifact": {
+            "size": 5773,
+            "MD5": "13dc7c16d0fc5f3fdf812d5a0986ab76",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2027,
+            "MD5": "ee25b3c274eb03866c5007be149091d1",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2402,
+            "MD5": "12072bac93ac04e4c6c9cf15f50b97af",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_17_multiNoiseSampler_vegetation.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class",
+          "type": "File",
+          "artifact": {
+            "size": 5773,
+            "MD5": "4dd80e6eef51eeba0360f560dd126d27",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2027,
+            "MD5": "680540bebf104de143d3e2cb6b003a85",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2402,
+            "MD5": "f88a07952d1a8ad976ff60b793bbfdda",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_18_multiNoiseSampler_continents.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class",
+          "type": "File",
+          "artifact": {
+            "size": 5767,
+            "MD5": "80b6ab26548ad98699abda71761553a4",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2024,
+            "MD5": "f03e84012d7b6cb2bf3c0cf3d2a32561",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2399,
+            "MD5": "52d895b582638f9588d79b97d57b7f3d",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_19_multiNoiseSampler_erosion.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class",
+          "type": "File",
+          "artifact": {
+            "size": 3444,
+            "MD5": "eefef07850f6d436dcd4718ba4f2e3c4",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 793,
+            "MD5": "50f342d30e9b9f938e9f731dee525928",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1159,
+            "MD5": "8e1ded94fbc1ac7347a56cd7ed705942",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_2_fluid_level_spread.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class",
+          "type": "File",
+          "artifact": {
+            "size": 33686,
+            "MD5": "a87940131cfd2021ff758e073de33c51",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 23827,
+            "MD5": "09f083f5a2e2c94627a8b790ddeb73c6",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 24865,
+            "MD5": "c2a57c307605750a5d026827895482c5",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_20_multiNoiseSampler_depth.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class",
+          "type": "File",
+          "artifact": {
+            "size": 5765,
+            "MD5": "32758526e4f635e81ebdcecd0ebf4721",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2023,
+            "MD5": "7c34a7fa2ffc7505f03cef1a53b12cb2",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2398,
+            "MD5": "84c91418cd7fcc145f448247debb8daf",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_21_multiNoiseSampler_ridges.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class",
+          "type": "File",
+          "artifact": {
+            "size": 4028,
+            "MD5": "0e82ccfcc109b0d653cc88c7b036c158",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_22_temperature.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1296,
+            "MD5": "ba314e06b409f6b054f8b2d2413050c8",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1671,
+            "MD5": "4500d75ab5470bba751146d0b6d1c942",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_22_temperature.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class",
+          "type": "File",
+          "artifact": {
+            "size": 4026,
+            "MD5": "6bcb8c89f1fd8b96f99a947f85dab6c6",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1295,
+            "MD5": "628d7c2785b6daa3eb5c222e2567e68f",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1670,
+            "MD5": "59c2f790e4b67c645b37476e98fe1e73",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_23_vegetation.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class",
+          "type": "File",
+          "artifact": {
+            "size": 6749,
+            "MD5": "f2d8608fc176b7c89f7ae6c676ebc568",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_24_final_density.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 4641,
+            "MD5": "0768da3037b44e4ddc646d662b96829d",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 4653,
+            "MD5": "e9179609fb4887fdd9f159bc5a44e68a",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_24_final_density.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class",
+          "type": "File",
+          "artifact": {
+            "size": 7972,
+            "MD5": "e57620d96ad7ca0ad0ba4c0bfa111989",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 4832,
+            "MD5": "8a3a9884a2a7e1d19427b49c5de11445",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 4844,
+            "MD5": "cd7e6ee4ffb23cc7a85a63c1e70af19d",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_25_final_final_density.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class",
+          "type": "File",
+          "artifact": {
+            "size": 4407,
+            "MD5": "4d4722f8f6197c668eded7ecab34027b",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_26_erosion.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 407,
+            "MD5": "8898630edd5ef6626466021d0c7fbc44",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 419,
+            "MD5": "05613c20efded7d5c599c90563d2869d",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_26_erosion.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class",
+          "type": "File",
+          "artifact": {
+            "size": 7078,
+            "MD5": "e735e67c0c95f08f232c728d4b4db9f1",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_27_final_density.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 4836,
+            "MD5": "c8ded1c761cb3b354cea9fc4ac604311",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 4848,
+            "MD5": "a066549cbccef4d2b85f09cdfab36c11",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_27_final_density.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class",
+          "type": "File",
+          "artifact": {
+            "size": 8301,
+            "MD5": "bacf26636042d0cfc156c21f6e47aac6",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 5027,
+            "MD5": "36a8fad10674a4e8fac8768d318ada71",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 5039,
+            "MD5": "8c62df6755952b9a878c9594756bd491",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_28_final_final_density.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class",
+          "type": "File",
+          "artifact": {
+            "size": 2426,
+            "MD5": "539509e3af31650e40738e117be97cb8",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 308,
+            "MD5": "a06a6f61c23d5765de6e257a31155e4e",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 320,
+            "MD5": "75ac1669b46187a0763af20e772fbea2",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_29_multiNoiseSampler_erosion.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class",
+          "type": "File",
+          "artifact": {
+            "size": 3082,
+            "MD5": "0d1b41ba73c404800183b322decf64ec",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_3_lava.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 587,
+            "MD5": "d8cd8e18238412a7032fb1b94b2daac7",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_3_lava.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 1130,
+            "MD5": "80ca0e9286879df7f98105dfc56911bd",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_3_lava.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_3_lava.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class",
+          "type": "File",
+          "artifact": {
+            "size": 9911,
+            "MD5": "7b835515a22c97012cdaf7a6d5386735",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_4_temperature.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2481,
+            "MD5": "5c692647842e8c898a383c59f6c7f463",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2864,
+            "MD5": "6e78a539e7b64e45b3c775af17091248",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_4_temperature.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class",
+          "type": "File",
+          "artifact": {
+            "size": 9907,
+            "MD5": "f0c4da9df907e20f9c1415f8d9de8b0d",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2480,
+            "MD5": "f39eeac85371cd8df71b30576a4901c7",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2863,
+            "MD5": "edf38bf1cb09c6bb5e1f5cecd5ab5d6c",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_5_vegetation.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class",
+          "type": "File",
+          "artifact": {
+            "size": 10607,
+            "MD5": "1755b66a88369600a6e200609b89e438",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_6_continents.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2599,
+            "MD5": "bcb69fd6d26db23c92a79acf31ad6136",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_6_continents.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2989,
+            "MD5": "8b94df73033e553c98c8f886acba61cb",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_6_continents.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_6_continents.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class",
+          "type": "File",
+          "artifact": {
+            "size": 10595,
+            "MD5": "a35887f7625b20142a3586ff99758d77",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_7_erosion.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2596,
+            "MD5": "98bb88156312996a12e86d8c0b44ed10",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2986,
+            "MD5": "9b3085d21e0719c1bad9847246a2b521",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_7_erosion.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class",
+          "type": "File",
+          "artifact": {
+            "size": 43837,
+            "MD5": "3604cacd9912f1e294dbb50ee93f5495",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_8_depth.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 24921,
+            "MD5": "ea4779e0d278a961745a18b6731cf60f",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_8_depth.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 26032,
+            "MD5": "4c4290c40604b37cdedbbd0cf3b49e4e",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_8_depth.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_8_depth.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class",
+          "type": "File",
+          "artifact": {
+            "size": 10591,
+            "MD5": "64b5b9a6ad369cfe20322ceb54f0afcb",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_9_ridges.class"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2595,
+            "MD5": "2b60fd5e0e0287443a71ef0c67a75a5d",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.gv"
+          }
+        },
+        {
+          "id": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.unoptimized.gv",
+          "name": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.unoptimized.gv",
+          "type": "File",
+          "artifact": {
+            "size": 2985,
+            "MD5": "ca4aef300fe39e0dbcb45ce46123440a",
+            "path": "cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.unoptimized.gv",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/cache/c2me-dfc/classes/DfcCompiled_9_ridges.class.unoptimized.gv"
+          }
+        },
+        {
+          "id": "config/c2me.toml",
+          "name": "config/c2me.toml",
+          "type": "File",
+          "artifact": {
+            "size": 10307,
+            "MD5": "70a3eb0d79ab35fdda3f91e94f5f2473",
+            "path": "config/c2me.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/c2me.toml"
+          }
+        },
+        {
+          "id": "config/crash_assistant/config.toml",
+          "name": "config/crash_assistant/config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 22358,
+            "MD5": "1636a5bba5fcf463c68fb0617844a2f2",
+            "path": "config/crash_assistant/config.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/crash_assistant/config.toml"
+          }
+        },
+        {
+          "id": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+          "name": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+          "type": "File",
+          "artifact": {
+            "size": 2650,
+            "MD5": "b5ff102e457b882185ca9611f33aebaa",
+            "path": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/crash_assistant/crash_assistant_localization_overrides/README.md"
+          }
+        },
+        {
+          "id": "config/crash_assistant/modlist.json",
+          "name": "config/crash_assistant/modlist.json",
+          "type": "File",
+          "artifact": {
+            "size": 4718,
+            "MD5": "e984ae1b3e40430363adc540e56b0360",
+            "path": "config/crash_assistant/modlist.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/crash_assistant/modlist.json"
+          }
+        },
+        {
+          "id": "config/crash_assistant/scripts/log_analysis/example.jexl",
+          "name": "config/crash_assistant/scripts/log_analysis/example.jexl",
+          "type": "File",
+          "artifact": {
+            "size": 3495,
+            "MD5": "cef0690ca119861569662f5587100dbb",
+            "path": "config/crash_assistant/scripts/log_analysis/example.jexl",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/crash_assistant/scripts/log_analysis/example.jexl"
+          }
+        },
+        {
+          "id": "config/crash_assistant/scripts/startup/example.jexl",
+          "name": "config/crash_assistant/scripts/startup/example.jexl",
+          "type": "File",
+          "artifact": {
+            "size": 4408,
+            "MD5": "b783fb48246a944f0faf2f79c5d8db42",
+            "path": "config/crash_assistant/scripts/startup/example.jexl",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/crash_assistant/scripts/startup/example.jexl"
+          }
+        },
+        {
+          "id": "config/DistantHorizons.toml",
+          "name": "config/DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 34292,
+            "MD5": "3be8be952d63bf93b1d1effe48ebcc22",
+            "path": "config/DistantHorizons.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "config/fabric/indigo-renderer.properties",
+          "name": "config/fabric/indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 307,
+            "MD5": "38e7f1e2b2d71ae9535ff628903358d6",
+            "path": "config/fabric/indigo-renderer.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "config/fabric_loader_dependencies.json",
+          "name": "config/fabric_loader_dependencies.json",
+          "type": "File",
+          "artifact": {
+            "size": 48,
+            "MD5": "bdaf1f0c40c2f66f4b6f7a31715a092d",
+            "path": "config/fabric_loader_dependencies.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/fabric_loader_dependencies.json"
+          }
+        },
+        {
+          "id": "config/ferritecore.mixin.properties",
+          "name": "config/ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 815,
+            "MD5": "d8fbc071aa2480c358ddc5636fb1d8e1",
+            "path": "config/ferritecore.mixin.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "config/indium-renderer.properties",
+          "name": "config/indium-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "MD5": "d625f6d9bfdb01f03c60f7c2bd3d31e9",
+            "path": "config/indium-renderer.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/indium-renderer.properties"
+          }
+        },
+        {
+          "id": "config/iris-excluded.json",
+          "name": "config/iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "config/iris.properties",
+          "name": "config/iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "MD5": "0a25ad908c3d663a1761fcd23e62a8c3",
+            "path": "config/iris.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/iris.properties"
+          }
+        },
+        {
+          "id": "config/lithium.properties",
+          "name": "config/lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 430,
+            "MD5": "422e0797eef9c35fe7d8ecea0ac3f567",
+            "path": "config/lithium.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/lithium.properties"
+          }
+        },
+        {
+          "id": "config/modernfix-mixins.properties",
+          "name": "config/modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3525,
+            "MD5": "0812786d199979c561f1706d45910292",
+            "path": "config/modernfix-mixins.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "config/modmenu.json",
+          "name": "config/modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 839,
+            "MD5": "5d7b62f2c35edc55bff283a9d521ba01",
+            "path": "config/modmenu.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/modmenu.json"
+          }
+        },
+        {
+          "id": "config/noisium.json",
+          "name": "config/noisium.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "MD5": "35a957b1240e39b282be349765bcdceb",
+            "path": "config/noisium.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/noisium.json"
+          }
+        },
+        {
+          "id": "config/resourceful-config-web.json",
+          "name": "config/resourceful-config-web.json",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "MD5": "c52de229f7d22ff1064e3ec794f4c3d8",
+            "path": "config/resourceful-config-web.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/resourceful-config-web.json"
+          }
+        },
+        {
+          "id": "config/sodium-extra-options.json",
+          "name": "config/sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1459,
+            "MD5": "72bee08f1bad7657969c51ee5b464d25",
+            "path": "config/sodium-extra-options.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "config/sodium-extra.properties",
+          "name": "config/sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "config/sodium-fingerprint.json",
+          "name": "config/sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "MD5": "5ae06eb836b7919d49a32125df0ee8df",
+            "path": "config/sodium-fingerprint.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "config/sodium-mixins.properties",
+          "name": "config/sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "MD5": "456d99888369486f42d6ea7f70294170",
+            "path": "config/sodium-mixins.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "config/sodium-options.json",
+          "name": "config/sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 744,
+            "MD5": "82063544a90a61652c991c1235b44113",
+            "path": "config/sodium-options.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/sodium-options.json"
+          }
+        },
+        {
+          "id": "config/structure_layout_optimizer.jsonc",
+          "name": "config/structure_layout_optimizer.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 1058,
+            "MD5": "8164106afd7410cdd1bc9cab4e153654",
+            "path": "config/structure_layout_optimizer.jsonc",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/structure_layout_optimizer.jsonc"
+          }
+        },
+        {
+          "id": "config/zfastnoise.mixin.toml",
+          "name": "config/zfastnoise.mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1091,
+            "MD5": "3a7c2a23490623f85e2240cc224e6a61",
+            "path": "config/zfastnoise.mixin.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/config/zfastnoise.mixin.toml"
+          }
+        },
+        {
+          "id": "data/fabric_default_resource_packs.json",
+          "name": "data/fabric_default_resource_packs.json",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "MD5": "9c70e0b30ff6d3ac8f1f4d0dd7742b20",
+            "path": "data/fabric_default_resource_packs.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/data/fabric_default_resource_packs.json"
+          }
+        },
+        {
+          "id": "downloads/log.json",
+          "name": "downloads/log.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "downloads/log.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/downloads/log.json"
+          }
+        },
+        {
+          "id": "icon.png",
+          "name": "icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 17603,
+            "MD5": "bcbe8565a3378594e4096d613d619e7e",
+            "path": "icon.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/icon.png"
+          }
+        },
+        {
+          "id": "local/crash_assistant/19616_1794812177145_app.jar",
+          "name": "local/crash_assistant/19616_1794812177145_app.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1779635,
+            "MD5": "85660320e03ff9065d31bf47da8b2d15",
+            "path": "local/crash_assistant/19616_1794812177145_app.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/19616_1794812177145_app.jar"
+          }
+        },
+        {
+          "id": "local/crash_assistant/19616_1794812177145_args.info",
+          "name": "local/crash_assistant/19616_1794812177145_args.info",
+          "type": "File",
+          "artifact": {
+            "size": 19718,
+            "MD5": "7d788429f907d5bfd9c6b76fb361b0d2",
+            "path": "local/crash_assistant/19616_1794812177145_args.info",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/19616_1794812177145_args.info"
+          }
+        },
+        {
+          "id": "local/crash_assistant/19616_1794812177145_gpu-detect-jni.dll",
+          "name": "local/crash_assistant/19616_1794812177145_gpu-detect-jni.dll",
+          "type": "File",
+          "artifact": {
+            "size": 39424,
+            "MD5": "39a101f94f1939ef4654dbe055d44a19",
+            "path": "local/crash_assistant/19616_1794812177145_gpu-detect-jni.dll",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/19616_1794812177145_gpu-detect-jni.dll"
+          }
+        },
+        {
+          "id": "local/crash_assistant/19616_1794812177145_mod.jar",
+          "name": "local/crash_assistant/19616_1794812177145_mod.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3163424,
+            "MD5": "8608c5ad215f480367e3c7324b74ea3e",
+            "path": "local/crash_assistant/19616_1794812177145_mod.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/19616_1794812177145_mod.jar"
+          }
+        },
+        {
+          "id": "local/crash_assistant/19616_1794812177145.info",
+          "name": "local/crash_assistant/19616_1794812177145.info",
+          "type": "File",
+          "artifact": {
+            "size": 21,
+            "MD5": "28cd7f31be6aa49925becc11d997c4f9",
+            "path": "local/crash_assistant/19616_1794812177145.info",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/19616_1794812177145.info"
+          }
+        },
+        {
+          "id": "local/crash_assistant/CONFIG_LOCK.tmp",
+          "name": "local/crash_assistant/CONFIG_LOCK.tmp",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "local/crash_assistant/CONFIG_LOCK.tmp",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/CONFIG_LOCK.tmp"
+          }
+        },
+        {
+          "id": "local/crash_assistant/gpu-detect-jni-README.MD",
+          "name": "local/crash_assistant/gpu-detect-jni-README.MD",
+          "type": "File",
+          "artifact": {
+            "size": 764,
+            "MD5": "058dd5725bc8eb9c5aa8f7faa0ebf812",
+            "path": "local/crash_assistant/gpu-detect-jni-README.MD",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/gpu-detect-jni-README.MD"
+          }
+        },
+        {
+          "id": "local/crash_assistant/joined_world_pid19616.tmp",
+          "name": "local/crash_assistant/joined_world_pid19616.tmp",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "MD5": "3fff1520cb84605cbbb66b95c82dde9b",
+            "path": "local/crash_assistant/joined_world_pid19616.tmp",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/joined_world_pid19616.tmp"
+          }
+        },
+        {
+          "id": "local/crash_assistant/local_config.json",
+          "name": "local/crash_assistant/local_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "local/crash_assistant/local_config.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/local_config.json"
+          }
+        },
+        {
+          "id": "local/crash_assistant/normal_stop_pid19616.tmp",
+          "name": "local/crash_assistant/normal_stop_pid19616.tmp",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "MD5": "1770dbc375841a6af0e86c3d47874405",
+            "path": "local/crash_assistant/normal_stop_pid19616.tmp",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/normal_stop_pid19616.tmp"
+          }
+        },
+        {
+          "id": "local/crash_assistant/renderer_pid19616.tmp",
+          "name": "local/crash_assistant/renderer_pid19616.tmp",
+          "type": "File",
+          "artifact": {
+            "size": 33,
+            "MD5": "0578664a0d3a40a576ea1e68c7ddf57e",
+            "path": "local/crash_assistant/renderer_pid19616.tmp",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/renderer_pid19616.tmp"
+          }
+        },
+        {
+          "id": "local/crash_assistant/successful_launch_pid19616.tmp",
+          "name": "local/crash_assistant/successful_launch_pid19616.tmp",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "MD5": "702d1185a678ae7a735bbd77d8503168",
+            "path": "local/crash_assistant/successful_launch_pid19616.tmp",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/successful_launch_pid19616.tmp"
+          }
+        },
+        {
+          "id": "local/crash_assistant/username.info",
+          "name": "local/crash_assistant/username.info",
+          "type": "File",
+          "artifact": {
+            "size": 7,
+            "MD5": "4056c29d958a503aebb6fb56ef01a288",
+            "path": "local/crash_assistant/username.info",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/local/crash_assistant/username.info"
+          }
+        },
+        {
+          "id": "logs/crash_assistant/crash_assistant_app.log",
+          "name": "logs/crash_assistant/crash_assistant_app.log",
+          "type": "File",
+          "artifact": {
+            "size": 40776,
+            "MD5": "465327d79b48968e3dc2da466db8dc90",
+            "path": "logs/crash_assistant/crash_assistant_app.log",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/logs/crash_assistant/crash_assistant_app.log"
+          }
+        },
+        {
+          "id": "logs/crash_assistant/startup_scripts.log",
+          "name": "logs/crash_assistant/startup_scripts.log",
+          "type": "File",
+          "artifact": {
+            "size": 89,
+            "MD5": "68a795469dbba08996469df750f0c744",
+            "path": "logs/crash_assistant/startup_scripts.log",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/logs/crash_assistant/startup_scripts.log"
+          }
+        },
+        {
+          "id": "logs/instance_audit.txt",
+          "name": "logs/instance_audit.txt",
+          "type": "File",
+          "artifact": {
+            "size": 12348,
+            "MD5": "fff4a9bda19ffd706ac8d91fb7bc1274",
+            "path": "logs/instance_audit.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/logs/instance_audit.txt"
+          }
+        },
+        {
+          "id": "logs/latest.log",
+          "name": "logs/latest.log",
+          "type": "File",
+          "artifact": {
+            "size": 63287,
+            "MD5": "0de4365a373404597785750d48e2d642",
+            "path": "logs/latest.log",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/logs/latest.log"
+          }
+        },
+        {
+          "id": "logs/stderr_stream.log",
+          "name": "logs/stderr_stream.log",
+          "type": "File",
+          "artifact": {
+            "size": 386,
+            "MD5": "e177dae15e9cf1f204420e409b8c9a15",
+            "path": "logs/stderr_stream.log",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/logs/stderr_stream.log"
+          }
+        },
+        {
+          "id": "logs/stdout-logs.txt",
+          "name": "logs/stdout-logs.txt",
+          "type": "File",
+          "artifact": {
+            "size": 138790,
+            "MD5": "2dbc93d9d3f51228028a724e733298d0",
+            "path": "logs/stdout-logs.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/logs/stdout-logs.txt"
+          }
+        },
+        {
+          "id": "logs/telemetry/20261116-1.json",
+          "name": "logs/telemetry/20261116-1.json",
+          "type": "File",
+          "artifact": {
+            "size": 1600,
+            "MD5": "0a6ece566266347ad1013b4faf87d420",
+            "path": "logs/telemetry/20261116-1.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/logs/telemetry/20261116-1.json"
+          }
+        },
+        {
+          "id": "manifest.json",
+          "name": "manifest.json",
+          "type": "File",
+          "artifact": {
+            "size": 1087,
+            "MD5": "f61c12a27563debf71c476eddf876923",
+            "path": "manifest.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/manifest.json"
+          }
+        },
+        {
+          "id": "minecraftinstance.json",
+          "name": "minecraftinstance.json",
+          "type": "File",
+          "artifact": {
+            "size": 100599,
+            "MD5": "53c19a174f70cb5fc64c581fd05e1555",
+            "path": "minecraftinstance.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/minecraftinstance.json"
+          }
+        },
+        {
+          "id": "modlist.html",
+          "name": "modlist.html",
+          "type": "File",
+          "artifact": {
+            "size": 1465,
+            "MD5": "87e29cfc966926f7f5331f3abd90f7a4",
+            "path": "modlist.html",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/modlist.html"
+          }
+        },
+        {
+          "id": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+          "name": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3775368,
+            "MD5": "7c87a0107ddb20aae40c5d3f578f83f6",
+            "path": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar"
+          }
+        },
+        {
+          "id": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+          "name": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3163424,
+            "MD5": "8608c5ad215f480367e3c7324b74ea3e",
+            "path": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/CrashAssistant-fabric-26.2-1.11.10.jar"
+          }
+        },
+        {
+          "id": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+          "name": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29653883,
+            "MD5": "c0ca675094b2bda9648c9ebcc7a2c2e8",
+            "path": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar"
+          }
+        },
+        {
+          "id": "mods/fabric-api-0.152.2+26.2.jar",
+          "name": "mods/fabric-api-0.152.2+26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2501396,
+            "MD5": "48f01c68fc3e4d25a67d507874ae8b13",
+            "path": "mods/fabric-api-0.152.2+26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/fabric-api-0.152.2%2B26.2.jar"
+          }
+        },
+        {
+          "id": "mods/ferritecore-9.0.0-fabric.jar",
+          "name": "mods/ferritecore-9.0.0-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 72677,
+            "MD5": "9d96f643cfd220b75f47c94ea56ebc2a",
+            "path": "mods/ferritecore-9.0.0-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/ferritecore-9.0.0-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/iris-fabric-1.11.1+mc26.2.jar",
+          "name": "mods/iris-fabric-1.11.1+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2812824,
+            "MD5": "4caee35375cbabe99e26144a357d264c",
+            "path": "mods/iris-fabric-1.11.1+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/iris-fabric-1.11.1%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+          "name": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 911462,
+            "MD5": "0b27a62a85af1f9b0de2668517a2baed",
+            "path": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/lithium-fabric-0.25.0%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/modmenu-20.0.0-beta.3.jar",
+          "name": "mods/modmenu-20.0.0-beta.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 635877,
+            "MD5": "9776c7754fbd49ad7d09541bfd924597",
+            "path": "mods/modmenu-20.0.0-beta.3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/modmenu-20.0.0-beta.3.jar"
+          }
+        },
+        {
+          "id": "mods/reeses-sodium-options-fabric-2.1.0+mc26.2.jar",
+          "name": "mods/reeses-sodium-options-fabric-2.1.0+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 139540,
+            "MD5": "71ae687b99729bbff05396e8c10208aa",
+            "path": "mods/reeses-sodium-options-fabric-2.1.0+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/reeses-sodium-options-fabric-2.1.0%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/ResourcefulConfig-5.0.0.jar",
+          "name": "mods/ResourcefulConfig-5.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 443979,
+            "MD5": "ac3882f9395be719e52f029d064b8685",
+            "path": "mods/ResourcefulConfig-5.0.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/ResourcefulConfig-5.0.0.jar"
+          }
+        },
+        {
+          "id": "mods/sodium-extra-fabric-0.8.9+mc26.2.jar",
+          "name": "mods/sodium-extra-fabric-0.8.9+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 401789,
+            "MD5": "03e7ae9fe55b30b074a7e7fcb1ebfdbd",
+            "path": "mods/sodium-extra-fabric-0.8.9+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/sodium-extra-fabric-0.8.9%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/sodium-fabric-0.9.0+mc26.2.jar",
+          "name": "mods/sodium-fabric-0.9.0+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1830648,
+            "MD5": "891048660ee85a57802460c5ce95235b",
+            "path": "mods/sodium-fabric-0.9.0+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/sodium-fabric-0.9.0%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+          "name": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 71476,
+            "MD5": "721829145df53b51777d1e022177f8d9",
+            "path": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/structure_layout_optimizer-1.1.4%2B26.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/zfastnoise-1.0.36+26.2.jar",
+          "name": "mods/zfastnoise-1.0.36+26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 473288,
+            "MD5": "cda224f09af0284ff586e2524245311f",
+            "path": "mods/zfastnoise-1.0.36+26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/mods/zfastnoise-1.0.36%2B26.2.jar"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5554,
+            "MD5": "76b4cbcc5f0a67a29098dc022505984a",
+            "path": "options.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/options.txt"
+          }
+        },
+        {
+          "id": "realms_persistence.json",
+          "name": "realms_persistence.json",
+          "type": "File",
+          "artifact": {
+            "size": 105,
+            "MD5": "cdaf65943c8321006ec436e5dcfeab43",
+            "path": "realms_persistence.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/realms_persistence.json"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.20/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/1.20/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/1.20/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.20/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/1.21/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/1.21/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.21/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.21.4/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/pack.mcmeta",
+          "name": "resourcepacks/DH Iris RP/pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 791,
+            "MD5": "17d8302be0da0801def5e660d2a8b91c",
+            "path": "resourcepacks/DH Iris RP/pack.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/pack.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/pack.png",
+          "name": "resourcepacks/DH Iris RP/pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 17660,
+            "MD5": "15668bdbefcbd60d4b2922978a7f5013",
+            "path": "resourcepacks/DH Iris RP/pack.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/resourcepacks/DH%20Iris%20RP/pack.png"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/custom_boss_events.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/custom_boss_events.dat",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "MD5": "8f25ca01b532f5ab6469db6896af1f4a",
+            "path": "saves/Mundo nuevo/data/minecraft/custom_boss_events.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/custom_boss_events.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/game_rules.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/game_rules.dat",
+          "type": "File",
+          "artifact": {
+            "size": 807,
+            "MD5": "7e53e64bf09040f94b79c52eee17e6e4",
+            "path": "saves/Mundo nuevo/data/minecraft/game_rules.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/game_rules.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/random_sequences.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/random_sequences.dat",
+          "type": "File",
+          "artifact": {
+            "size": 452,
+            "MD5": "359d8bc8b459c8ee3600155e83cfc6af",
+            "path": "saves/Mundo nuevo/data/minecraft/random_sequences.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/random_sequences.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/scheduled_events.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/scheduled_events.dat",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "MD5": "1f97f4c9e1b6001326a6908a100a9fc5",
+            "path": "saves/Mundo nuevo/data/minecraft/scheduled_events.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/scheduled_events.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/scoreboard.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/scoreboard.dat",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "MD5": "8f25ca01b532f5ab6469db6896af1f4a",
+            "path": "saves/Mundo nuevo/data/minecraft/scoreboard.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/scoreboard.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/stopwatches.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/stopwatches.dat",
+          "type": "File",
+          "artifact": {
+            "size": 64,
+            "MD5": "fa3de6dd941dd49f460d2e57f5f3a65c",
+            "path": "saves/Mundo nuevo/data/minecraft/stopwatches.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/stopwatches.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/wandering_trader.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/wandering_trader.dat",
+          "type": "File",
+          "artifact": {
+            "size": 65,
+            "MD5": "4a7e51f0b058aacf3a8d439f188f45a7",
+            "path": "saves/Mundo nuevo/data/minecraft/wandering_trader.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/wandering_trader.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/weather.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/weather.dat",
+          "type": "File",
+          "artifact": {
+            "size": 111,
+            "MD5": "44f4a8d547b122bf657fdbd32d0620fe",
+            "path": "saves/Mundo nuevo/data/minecraft/weather.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/weather.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/world_clocks.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/world_clocks.dat",
+          "type": "File",
+          "artifact": {
+            "size": 103,
+            "MD5": "43c6a5f5d69b7f5b1bc1ec38e13e3cae",
+            "path": "saves/Mundo nuevo/data/minecraft/world_clocks.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/world_clocks.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/data/minecraft/world_gen_settings.dat",
+          "name": "saves/Mundo nuevo/data/minecraft/world_gen_settings.dat",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "MD5": "88c74d7964f2acd46ee41f914668aba8",
+            "path": "saves/Mundo nuevo/data/minecraft/world_gen_settings.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/data/minecraft/world_gen_settings.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/DistantHorizons.sqlite",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/DistantHorizons.sqlite",
+          "type": "File",
+          "artifact": {
+            "size": 10592256,
+            "MD5": "1bcdd3f7f3e5821176e0ff406c6be5cf",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/DistantHorizons.sqlite",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/data/DistantHorizons.sqlite"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/chunk_tickets.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/chunk_tickets.dat",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "MD5": "8f25ca01b532f5ab6469db6896af1f4a",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/chunk_tickets.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/data/minecraft/chunk_tickets.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/raids.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/raids.dat",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "MD5": "7d6e9a643735127bb7ff7b4ffb6f47bc",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/raids.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/data/minecraft/raids.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/world_border.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/world_border.dat",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "MD5": "9cbcdd88a63fa843c2704e3d2c23fb59",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/data/minecraft/world_border.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/data/minecraft/world_border.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.-1.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.-1.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 126976,
+            "MD5": "369ef2736f80c0aceac6edd1a38f2270",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.-1.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/entities/r.-1.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.-1.0.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.-1.0.mca",
+          "type": "File",
+          "artifact": {
+            "size": 45056,
+            "MD5": "57f82bace08c85b937c0bad14d188e31",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.-1.0.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/entities/r.-1.0.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.0.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.0.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 270336,
+            "MD5": "9d29124ad72cbcfe1999e7990a3a7b6b",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.0.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/entities/r.0.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.0.0.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.0.0.mca",
+          "type": "File",
+          "artifact": {
+            "size": 49152,
+            "MD5": "d737a34abd5b9e8e046a45048f5fe8b7",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/entities/r.0.0.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/entities/r.0.0.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.-1.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.-1.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.-1.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/poi/r.-1.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.-1.0.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.-1.0.mca",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.-1.0.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/poi/r.-1.0.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.0.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.0.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 32768,
+            "MD5": "eaf776a56162a4361f7f2b1fb466e080",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.0.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/poi/r.0.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.0.0.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.0.0.mca",
+          "type": "File",
+          "artifact": {
+            "size": 49152,
+            "MD5": "905990b9c44cc7d4bb4ee9c7b76ce978",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/poi/r.0.0.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/poi/r.0.0.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 3256320,
+            "MD5": "ecbd242cdb1fdc1ee6c64deb2545c40a",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.-1.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.-2.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.-2.mca",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.-2.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.-1.-2.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.0.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.0.mca",
+          "type": "File",
+          "artifact": {
+            "size": 2134016,
+            "MD5": "184450b5852c6bde21825fbc88e95c8d",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-1.0.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.-1.0.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-2.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-2.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.-2.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.-2.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 4149248,
+            "MD5": "f339b07220b88edb956585377c1e4769",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.0.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.-2.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.-2.mca",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.-2.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.0.-2.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.0.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.0.mca",
+          "type": "File",
+          "artifact": {
+            "size": 3018752,
+            "MD5": "aceca12950ddc88a5fd5f239e152e02b",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.0.0.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.0.0.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.1.-1.mca",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.1.-1.mca",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/overworld/region/r.1.-1.mca",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/overworld/region/r.1.-1.mca"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/DistantHorizons.sqlite",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/DistantHorizons.sqlite",
+          "type": "File",
+          "artifact": {
+            "size": 57344,
+            "MD5": "3335b9bb1d690b73927d1c97a635d1d0",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/DistantHorizons.sqlite",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_end/data/DistantHorizons.sqlite"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/chunk_tickets.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/chunk_tickets.dat",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "MD5": "8f25ca01b532f5ab6469db6896af1f4a",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/chunk_tickets.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_end/data/minecraft/chunk_tickets.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/ender_dragon_fight.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/ender_dragon_fight.dat",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "MD5": "3615873dd5f7b53ea1dd0056cb7f0ed3",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/ender_dragon_fight.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_end/data/minecraft/ender_dragon_fight.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/raids.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/raids.dat",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "MD5": "7d6e9a643735127bb7ff7b4ffb6f47bc",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/raids.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_end/data/minecraft/raids.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/world_border.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/world_border.dat",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "MD5": "9cbcdd88a63fa843c2704e3d2c23fb59",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_end/data/minecraft/world_border.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_end/data/minecraft/world_border.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/DistantHorizons.sqlite",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/DistantHorizons.sqlite",
+          "type": "File",
+          "artifact": {
+            "size": 57344,
+            "MD5": "3335b9bb1d690b73927d1c97a635d1d0",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/DistantHorizons.sqlite",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_nether/data/DistantHorizons.sqlite"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/chunk_tickets.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/chunk_tickets.dat",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "MD5": "8f25ca01b532f5ab6469db6896af1f4a",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/chunk_tickets.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_nether/data/minecraft/chunk_tickets.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/raids.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/raids.dat",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "MD5": "7d6e9a643735127bb7ff7b4ffb6f47bc",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/raids.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_nether/data/minecraft/raids.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/world_border.dat",
+          "name": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/world_border.dat",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "MD5": "9cbcdd88a63fa843c2704e3d2c23fb59",
+            "path": "saves/Mundo nuevo/dimensions/minecraft/the_nether/data/minecraft/world_border.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/dimensions/minecraft/the_nether/data/minecraft/world_border.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/icon.png",
+          "name": "saves/Mundo nuevo/icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 11408,
+            "MD5": "821e891c2440b4541c229218feab1bd4",
+            "path": "saves/Mundo nuevo/icon.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/icon.png"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/level.dat",
+          "name": "saves/Mundo nuevo/level.dat",
+          "type": "File",
+          "artifact": {
+            "size": 451,
+            "MD5": "aefe514d21a238f45928c3f3f21cb3b8",
+            "path": "saves/Mundo nuevo/level.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/level.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/level.dat_old",
+          "name": "saves/Mundo nuevo/level.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 451,
+            "MD5": "aff4a6f0ec36ab6bf59480ac68580da1",
+            "path": "saves/Mundo nuevo/level.dat_old",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/level.dat_old"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/players/advancements/35363870-716c-4f16-9556-320aaed6f8f1.json",
+          "name": "saves/Mundo nuevo/players/advancements/35363870-716c-4f16-9556-320aaed6f8f1.json",
+          "type": "File",
+          "artifact": {
+            "size": 391,
+            "MD5": "b42acdf445c9eec8cce8e43db6cf300b",
+            "path": "saves/Mundo nuevo/players/advancements/35363870-716c-4f16-9556-320aaed6f8f1.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/players/advancements/35363870-716c-4f16-9556-320aaed6f8f1.json"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat",
+          "name": "saves/Mundo nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat",
+          "type": "File",
+          "artifact": {
+            "size": 797,
+            "MD5": "03b54dffefcb1b7c790d12e6bbac8a55",
+            "path": "saves/Mundo nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat_old",
+          "name": "saves/Mundo nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 797,
+            "MD5": "03b54dffefcb1b7c790d12e6bbac8a55",
+            "path": "saves/Mundo nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat_old",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/players/data/35363870-716c-4f16-9556-320aaed6f8f1.dat_old"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/players/stats/35363870-716c-4f16-9556-320aaed6f8f1.json",
+          "name": "saves/Mundo nuevo/players/stats/35363870-716c-4f16-9556-320aaed6f8f1.json",
+          "type": "File",
+          "artifact": {
+            "size": 480,
+            "MD5": "f6a968c7a5e01a18e206ea84079e07a3",
+            "path": "saves/Mundo nuevo/players/stats/35363870-716c-4f16-9556-320aaed6f8f1.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/players/stats/35363870-716c-4f16-9556-320aaed6f8f1.json"
+          }
+        },
+        {
+          "id": "saves/Mundo nuevo/session.lock",
+          "name": "saves/Mundo nuevo/session.lock",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "MD5": "48856faf4534a876adeadc72aec53cb2",
+            "path": "saves/Mundo nuevo/session.lock",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/saves/Mundo%20nuevo/session.lock"
+          }
+        },
+        {
+          "id": "usercache.json",
+          "name": "usercache.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "MD5": "7aa6afd86e47b33e313f619dde6655be",
+            "path": "usercache.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/files/usercache.json"
+          }
+        }
+      ],
+      "kekeChunkedFiles": [],
+      "icon": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/icon.jpg"
     }
   ]
 }
