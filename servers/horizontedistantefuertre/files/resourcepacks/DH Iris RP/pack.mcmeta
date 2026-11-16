@@ -1,0 +1,41 @@
+{
+  "pack": {
+        "pack_format": 84,
+		"min_format": [16],
+		"max_format": [999],
+		"supported_formats": [16,999],
+    "description": [
+      { "text": "Custom main menu for DH Iris Modpack.\n", "color": "gray" },
+      { "text": "Screenshot made by Lapis"}
+      ]
+  },
+  "overlays": {
+		"entries": [
+			{
+				"directory": "1.20",
+				"min_format": [15],
+				"max_format": [21],
+				"formats": [15,21]
+			},
+			{
+				"directory": "1.21",
+				"min_format": [34],
+				"max_format": [41],
+				"formats": [34,41]
+			},
+			{
+				"directory": "1.21.4",
+				"min_format": [46],
+				"max_format": [54],
+				"formats": [46,54]
+			},
+			{
+				"directory": "1.21.11",
+				"min_format": [75],
+				"max_format": [999],
+				"formats": [75,999]
+			}
+		]
+	}
+}
+

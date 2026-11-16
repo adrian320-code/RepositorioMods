@@ -3156,6 +3156,1078 @@
           }
         }
       ]
+    },
+    {
+      "id": "horizontedistantefuertre",
+      "mainServer": false,
+      "autoconnect": false,
+      "minecraftVersion": "1.20.1",
+      "name": "horizontedistantefuertre4Kpro",
+      "description": "xd ojalaseasi",
+      "version": "1.0.6",
+      "address": "localhost:25565",
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7397,
+            "MD5": "f538b3b9ad1668b3d92945741f841071",
+            "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.2.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16542,
+                "MD5": "374162e774d7cf1b09af7af4d7805982",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/versions/1.20.1-forge-47.2.0/1.20.1-forge-47.2.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 117589,
+                "MD5": "549205a1ba89e1c0735d9a46a338e715",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16371,
+                "MD5": "ab1c94373972048884a363d08bd1720d",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4996,
+                "MD5": "1bb13fed852f5088675101b9c6b538a0",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2672123,
+                "MD5": "5902d79463abb7a3746c777c3919143e",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4791112,
+                "MD5": "d805b1803123c683648f2e65dd98f3a8",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264245,
+                "MD5": "6ea3c95084cc6dec3205fae098bb8cab",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170333,
+                "MD5": "7050197358f88cf4ea899066fc97625d",
+                "url": "https://github.com/adrian320-code/RepositorioMods/raw/refs/heads/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": ".curseclient",
+          "name": ".curseclient",
+          "type": "File",
+          "artifact": {
+            "size": 36,
+            "MD5": "67be378410ade1372a5a783b3d33159e",
+            "path": ".curseclient",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/.curseclient"
+          }
+        },
+        {
+          "id": "config/c2me.toml",
+          "name": "config/c2me.toml",
+          "type": "File",
+          "artifact": {
+            "size": 10078,
+            "MD5": "cc90ed8989a20b4d3be1c6a6db16087b",
+            "path": "config/c2me.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/c2me.toml"
+          }
+        },
+        {
+          "id": "config/crash_assistant/config.toml",
+          "name": "config/crash_assistant/config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 22358,
+            "MD5": "1636a5bba5fcf463c68fb0617844a2f2",
+            "path": "config/crash_assistant/config.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/crash_assistant/config.toml"
+          }
+        },
+        {
+          "id": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+          "name": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+          "type": "File",
+          "artifact": {
+            "size": 2650,
+            "MD5": "b5ff102e457b882185ca9611f33aebaa",
+            "path": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/crash_assistant/crash_assistant_localization_overrides/README.md"
+          }
+        },
+        {
+          "id": "config/crash_assistant/modlist.json",
+          "name": "config/crash_assistant/modlist.json",
+          "type": "File",
+          "artifact": {
+            "size": 4718,
+            "MD5": "e984ae1b3e40430363adc540e56b0360",
+            "path": "config/crash_assistant/modlist.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/crash_assistant/modlist.json"
+          }
+        },
+        {
+          "id": "config/crash_assistant/scripts/log_analysis/example.jexl",
+          "name": "config/crash_assistant/scripts/log_analysis/example.jexl",
+          "type": "File",
+          "artifact": {
+            "size": 3495,
+            "MD5": "cef0690ca119861569662f5587100dbb",
+            "path": "config/crash_assistant/scripts/log_analysis/example.jexl",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/crash_assistant/scripts/log_analysis/example.jexl"
+          }
+        },
+        {
+          "id": "config/crash_assistant/scripts/startup/example.jexl",
+          "name": "config/crash_assistant/scripts/startup/example.jexl",
+          "type": "File",
+          "artifact": {
+            "size": 4408,
+            "MD5": "b783fb48246a944f0faf2f79c5d8db42",
+            "path": "config/crash_assistant/scripts/startup/example.jexl",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/crash_assistant/scripts/startup/example.jexl"
+          }
+        },
+        {
+          "id": "config/DistantHorizons.toml",
+          "name": "config/DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 33417,
+            "MD5": "c1c6350f066d501d8560bf52e7faa991",
+            "path": "config/DistantHorizons.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "config/fabric/indigo-renderer.properties",
+          "name": "config/fabric/indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 293,
+            "MD5": "daea9ab8488a19261f8d1211afd27246",
+            "path": "config/fabric/indigo-renderer.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "config/fabric_loader_dependencies.json",
+          "name": "config/fabric_loader_dependencies.json",
+          "type": "File",
+          "artifact": {
+            "size": 48,
+            "MD5": "bdaf1f0c40c2f66f4b6f7a31715a092d",
+            "path": "config/fabric_loader_dependencies.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/fabric_loader_dependencies.json"
+          }
+        },
+        {
+          "id": "config/ferritecore.mixin.properties",
+          "name": "config/ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 803,
+            "MD5": "867584e387f9b448d4b9b90904925ae4",
+            "path": "config/ferritecore.mixin.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "config/indium-renderer.properties",
+          "name": "config/indium-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "MD5": "d625f6d9bfdb01f03c60f7c2bd3d31e9",
+            "path": "config/indium-renderer.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/indium-renderer.properties"
+          }
+        },
+        {
+          "id": "config/iris-excluded.json",
+          "name": "config/iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "config/iris.properties",
+          "name": "config/iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 273,
+            "MD5": "fa8e563c46913f74cd8057625f9fa13c",
+            "path": "config/iris.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/iris.properties"
+          }
+        },
+        {
+          "id": "config/lithium.properties",
+          "name": "config/lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 430,
+            "MD5": "422e0797eef9c35fe7d8ecea0ac3f567",
+            "path": "config/lithium.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/lithium.properties"
+          }
+        },
+        {
+          "id": "config/modernfix-mixins.properties",
+          "name": "config/modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3525,
+            "MD5": "0812786d199979c561f1706d45910292",
+            "path": "config/modernfix-mixins.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "config/modmenu.json",
+          "name": "config/modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 839,
+            "MD5": "5d7b62f2c35edc55bff283a9d521ba01",
+            "path": "config/modmenu.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/modmenu.json"
+          }
+        },
+        {
+          "id": "config/noisium.json",
+          "name": "config/noisium.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "MD5": "35a957b1240e39b282be349765bcdceb",
+            "path": "config/noisium.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/noisium.json"
+          }
+        },
+        {
+          "id": "config/resourceful-config-web.json",
+          "name": "config/resourceful-config-web.json",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "MD5": "c52de229f7d22ff1064e3ec794f4c3d8",
+            "path": "config/resourceful-config-web.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/resourceful-config-web.json"
+          }
+        },
+        {
+          "id": "config/sodium-extra-options.json",
+          "name": "config/sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1459,
+            "MD5": "72bee08f1bad7657969c51ee5b464d25",
+            "path": "config/sodium-extra-options.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "config/sodium-extra.properties",
+          "name": "config/sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "config/sodium-fingerprint.json",
+          "name": "config/sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "MD5": "0ba0c825e0104c7d191959723bb5bb43",
+            "path": "config/sodium-fingerprint.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "config/sodium-mixins.properties",
+          "name": "config/sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "MD5": "456d99888369486f42d6ea7f70294170",
+            "path": "config/sodium-mixins.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "config/sodium-options.json",
+          "name": "config/sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 744,
+            "MD5": "82063544a90a61652c991c1235b44113",
+            "path": "config/sodium-options.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/sodium-options.json"
+          }
+        },
+        {
+          "id": "config/structure_layout_optimizer.jsonc",
+          "name": "config/structure_layout_optimizer.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 1058,
+            "MD5": "8164106afd7410cdd1bc9cab4e153654",
+            "path": "config/structure_layout_optimizer.jsonc",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/structure_layout_optimizer.jsonc"
+          }
+        },
+        {
+          "id": "config/zfastnoise.mixin.toml",
+          "name": "config/zfastnoise.mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1055,
+            "MD5": "7da86328dbdbaf4e8eb7d1faff1394f1",
+            "path": "config/zfastnoise.mixin.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/config/zfastnoise.mixin.toml"
+          }
+        },
+        {
+          "id": "icon.png",
+          "name": "icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 17603,
+            "MD5": "bcbe8565a3378594e4096d613d619e7e",
+            "path": "icon.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/icon.png"
+          }
+        },
+        {
+          "id": "manifest.json",
+          "name": "manifest.json",
+          "type": "File",
+          "artifact": {
+            "size": 1087,
+            "MD5": "f61c12a27563debf71c476eddf876923",
+            "path": "manifest.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/manifest.json"
+          }
+        },
+        {
+          "id": "minecraftinstance.json",
+          "name": "minecraftinstance.json",
+          "type": "File",
+          "artifact": {
+            "size": 117199,
+            "MD5": "e88a3b4738e381bee5881135bc655833",
+            "path": "minecraftinstance.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/minecraftinstance.json"
+          }
+        },
+        {
+          "id": "modlist.html",
+          "name": "modlist.html",
+          "type": "File",
+          "artifact": {
+            "size": 1465,
+            "MD5": "87e29cfc966926f7f5331f3abd90f7a4",
+            "path": "modlist.html",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/modlist.html"
+          }
+        },
+        {
+          "id": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+          "name": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3775368,
+            "MD5": "7c87a0107ddb20aae40c5d3f578f83f6",
+            "path": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar"
+          }
+        },
+        {
+          "id": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+          "name": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3163424,
+            "MD5": "8608c5ad215f480367e3c7324b74ea3e",
+            "path": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/CrashAssistant-fabric-26.2-1.11.10.jar"
+          }
+        },
+        {
+          "id": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+          "name": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29653883,
+            "MD5": "c0ca675094b2bda9648c9ebcc7a2c2e8",
+            "path": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar"
+          }
+        },
+        {
+          "id": "mods/fabric-api-0.152.2+26.2.jar",
+          "name": "mods/fabric-api-0.152.2+26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2501396,
+            "MD5": "48f01c68fc3e4d25a67d507874ae8b13",
+            "path": "mods/fabric-api-0.152.2+26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/fabric-api-0.152.2%2B26.2.jar"
+          }
+        },
+        {
+          "id": "mods/ferritecore-9.0.0-fabric.jar",
+          "name": "mods/ferritecore-9.0.0-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 72677,
+            "MD5": "9d96f643cfd220b75f47c94ea56ebc2a",
+            "path": "mods/ferritecore-9.0.0-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/ferritecore-9.0.0-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/iris-fabric-1.11.1+mc26.2.jar",
+          "name": "mods/iris-fabric-1.11.1+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2812824,
+            "MD5": "4caee35375cbabe99e26144a357d264c",
+            "path": "mods/iris-fabric-1.11.1+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/iris-fabric-1.11.1%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+          "name": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 911462,
+            "MD5": "0b27a62a85af1f9b0de2668517a2baed",
+            "path": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/lithium-fabric-0.25.0%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/modmenu-20.0.0-beta.3.jar",
+          "name": "mods/modmenu-20.0.0-beta.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 635877,
+            "MD5": "9776c7754fbd49ad7d09541bfd924597",
+            "path": "mods/modmenu-20.0.0-beta.3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/modmenu-20.0.0-beta.3.jar"
+          }
+        },
+        {
+          "id": "mods/reeses-sodium-options-fabric-2.1.0+mc26.2.jar",
+          "name": "mods/reeses-sodium-options-fabric-2.1.0+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 139540,
+            "MD5": "71ae687b99729bbff05396e8c10208aa",
+            "path": "mods/reeses-sodium-options-fabric-2.1.0+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/reeses-sodium-options-fabric-2.1.0%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/ResourcefulConfig-5.0.0.jar",
+          "name": "mods/ResourcefulConfig-5.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 443979,
+            "MD5": "ac3882f9395be719e52f029d064b8685",
+            "path": "mods/ResourcefulConfig-5.0.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/ResourcefulConfig-5.0.0.jar"
+          }
+        },
+        {
+          "id": "mods/sodium-extra-fabric-0.8.9+mc26.2.jar",
+          "name": "mods/sodium-extra-fabric-0.8.9+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 401789,
+            "MD5": "03e7ae9fe55b30b074a7e7fcb1ebfdbd",
+            "path": "mods/sodium-extra-fabric-0.8.9+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/sodium-extra-fabric-0.8.9%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/sodium-fabric-0.9.0+mc26.2.jar",
+          "name": "mods/sodium-fabric-0.9.0+mc26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1830648,
+            "MD5": "891048660ee85a57802460c5ce95235b",
+            "path": "mods/sodium-fabric-0.9.0+mc26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/sodium-fabric-0.9.0%2Bmc26.2.jar"
+          }
+        },
+        {
+          "id": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+          "name": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 71476,
+            "MD5": "721829145df53b51777d1e022177f8d9",
+            "path": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/structure_layout_optimizer-1.1.4%2B26.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/zfastnoise-1.0.36+26.2.jar",
+          "name": "mods/zfastnoise-1.0.36+26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 473288,
+            "MD5": "cda224f09af0284ff586e2524245311f",
+            "path": "mods/zfastnoise-1.0.36+26.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/mods/zfastnoise-1.0.36%2B26.2.jar"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5283,
+            "MD5": "30ec9112406cec1f182817b5655bcb81",
+            "path": "options.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/options.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.20/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/1.20/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/1.20/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.20/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.20/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/1.21/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/1.21/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.21/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.21/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.21.4/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/1.21.4/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/assets/minecraft/texts/splashes.txt",
+          "name": "resourcepacks/DH Iris RP/assets/minecraft/texts/splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "MD5": "fd0806c20bc4eba900c58640faeb0259",
+            "path": "resourcepacks/DH Iris RP/assets/minecraft/texts/splashes.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "name": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 28418995,
+            "MD5": "03d484120bc6638f8ec2ee2020545db9",
+            "path": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "name": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "f62ac4d31b6f2723ac4c26c0c78d4437",
+            "path": "resourcepacks/DH Iris RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/assets/minecraft/textures/gui/title/background/panorama_overlay.png.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/pack.mcmeta",
+          "name": "resourcepacks/DH Iris RP/pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 791,
+            "MD5": "17d8302be0da0801def5e660d2a8b91c",
+            "path": "resourcepacks/DH Iris RP/pack.mcmeta",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/pack.mcmeta"
+          }
+        },
+        {
+          "id": "resourcepacks/DH Iris RP/pack.png",
+          "name": "resourcepacks/DH Iris RP/pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 17660,
+            "MD5": "15668bdbefcbd60d4b2922978a7f5013",
+            "path": "resourcepacks/DH Iris RP/pack.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/files/resourcepacks/DH%20Iris%20RP/pack.png"
+          }
+        }
+      ],
+      "kekeChunkedFiles": [],
+      "icon": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/horizontedistantefuertre/icon.jpg"
     }
   ]
 }
