@@ -1,7 +1,8 @@
 {
-  "md5": "d67d3ee447aef71d5a8d89b2c27a9943",
+  "md5": "917718805d838884d9e75069d8777a53",
   "servers": {
     "KekeCraft-1.20.1": "1.0.0",
-    "DistantHorizons2": "1.5.0"
+    "DistantHorizons2": "1.5.0",
+    "Quisdmaldito": "1.0.9"
   }
 }
