@@ -1,0 +1,219 @@
+{
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "fabric-0.19.5",
+        "primary": true
+      }
+    ],
+    "recommendedRam": 3072
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Escadona de LuckyBlock",
+  "version": "2.5",
+  "author": "",
+  "overrides": "overrides",
+  "files": [
+    {
+      "projectID": 419699,
+      "fileID": 5137936,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 448233,
+      "fileID": 9100266,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 985426,
+      "fileID": 7581167,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 527334,
+      "fileID": 7213313,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1005914,
+      "fileID": 8883561,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 394468,
+      "fileID": 6260639,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 60089,
+      "fileID": 5230279,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 596224,
+      "fileID": 4632961,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 667299,
+      "fileID": 6336639,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1680746,
+      "fileID": 9095718,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 308702,
+      "fileID": 5162837,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 225608,
+      "fileID": 4586218,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 306612,
+      "fileID": 8784061,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 574741,
+      "fileID": 7591957,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 404870,
+      "fileID": 4962064,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1214728,
+      "fileID": 9225204,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 459857,
+      "fileID": 4810977,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 790626,
+      "fileID": 7306748,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 335493,
+      "fileID": 7546904,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1710846,
+      "fileID": 9101958,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1154099,
+      "fileID": 8636648,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 630104,
+      "fileID": 8563328,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 686911,
+      "fileID": 8348480,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 348521,
+      "fileID": 5729104,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 576825,
+      "fileID": 4817263,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 459496,
+      "fileID": 6237037,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 308769,
+      "fileID": 9106173,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 708967,
+      "fileID": 4739523,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1660355,
+      "fileID": 8703567,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 559312,
+      "fileID": 9225210,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1308987,
+      "fileID": 9225194,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 452046,
+      "fileID": 4610052,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 360438,
+      "fileID": 7268114,
+      "required": true,
+      "isLocked": false
+    }
+  ],
+  "image": "profileImage/escadonalogomodpack.png"
+}

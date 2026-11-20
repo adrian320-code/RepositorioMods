@@ -10374,6 +10374,3314 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/Quisdmaldito/icon.png"
+    },
+    {
+      "id": "luckyEscalon",
+      "mainServer": false,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": ">=17.x",
+        "suggestedMajor": 17
+      },
+      "name": "luckyEscalonWa",
+      "description": "wa",
+      "version": "1.0.1",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.5",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1984980,
+            "MD5": "23bf6a8c5ba938db7d13959a2630357f",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
+            "path": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar"
+          },
+          "subModules": [
+            {
+              "id": "fabric-loader-0.19.5-1.20.1",
+              "name": "Fabric version manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2922,
+                "MD5": "ef5ad9b0a3f8f305fb4f3af4f5c2337f",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/versions/fabric-loader-0.19.5-1.20.1/fabric-loader-0.19.5-1.20.1.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "org.ow2.asm:asm:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+                "path": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "org.ow2.asm:asm-analysis:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+                "path": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "org.ow2.asm:asm-commons:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+                "path": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "org.ow2.asm:asm-tree:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+                "path": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "org.ow2.asm:asm-util:9.10.1",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+                "path": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7",
+              "name": "net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7",
+              "type": "Library",
+              "artifact": {
+                "size": 1539080,
+                "MD5": "9e33b145b2a46fbc70daf532e3705066",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/net/fabricmc/sponge-mixin/0.17.4%2Bmixin.0.8.7/sponge-mixin-0.17.4%2Bmixin.0.8.7.jar",
+                "path": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "net.fabricmc:intermediary:1.20.1",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.__keke_runtime__/libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar",
+                "path": "net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": ".fabric/processedMods/advanced_runtime_resource_pack-0.6.7-9cb5df3ad7ce5a17.jar",
+          "name": ".fabric/processedMods/advanced_runtime_resource_pack-0.6.7-9cb5df3ad7ce5a17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 158777,
+            "MD5": "2785545a4b01559301b4b0b8ac386751",
+            "path": ".fabric/processedMods/advanced_runtime_resource_pack-0.6.7-9cb5df3ad7ce5a17.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/advanced_runtime_resource_pack-0.6.7-9cb5df3ad7ce5a17.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/blue_endless_jankson-1.2.3-4c9914c700baf40e.jar",
+          "name": ".fabric/processedMods/blue_endless_jankson-1.2.3-4c9914c700baf40e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 75817,
+            "MD5": "c961d23900674ae67e73c511ffc779a6",
+            "path": ".fabric/processedMods/blue_endless_jankson-1.2.3-4c9914c700baf40e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/blue_endless_jankson-1.2.3-4c9914c700baf40e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar",
+          "name": ".fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10678,
+            "MD5": "1445462108bd5d14484e817e5aa793f8",
+            "path": ".fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_akuleshov7_ktoml-core-jvm-0.7.1-6270194b594dd61f.jar",
+          "name": ".fabric/processedMods/com_akuleshov7_ktoml-core-jvm-0.7.1-6270194b594dd61f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 257128,
+            "MD5": "94794311f95b4d12e8d4ebcc00050c1f",
+            "path": ".fabric/processedMods/com_akuleshov7_ktoml-core-jvm-0.7.1-6270194b594dd61f.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_akuleshov7_ktoml-core-jvm-0.7.1-6270194b594dd61f.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_electronwill_night-config_core-3.6.6-fc2077a0c80cde10.jar",
+          "name": ".fabric/processedMods/com_electronwill_night-config_core-3.6.6-fc2077a0c80cde10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 203602,
+            "MD5": "582f6a9bf4e703929f6952ee8b1b2d6f",
+            "path": ".fabric/processedMods/com_electronwill_night-config_core-3.6.6-fc2077a0c80cde10.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_electronwill_night-config_core-3.6.6-fc2077a0c80cde10.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_electronwill_night-config_toml-3.6.6-303f2479c7df7959.jar",
+          "name": ".fabric/processedMods/com_electronwill_night-config_toml-3.6.6-303f2479c7df7959.jar",
+          "type": "File",
+          "artifact": {
+            "size": 33167,
+            "MD5": "e723056facfdc8b1bf1db61b5fd43ad2",
+            "path": ".fabric/processedMods/com_electronwill_night-config_toml-3.6.6-303f2479c7df7959.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_electronwill_night-config_toml-3.6.6-303f2479c7df7959.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_twelvemonkeys_common_common-io-3.12.0-86b1ac244fa6455c.jar",
+          "name": ".fabric/processedMods/com_twelvemonkeys_common_common-io-3.12.0-86b1ac244fa6455c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 92590,
+            "MD5": "dcb5fdea86c51b99677d5862ae173c06",
+            "path": ".fabric/processedMods/com_twelvemonkeys_common_common-io-3.12.0-86b1ac244fa6455c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_twelvemonkeys_common_common-io-3.12.0-86b1ac244fa6455c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_twelvemonkeys_common_common-lang-3.12.0-6be701ca605fcfc7.jar",
+          "name": ".fabric/processedMods/com_twelvemonkeys_common_common-lang-3.12.0-6be701ca605fcfc7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 122063,
+            "MD5": "23103c196d28e5dad2e4f5d8b9a16aab",
+            "path": ".fabric/processedMods/com_twelvemonkeys_common_common-lang-3.12.0-6be701ca605fcfc7.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_twelvemonkeys_common_common-lang-3.12.0-6be701ca605fcfc7.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_twelvemonkeys_common_common-mage-3.12.0-deb3b1501a6070e5.jar",
+          "name": ".fabric/processedMods/com_twelvemonkeys_common_common-mage-3.12.0-deb3b1501a6070e5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 79902,
+            "MD5": "0eb17e5f8641ad77402962a05c0b269b",
+            "path": ".fabric/processedMods/com_twelvemonkeys_common_common-mage-3.12.0-deb3b1501a6070e5.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_twelvemonkeys_common_common-mage-3.12.0-deb3b1501a6070e5.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_twelvemonkeys_imageio_imageiadata-3.12.0-d4e6b5ecedfe42c.jar",
+          "name": ".fabric/processedMods/com_twelvemonkeys_imageio_imageiadata-3.12.0-d4e6b5ecedfe42c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 83864,
+            "MD5": "9361a448afd12689669a8b1dad9ee595",
+            "path": ".fabric/processedMods/com_twelvemonkeys_imageio_imageiadata-3.12.0-d4e6b5ecedfe42c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_twelvemonkeys_imageio_imageiadata-3.12.0-d4e6b5ecedfe42c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_twelvemonkeys_imageio_imageicore-3.12.0-3b260d8299c9b513.jar",
+          "name": ".fabric/processedMods/com_twelvemonkeys_imageio_imageicore-3.12.0-3b260d8299c9b513.jar",
+          "type": "File",
+          "artifact": {
+            "size": 120156,
+            "MD5": "0c91ce9ec443304a09a84eefe6de2607",
+            "path": ".fabric/processedMods/com_twelvemonkeys_imageio_imageicore-3.12.0-3b260d8299c9b513.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_twelvemonkeys_imageio_imageicore-3.12.0-3b260d8299c9b513.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/com_twelvemonkeys_imageio_imageiwebp-3.12.0-16e1ec7310cf986c.jar",
+          "name": ".fabric/processedMods/com_twelvemonkeys_imageio_imageiwebp-3.12.0-16e1ec7310cf986c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 79961,
+            "MD5": "dde00b1cf602b1ffc081adc4f6aacfe8",
+            "path": ".fabric/processedMods/com_twelvemonkeys_imageio_imageiwebp-3.12.0-16e1ec7310cf986c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/com_twelvemonkeys_imageio_imageiwebp-3.12.0-16e1ec7310cf986c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/conditional-mixin-0.5.1-13516f56980cb026.jar",
+          "name": ".fabric/processedMods/conditional-mixin-0.5.1-13516f56980cb026.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24129,
+            "MD5": "f9d9e5dc9d327c3b767403a0d244bfa0",
+            "path": ".fabric/processedMods/conditional-mixin-0.5.1-13516f56980cb026.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/conditional-mixin-0.5.1-13516f56980cb026.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-api-base-0.4.32+1802ada577-df9dd588b4bcd77e.jar",
+          "name": ".fabric/processedMods/fabric-api-base-0.4.32+1802ada577-df9dd588b4bcd77e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 31137,
+            "MD5": "056792aa3f137121f3b370079d68c40c",
+            "path": ".fabric/processedMods/fabric-api-base-0.4.32+1802ada577-df9dd588b4bcd77e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-api-base-0.4.32%2B1802ada577-df9dd588b4bcd77e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-api-lookup-api-v1-1.6.37+1802ada577-f67dea0a73f3bd29.jar",
+          "name": ".fabric/processedMods/fabric-api-lookup-api-v1-1.6.37+1802ada577-f67dea0a73f3bd29.jar",
+          "type": "File",
+          "artifact": {
+            "size": 53258,
+            "MD5": "9a79401aa62fd045defc5ab5c3080f77",
+            "path": ".fabric/processedMods/fabric-api-lookup-api-v1-1.6.37+1802ada577-f67dea0a73f3bd29.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-api-lookup-api-v1-1.6.37%2B1802ada577-f67dea0a73f3bd29.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-biome-api-v1-13.0.15+93aa238b77-8255629c0ca9e6a7.jar",
+          "name": ".fabric/processedMods/fabric-biome-api-v1-13.0.15+93aa238b77-8255629c0ca9e6a7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 82541,
+            "MD5": "09064327978e11f70e0cac2dd79c62b3",
+            "path": ".fabric/processedMods/fabric-biome-api-v1-13.0.15+93aa238b77-8255629c0ca9e6a7.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-biome-api-v1-13.0.15%2B93aa238b77-8255629c0ca9e6a7.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-block-api-v1-1.0.12+1802ada577-fdbee77779925d98.jar",
+          "name": ".fabric/processedMods/fabric-block-api-v1-1.0.12+1802ada577-fdbee77779925d98.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14730,
+            "MD5": "df172ae0b8ac6c712ed1541e40d5a074",
+            "path": ".fabric/processedMods/fabric-block-api-v1-1.0.12+1802ada577-fdbee77779925d98.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-block-api-v1-1.0.12%2B1802ada577-fdbee77779925d98.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-block-view-api-v2-1.0.3+924f046a77-efb60c1aba956d63.jar",
+          "name": ".fabric/processedMods/fabric-block-view-api-v2-1.0.3+924f046a77-efb60c1aba956d63.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24019,
+            "MD5": "b84ce9e3c99c801d0423c3c1386e260f",
+            "path": ".fabric/processedMods/fabric-block-view-api-v2-1.0.3+924f046a77-efb60c1aba956d63.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-block-view-api-v2-1.0.3%2B924f046a77-efb60c1aba956d63.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-blockrenderlayer-v1-1.1.4+1802ada577-febf1b59efa80fda.jar",
+          "name": ".fabric/processedMods/fabric-blockrenderlayer-v1-1.1.4+1802ada577-febf1b59efa80fda.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18003,
+            "MD5": "798d08c1ab645313d5f2b73ffd136641",
+            "path": ".fabric/processedMods/fabric-blockrenderlayer-v1-1.1.4+1802ada577-febf1b59efa80fda.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-blockrenderlayer-v1-1.1.4%2B1802ada577-febf1b59efa80fda.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-client-tags-api-v1-1.2.0+238242b777-dc5309adc5dbfc65.jar",
+          "name": ".fabric/processedMods/fabric-client-tags-api-v1-1.2.0+238242b777-dc5309adc5dbfc65.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24046,
+            "MD5": "e4a676e0d427f21fea6ac5cee574edb1",
+            "path": ".fabric/processedMods/fabric-client-tags-api-v1-1.2.0+238242b777-dc5309adc5dbfc65.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-client-tags-api-v1-1.2.0%2B238242b777-dc5309adc5dbfc65.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-command-api-v1-1.2.35+f71b366f77-8e74d6b2eb27e934.jar",
+          "name": ".fabric/processedMods/fabric-command-api-v1-1.2.35+f71b366f77-8e74d6b2eb27e934.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13873,
+            "MD5": "0a8a779748575151a430fdba9bab80c9",
+            "path": ".fabric/processedMods/fabric-command-api-v1-1.2.35+f71b366f77-8e74d6b2eb27e934.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-command-api-v1-1.2.35%2Bf71b366f77-8e74d6b2eb27e934.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-command-api-v2-2.2.14+1802ada577-f17281b62110ace8.jar",
+          "name": ".fabric/processedMods/fabric-command-api-v2-2.2.14+1802ada577-f17281b62110ace8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 38006,
+            "MD5": "9b385f79af30aee26135469b97aa2a05",
+            "path": ".fabric/processedMods/fabric-command-api-v2-2.2.14+1802ada577-f17281b62110ace8.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-command-api-v2-2.2.14%2B1802ada577-f17281b62110ace8.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-commands-v0-0.2.52+df3654b377-e9ee82e95a1cd8fe.jar",
+          "name": ".fabric/processedMods/fabric-commands-v0-0.2.52+df3654b377-e9ee82e95a1cd8fe.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11369,
+            "MD5": "c191408b12c821f582724fc9d3f8bf58",
+            "path": ".fabric/processedMods/fabric-commands-v0-0.2.52+df3654b377-e9ee82e95a1cd8fe.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-commands-v0-0.2.52%2Bdf3654b377-e9ee82e95a1cd8fe.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-containers-v0-0.1.68+df3654b377-fbc175eb3dd47816.jar",
+          "name": ".fabric/processedMods/fabric-containers-v0-0.1.68+df3654b377-fbc175eb3dd47816.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25494,
+            "MD5": "c181d0fd3710720c97ea1d0d5a14112d",
+            "path": ".fabric/processedMods/fabric-containers-v0-0.1.68+df3654b377-fbc175eb3dd47816.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-containers-v0-0.1.68%2Bdf3654b377-fbc175eb3dd47816.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-content-registries-v0-4.0+1802ada577-950d8a0687fa97a7.jar",
+          "name": ".fabric/processedMods/fabric-content-registries-v0-4.0+1802ada577-950d8a0687fa97a7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 58005,
+            "MD5": "040e39f72d0ab05f3061946a936fff94",
+            "path": ".fabric/processedMods/fabric-content-registries-v0-4.0+1802ada577-950d8a0687fa97a7.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-content-registries-v0-4.0%2B1802ada577-950d8a0687fa97a7.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-convention-tags-v1-1.5.6+1802ada577-309212a42c364a53.jar",
+          "name": ".fabric/processedMods/fabric-convention-tags-v1-1.5.6+1802ada577-309212a42c364a53.jar",
+          "type": "File",
+          "artifact": {
+            "size": 83947,
+            "MD5": "087b8d621c6357b947aca366c4acfcfa",
+            "path": ".fabric/processedMods/fabric-convention-tags-v1-1.5.6+1802ada577-309212a42c364a53.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-convention-tags-v1-1.5.6%2B1802ada577-309212a42c364a53.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-crash-report-info-v1-0.2.+1802ada577-a0e2deeb288ce475.jar",
+          "name": ".fabric/processedMods/fabric-crash-report-info-v1-0.2.+1802ada577-a0e2deeb288ce475.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14255,
+            "MD5": "602973b54860c133045b1c311bf19354",
+            "path": ".fabric/processedMods/fabric-crash-report-info-v1-0.2.+1802ada577-a0e2deeb288ce475.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-crash-report-info-v1-0.2.%2B1802ada577-a0e2deeb288ce475.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-data-attachment-api-v1-1.+de0fd6d177-ed9f2ab1b9d301fc.jar",
+          "name": ".fabric/processedMods/fabric-data-attachment-api-v1-1.+de0fd6d177-ed9f2ab1b9d301fc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45092,
+            "MD5": "5445b28f3dd63e3870d119f845d566bf",
+            "path": ".fabric/processedMods/fabric-data-attachment-api-v1-1.+de0fd6d177-ed9f2ab1b9d301fc.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-data-attachment-api-v1-1.%2Bde0fd6d177-ed9f2ab1b9d301fc.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-data-generation-api-v1-12+238242b777-d9a4bb998ef6daa3.jar",
+          "name": ".fabric/processedMods/fabric-data-generation-api-v1-12+238242b777-d9a4bb998ef6daa3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 97284,
+            "MD5": "4729ebaecc6f1f058284328b2efbcdff",
+            "path": ".fabric/processedMods/fabric-data-generation-api-v1-12+238242b777-d9a4bb998ef6daa3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-data-generation-api-v1-12%2B238242b777-d9a4bb998ef6daa3.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-dimensions-v1-2.1.55+1802ada577-36f336d5c33f3f4b.jar",
+          "name": ".fabric/processedMods/fabric-dimensions-v1-2.1.55+1802ada577-36f336d5c33f3f4b.jar",
+          "type": "File",
+          "artifact": {
+            "size": 27640,
+            "MD5": "b2a5314ce8c6d4a56f8d3b4f6137f8a6",
+            "path": ".fabric/processedMods/fabric-dimensions-v1-2.1.55+1802ada577-36f336d5c33f3f4b.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-dimensions-v1-2.1.55%2B1802ada577-36f336d5c33f3f4b.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-entity-events-v1-1.6.1+1c78457f77-2498c71a55c375b2.jar",
+          "name": ".fabric/processedMods/fabric-entity-events-v1-1.6.1+1c78457f77-2498c71a55c375b2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 69345,
+            "MD5": "b1af5f097c4e77759f2ce630c13efad8",
+            "path": ".fabric/processedMods/fabric-entity-events-v1-1.6.1+1c78457f77-2498c71a55c375b2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-entity-events-v1-1.6.1%2B1c78457f77-2498c71a55c375b2.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-events-interaction-v0-0.6+13a40c6677-764b3f12d7839519.jar",
+          "name": ".fabric/processedMods/fabric-events-interaction-v0-0.6+13a40c6677-764b3f12d7839519.jar",
+          "type": "File",
+          "artifact": {
+            "size": 61433,
+            "MD5": "142763b490ce4f9f84d660b78a91a927",
+            "path": ".fabric/processedMods/fabric-events-interaction-v0-0.6+13a40c6677-764b3f12d7839519.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-events-interaction-v0-0.6%2B13a40c6677-764b3f12d7839519.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-events-lifecycle-v0-0.2.6+df3654b377-e9578ebb7c5e3c15.jar",
+          "name": ".fabric/processedMods/fabric-events-lifecycle-v0-0.2.6+df3654b377-e9578ebb7c5e3c15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23504,
+            "MD5": "31d14f5600722923532f98e31da2e41d",
+            "path": ".fabric/processedMods/fabric-events-lifecycle-v0-0.2.6+df3654b377-e9578ebb7c5e3c15.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-events-lifecycle-v0-0.2.6%2Bdf3654b377-e9578ebb7c5e3c15.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-game-rule-api-v1-1.0.41+1802ada577-d5b614cb75304ec8.jar",
+          "name": ".fabric/processedMods/fabric-game-rule-api-v1-1.0.41+1802ada577-d5b614cb75304ec8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 55028,
+            "MD5": "8f4011665629b6e492e70da6ed325083",
+            "path": ".fabric/processedMods/fabric-game-rule-api-v1-1.0.41+1802ada577-d5b614cb75304ec8.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-game-rule-api-v1-1.0.41%2B1802ada577-d5b614cb75304ec8.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-item-api-v1-2.1.29+1802ada577-bdcf9c11aa1c835d.jar",
+          "name": ".fabric/processedMods/fabric-item-api-v1-2.1.29+1802ada577-bdcf9c11aa1c835d.jar",
+          "type": "File",
+          "artifact": {
+            "size": 41074,
+            "MD5": "89b7e59fe5334303a5ec9a0d39db9813",
+            "path": ".fabric/processedMods/fabric-item-api-v1-2.1.29+1802ada577-bdcf9c11aa1c835d.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-item-api-v1-2.1.29%2B1802ada577-bdcf9c11aa1c835d.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-item-group-api-v1-4.0.14+1802ada577-3981c5e55ad6dbe0.jar",
+          "name": ".fabric/processedMods/fabric-item-group-api-v1-4.0.14+1802ada577-3981c5e55ad6dbe0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 56626,
+            "MD5": "54b41ca81a5923c17612a1af57457094",
+            "path": ".fabric/processedMods/fabric-item-group-api-v1-4.0.14+1802ada577-3981c5e55ad6dbe0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-item-group-api-v1-4.0.14%2B1802ada577-3981c5e55ad6dbe0.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-key-binding-api-v1-1.0.38+1802ada577-cc48a09e14d19f3b.jar",
+          "name": ".fabric/processedMods/fabric-key-binding-api-v1-1.0.38+1802ada577-cc48a09e14d19f3b.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19321,
+            "MD5": "0c7c36de3377d017ca6994b269ce0324",
+            "path": ".fabric/processedMods/fabric-key-binding-api-v1-1.0.38+1802ada577-cc48a09e14d19f3b.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-key-binding-api-v1-1.0.38%2B1802ada577-cc48a09e14d19f3b.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-keybindings-v0-0.2.36+df3654b377-e2df94796660d173.jar",
+          "name": ".fabric/processedMods/fabric-keybindings-v0-0.2.36+df3654b377-e2df94796660d173.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14196,
+            "MD5": "349a8fd9a6afce2f2b3d09c990f1041d",
+            "path": ".fabric/processedMods/fabric-keybindings-v0-0.2.36+df3654b377-e2df94796660d173.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-keybindings-v0-0.2.36%2Bdf3654b377-e2df94796660d173.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-lifecycle-events-v1-2.2.2+1802ada577-2a8dc72df19deb41.jar",
+          "name": ".fabric/processedMods/fabric-lifecycle-events-v1-2.2.2+1802ada577-2a8dc72df19deb41.jar",
+          "type": "File",
+          "artifact": {
+            "size": 92050,
+            "MD5": "014660a9449df1a60bc8e45750f96be9",
+            "path": ".fabric/processedMods/fabric-lifecycle-events-v1-2.2.2+1802ada577-2a8dc72df19deb41.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-lifecycle-events-v1-2.2.2%2B1802ada577-2a8dc72df19deb41.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-loot-api-v2-1.2.3+1802ada577-b95b0b664bb40784.jar",
+          "name": ".fabric/processedMods/fabric-loot-api-v2-1.2.3+1802ada577-b95b0b664bb40784.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29040,
+            "MD5": "02b2cee26ee785fdfe810d46d2b0a4b1",
+            "path": ".fabric/processedMods/fabric-loot-api-v2-1.2.3+1802ada577-b95b0b664bb40784.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-loot-api-v2-1.2.3%2B1802ada577-b95b0b664bb40784.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-loot-tables-v1-1.1.47+9e7660c677-c53d7a3d37a8f643.jar",
+          "name": ".fabric/processedMods/fabric-loot-tables-v1-1.1.47+9e7660c677-c53d7a3d37a8f643.jar",
+          "type": "File",
+          "artifact": {
+            "size": 30265,
+            "MD5": "e9e792a943fea564d78b8c6f87d1d54a",
+            "path": ".fabric/processedMods/fabric-loot-tables-v1-1.1.47+9e7660c677-c53d7a3d37a8f643.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-loot-tables-v1-1.1.47%2B9e7660c677-c53d7a3d37a8f643.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-message-api-v1-5.1.10+1802ada577-a1fd2bc91cffa86a.jar",
+          "name": ".fabric/processedMods/fabric-message-api-v1-5.1.10+1802ada577-a1fd2bc91cffa86a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 48493,
+            "MD5": "2a1ce718f551f857cac5cb344db44bc7",
+            "path": ".fabric/processedMods/fabric-message-api-v1-5.1.10+1802ada577-a1fd2bc91cffa86a.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-message-api-v1-5.1.10%2B1802ada577-a1fd2bc91cffa86a.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-mining-level-api-v1-2.1.5+1802ada577-1bdc51aeb073e372.jar",
+          "name": ".fabric/processedMods/fabric-mining-level-api-v1-2.1.5+1802ada577-1bdc51aeb073e372.jar",
+          "type": "File",
+          "artifact": {
+            "size": 22093,
+            "MD5": "0129c05ecff456122b1244cd1343d9b4",
+            "path": ".fabric/processedMods/fabric-mining-level-api-v1-2.1.5+1802ada577-1bdc51aeb073e372.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-mining-level-api-v1-2.1.5%2B1802ada577-1bdc51aeb073e372.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-model-loading-api-v1-1.0.+1802ada577-3198f476a388701a.jar",
+          "name": ".fabric/processedMods/fabric-model-loading-api-v1-1.0.+1802ada577-3198f476a388701a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 63268,
+            "MD5": "bfb9ea35733877b415e59da3dbf56b1f",
+            "path": ".fabric/processedMods/fabric-model-loading-api-v1-1.0.+1802ada577-3198f476a388701a.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-model-loading-api-v1-1.0.%2B1802ada577-3198f476a388701a.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-models-v0-0.4.3+9386d8a777-5d3fada9528fd759.jar",
+          "name": ".fabric/processedMods/fabric-models-v0-0.4.3+9386d8a777-5d3fada9528fd759.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20555,
+            "MD5": "63a57cc47b63f5588ec0c4873f4ee638",
+            "path": ".fabric/processedMods/fabric-models-v0-0.4.3+9386d8a777-5d3fada9528fd759.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-models-v0-0.4.3%2B9386d8a777-5d3fada9528fd759.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-networking-api-v1-1.3.15+0caff8d077-9edf2eb9d6317000.jar",
+          "name": ".fabric/processedMods/fabric-networking-api-v1-1.3.15+0caff8d077-9edf2eb9d6317000.jar",
+          "type": "File",
+          "artifact": {
+            "size": 133684,
+            "MD5": "5752d185144df7305d2af328cc93dfa8",
+            "path": ".fabric/processedMods/fabric-networking-api-v1-1.3.15+0caff8d077-9edf2eb9d6317000.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-networking-api-v1-1.3.15%2B0caff8d077-9edf2eb9d6317000.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-networking-v0-0.3.55+df3654b377-472d348f799ec790.jar",
+          "name": ".fabric/processedMods/fabric-networking-v0-0.3.55+df3654b377-472d348f799ec790.jar",
+          "type": "File",
+          "artifact": {
+            "size": 31070,
+            "MD5": "6a3d2281f451f1d8d219e81ff52b64c6",
+            "path": ".fabric/processedMods/fabric-networking-v0-0.3.55+df3654b377-472d348f799ec790.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-networking-v0-0.3.55%2Bdf3654b377-472d348f799ec790.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-object-builder-api-v1-11.+e35120df77-679c133496575de1.jar",
+          "name": ".fabric/processedMods/fabric-object-builder-api-v1-11.+e35120df77-679c133496575de1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 71656,
+            "MD5": "0ad3c518babab55a831ba693488fbfad",
+            "path": ".fabric/processedMods/fabric-object-builder-api-v1-11.+e35120df77-679c133496575de1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-object-builder-api-v1-11.%2Be35120df77-679c133496575de1.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-particles-v1-1.1.3+1802ada577-ae1bd1cb33e790e0.jar",
+          "name": ".fabric/processedMods/fabric-particles-v1-1.1.3+1802ada577-ae1bd1cb33e790e0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 31922,
+            "MD5": "82f030cf8de64cd9d85b27bb5cfdc9c0",
+            "path": ".fabric/processedMods/fabric-particles-v1-1.1.3+1802ada577-ae1bd1cb33e790e0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-particles-v1-1.1.3%2B1802ada577-ae1bd1cb33e790e0.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-permissions-api-v0-0.3.1-1fe598067d104722.jar",
+          "name": ".fabric/processedMods/fabric-permissions-api-v0-0.3.1-1fe598067d104722.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12935,
+            "MD5": "d78a812e6eed64420a5d089e068d286e",
+            "path": ".fabric/processedMods/fabric-permissions-api-v0-0.3.1-1fe598067d104722.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-permissions-api-v0-0.3.1-1fe598067d104722.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-recipe-api-v1-1.0.25+1802ada577-3602691454f66d23.jar",
+          "name": ".fabric/processedMods/fabric-recipe-api-v1-1.0.25+1802ada577-3602691454f66d23.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50708,
+            "MD5": "0655f040244a675c689fc1eeda556fe1",
+            "path": ".fabric/processedMods/fabric-recipe-api-v1-1.0.25+1802ada577-3602691454f66d23.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-recipe-api-v1-1.0.25%2B1802ada577-3602691454f66d23.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-registry-sync-v0-2.4.1+4c0a70e677-aa49cce5e1f39cc9.jar",
+          "name": ".fabric/processedMods/fabric-registry-sync-v0-2.4.1+4c0a70e677-aa49cce5e1f39cc9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 118019,
+            "MD5": "6a115ebe1c0aecd4017e3e5f7dedc6fe",
+            "path": ".fabric/processedMods/fabric-registry-sync-v0-2.4.1+4c0a70e677-aa49cce5e1f39cc9.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-registry-sync-v0-2.4.1%2B4c0a70e677-aa49cce5e1f39cc9.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-renderer-api-v1-3.2.2+1802ada577-4a39ce5e6dd592fd.jar",
+          "name": ".fabric/processedMods/fabric-renderer-api-v1-3.2.2+1802ada577-4a39ce5e6dd592fd.jar",
+          "type": "File",
+          "artifact": {
+            "size": 60027,
+            "MD5": "8a7af65a606fb8b8bc79ea0be414f366",
+            "path": ".fabric/processedMods/fabric-renderer-api-v1-3.2.2+1802ada577-4a39ce5e6dd592fd.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-renderer-api-v1-3.2.2%2B1802ada577-4a39ce5e6dd592fd.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-renderer-indigo-1.5.3+85287f9f77-6a3d415f0175d95f.jar",
+          "name": ".fabric/processedMods/fabric-renderer-indigo-1.5.3+85287f9f77-6a3d415f0175d95f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 117663,
+            "MD5": "87c9a58e0d2428b07ca7e89de155e9dc",
+            "path": ".fabric/processedMods/fabric-renderer-indigo-1.5.3+85287f9f77-6a3d415f0175d95f.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-renderer-indigo-1.5.3%2B85287f9f77-6a3d415f0175d95f.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-renderer-registries-v1-3.8+df3654b377-9e1b14080f10689.jar",
+          "name": ".fabric/processedMods/fabric-renderer-registries-v1-3.8+df3654b377-9e1b14080f10689.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19031,
+            "MD5": "4ccc93403ce457619f001fa0ebf98b41",
+            "path": ".fabric/processedMods/fabric-renderer-registries-v1-3.8+df3654b377-9e1b14080f10689.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-renderer-registries-v1-3.8%2Bdf3654b377-9e1b14080f10689.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-rendering-data-attachment+92a0d36777-14bd5352b7040599.jar",
+          "name": ".fabric/processedMods/fabric-rendering-data-attachment+92a0d36777-14bd5352b7040599.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17821,
+            "MD5": "1f85c2078f3ab74f330005a694875a45",
+            "path": ".fabric/processedMods/fabric-rendering-data-attachment+92a0d36777-14bd5352b7040599.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-rendering-data-attachment%2B92a0d36777-14bd5352b7040599.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-rendering-fluids-v1-3.0.2+1802ada577-62ba5f4dcba1d770.jar",
+          "name": ".fabric/processedMods/fabric-rendering-fluids-v1-3.0.2+1802ada577-62ba5f4dcba1d770.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28468,
+            "MD5": "672250c6f7735f82402a6c8505802bec",
+            "path": ".fabric/processedMods/fabric-rendering-fluids-v1-3.0.2+1802ada577-62ba5f4dcba1d770.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-rendering-fluids-v1-3.0.2%2B1802ada577-62ba5f4dcba1d770.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-rendering-v0-1.1.51+df3654b377-bfe347f7fdae6948.jar",
+          "name": ".fabric/processedMods/fabric-rendering-v0-1.1.51+df3654b377-bfe347f7fdae6948.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17218,
+            "MD5": "21b9256400716fa522a5eea85e1abae5",
+            "path": ".fabric/processedMods/fabric-rendering-v0-1.1.51+df3654b377-bfe347f7fdae6948.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-rendering-v0-1.1.51%2Bdf3654b377-bfe347f7fdae6948.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-rendering-v1-3.0.10+54550fb677-eb7a19d7a2ba6ed2.jar",
+          "name": ".fabric/processedMods/fabric-rendering-v1-3.0.10+54550fb677-eb7a19d7a2ba6ed2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 97502,
+            "MD5": "683eb347505e44b67d984c06c19c9525",
+            "path": ".fabric/processedMods/fabric-rendering-v1-3.0.10+54550fb677-eb7a19d7a2ba6ed2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-rendering-v1-3.0.10%2B54550fb677-eb7a19d7a2ba6ed2.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-resource-conditions-api-v+1802ada577-d7f4088ab7b4f662.jar",
+          "name": ".fabric/processedMods/fabric-resource-conditions-api-v+1802ada577-d7f4088ab7b4f662.jar",
+          "type": "File",
+          "artifact": {
+            "size": 43811,
+            "MD5": "5379e2da4fc66cae5868b8667ceec738",
+            "path": ".fabric/processedMods/fabric-resource-conditions-api-v+1802ada577-d7f4088ab7b4f662.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-resource-conditions-api-v%2B1802ada577-d7f4088ab7b4f662.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-resource-loader-v0-0.11.1+fb82e9d777-6c53958ebbf85735.jar",
+          "name": ".fabric/processedMods/fabric-resource-loader-v0-0.11.1+fb82e9d777-6c53958ebbf85735.jar",
+          "type": "File",
+          "artifact": {
+            "size": 94534,
+            "MD5": "06f4d7bf9c99df7bc3d712529f88528d",
+            "path": ".fabric/processedMods/fabric-resource-loader-v0-0.11.1+fb82e9d777-6c53958ebbf85735.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-resource-loader-v0-0.11.1%2Bfb82e9d777-6c53958ebbf85735.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-screen-api-v1-2.0.9+1802ada577-64960e913754b44f.jar",
+          "name": ".fabric/processedMods/fabric-screen-api-v1-2.0.9+1802ada577-64960e913754b44f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 57137,
+            "MD5": "f059faa7569b6abfe8efa25f3a21e935",
+            "path": ".fabric/processedMods/fabric-screen-api-v1-2.0.9+1802ada577-64960e913754b44f.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-screen-api-v1-2.0.9%2B1802ada577-64960e913754b44f.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-screen-handler-api-v1-1.3+1802ada577-c219148eaf58a0dc.jar",
+          "name": ".fabric/processedMods/fabric-screen-handler-api-v1-1.3+1802ada577-c219148eaf58a0dc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 30836,
+            "MD5": "721bdae63ddee5e0b76f9eff08924f8b",
+            "path": ".fabric/processedMods/fabric-screen-handler-api-v1-1.3+1802ada577-c219148eaf58a0dc.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-screen-handler-api-v1-1.3%2B1802ada577-c219148eaf58a0dc.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-sound-api-v1-1.0.14+1802ada577-c7ff00ba41f901d4.jar",
+          "name": ".fabric/processedMods/fabric-sound-api-v1-1.0.14+1802ada577-c7ff00ba41f901d4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18590,
+            "MD5": "224fb378d38106f30963ea4efd47472c",
+            "path": ".fabric/processedMods/fabric-sound-api-v1-1.0.14+1802ada577-c7ff00ba41f901d4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-sound-api-v1-1.0.14%2B1802ada577-c7ff00ba41f901d4.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-tag-api-v1-1.3.0+238242b777-841305192226018b.jar",
+          "name": ".fabric/processedMods/fabric-tag-api-v1-1.3.0+238242b777-841305192226018b.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24738,
+            "MD5": "f48937af356f2eafdd671a01b97b6a4b",
+            "path": ".fabric/processedMods/fabric-tag-api-v1-1.3.0+238242b777-841305192226018b.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-tag-api-v1-1.3.0%2B238242b777-841305192226018b.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-transfer-api-v1-3.3.6+8dd72ea377-3a8653b5859c954c.jar",
+          "name": ".fabric/processedMods/fabric-transfer-api-v1-3.3.6+8dd72ea377-3a8653b5859c954c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 189313,
+            "MD5": "73cde3a207a99666a576d514d52df641",
+            "path": ".fabric/processedMods/fabric-transfer-api-v1-3.3.6+8dd72ea377-3a8653b5859c954c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-transfer-api-v1-3.3.6%2B8dd72ea377-3a8653b5859c954c.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/fabric-transitive-access-widener+1802ada577-98896df27656feee.jar",
+          "name": ".fabric/processedMods/fabric-transitive-access-widener+1802ada577-98896df27656feee.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11877,
+            "MD5": "3ab610b294283649735c23832a56a511",
+            "path": ".fabric/processedMods/fabric-transitive-access-widener+1802ada577-98896df27656feee.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/fabric-transitive-access-widener%2B1802ada577-98896df27656feee.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/forgeconfigapiport-8.0.0-bc788ea406fd81e.jar",
+          "name": ".fabric/processedMods/forgeconfigapiport-8.0.0-bc788ea406fd81e.jar",
+          "type": "File",
+          "artifact": {
+            "size": 397198,
+            "MD5": "9b680a583230400e887dc545aa974936",
+            "path": ".fabric/processedMods/forgeconfigapiport-8.0.0-bc788ea406fd81e.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/forgeconfigapiport-8.0.0-bc788ea406fd81e.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/indium-1.99.99-9ccc99fb012676dc.jar",
+          "name": ".fabric/processedMods/indium-1.99.99-9ccc99fb012676dc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 481,
+            "MD5": "da3229ab49e3e6a95f7781cce920774d",
+            "path": ".fabric/processedMods/indium-1.99.99-9ccc99fb012676dc.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/indium-1.99.99-9ccc99fb012676dc.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/io_github_douira_glsl-transformer-2.0.1-f38058f2330ca93a.jar",
+          "name": ".fabric/processedMods/io_github_douira_glsl-transformer-2.0.1-f38058f2330ca93a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 714514,
+            "MD5": "bff203fc78ecd5534a751903d08570cf",
+            "path": ".fabric/processedMods/io_github_douira_glsl-transformer-2.0.1-f38058f2330ca93a.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/io_github_douira_glsl-transformer-2.0.1-f38058f2330ca93a.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/mixinextras-0.5.5-cd81fe35163f5828.jar",
+          "name": ".fabric/processedMods/mixinextras-0.5.5-cd81fe35163f5828.jar",
+          "type": "File",
+          "artifact": {
+            "size": 727864,
+            "MD5": "c67dd516464988323e27c2e631c44562",
+            "path": ".fabric/processedMods/mixinextras-0.5.5-cd81fe35163f5828.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/mixinextras-0.5.5-cd81fe35163f5828.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/mixinsquared-0.1.1-fe6bfbac9a4fd7f.jar",
+          "name": ".fabric/processedMods/mixinsquared-0.1.1-fe6bfbac9a4fd7f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18447,
+            "MD5": "4161a319dbabe83dfdff78a7a4435d49",
+            "path": ".fabric/processedMods/mixinsquared-0.1.1-fe6bfbac9a4fd7f.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/mixinsquared-0.1.1-fe6bfbac9a4fd7f.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/net_lenni0451_reflect-1.6.2-5aedc814774d9589.jar",
+          "name": ".fabric/processedMods/net_lenni0451_reflect-1.6.2-5aedc814774d9589.jar",
+          "type": "File",
+          "artifact": {
+            "size": 220033,
+            "MD5": "cd921296a982a008597b31b7d4df7be6",
+            "path": ".fabric/processedMods/net_lenni0451_reflect-1.6.2-5aedc814774d9589.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/net_lenni0451_reflect-1.6.2-5aedc814774d9589.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/net_lostluma_battery-2.0.0-46558345e4b061b4.jar",
+          "name": ".fabric/processedMods/net_lostluma_battery-2.0.0-46558345e4b061b4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 38523,
+            "MD5": "8033f26b0ae87151e53d5edeb016dfdd",
+            "path": ".fabric/processedMods/net_lostluma_battery-2.0.0-46558345e4b061b4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/net_lostluma_battery-2.0.0-46558345e4b061b4.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/net_peanuuutz_tomlkt_tomlkt-jvm-0.3.7-e0012c4c6b89a256.jar",
+          "name": ".fabric/processedMods/net_peanuuutz_tomlkt_tomlkt-jvm-0.3.7-e0012c4c6b89a256.jar",
+          "type": "File",
+          "artifact": {
+            "size": 259274,
+            "MD5": "4e9779ead03a60793afb8d6c936325a4",
+            "path": ".fabric/processedMods/net_peanuuutz_tomlkt_tomlkt-jvm-0.3.7-e0012c4c6b89a256.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/net_peanuuutz_tomlkt_tomlkt-jvm-0.3.7-e0012c4c6b89a256.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_anarres_jcpp-1.4.14-b17d3642a4b336e4.jar",
+          "name": ".fabric/processedMods/org_anarres_jcpp-1.4.14-b17d3642a4b336e4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 76595,
+            "MD5": "5ca553541c676b7a11c2a6412d2f74db",
+            "path": ".fabric/processedMods/org_anarres_jcpp-1.4.14-b17d3642a4b336e4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_anarres_jcpp-1.4.14-b17d3642a4b336e4.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-aa40604b69b4ceaf.jar",
+          "name": ".fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-aa40604b69b4ceaf.jar",
+          "type": "File",
+          "artifact": {
+            "size": 328770,
+            "MD5": "16a9b5f4f7376bffb1e93531d343fff8",
+            "path": ".fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-aa40604b69b4ceaf.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-aa40604b69b4ceaf.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-reflect-2.4.21-7eb114fe6a9e5b91.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-reflect-2.4.21-7eb114fe6a9e5b91.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3849139,
+            "MD5": "09cafd58da7e1e8cb472cc9e312d0958",
+            "path": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-reflect-2.4.21-7eb114fe6a9e5b91.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlin_kotlin-reflect-2.4.21-7eb114fe6a9e5b91.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdlib-2.4.21-19259359a0dc1ebc.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdlib-2.4.21-19259359a0dc1ebc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1870504,
+            "MD5": "43b71369466d310216ba865f49520638",
+            "path": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdlib-2.4.21-19259359a0dc1ebc.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdlib-2.4.21-19259359a0dc1ebc.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk7-2.4.21-7a341d4caab3cb56.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk7-2.4.21-7a341d4caab3cb56.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1270,
+            "MD5": "4e4c93eb74e85df7987547e02b3e390e",
+            "path": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk7-2.4.21-7a341d4caab3cb56.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk7-2.4.21-7a341d4caab3cb56.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk8-2.4.21-8d4d5eead6d60882.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk8-2.4.21-8d4d5eead6d60882.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1276,
+            "MD5": "5bcacf31205b0107e535902f0d00f34c",
+            "path": ".fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk8-2.4.21-8d4d5eead6d60882.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk8-2.4.21-8d4d5eead6d60882.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_atomicfu-jvm-0.33.0-e348aaa397d08812.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_atomicfu-jvm-0.33.0-e348aaa397d08812.jar",
+          "type": "File",
+          "artifact": {
+            "size": 63124,
+            "MD5": "8c9413bce80c2a2e626a3e5cacfdf2c2",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_atomicfu-jvm-0.33.0-e348aaa397d08812.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_atomicfu-jvm-0.33.0-e348aaa397d08812.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-co-jvm-1.11.0-e44c0f0f4a5439d9.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-co-jvm-1.11.0-e44c0f0f4a5439d9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1591688,
+            "MD5": "53b5dc857cdb4bb9df168e3b39aecc1e",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-co-jvm-1.11.0-e44c0f0f4a5439d9.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-co-jvm-1.11.0-e44c0f0f4a5439d9.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-cojdk8-1.11.0-d32d9ed9e92938cf.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-cojdk8-1.11.0-d32d9ed9e92938cf.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1366,
+            "MD5": "b429752bf0a576e3186628bfd7eb31cb",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-cojdk8-1.11.0-d32d9ed9e92938cf.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-cojdk8-1.11.0-d32d9ed9e92938cf.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-dae-jvm-0.8.0-29674e5d8fb61b6d.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-dae-jvm-0.8.0-29674e5d8fb61b6d.jar",
+          "type": "File",
+          "artifact": {
+            "size": 732301,
+            "MD5": "0e8369e0d1380ab4b401e482308fb2c4",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-dae-jvm-0.8.0-29674e5d8fb61b6d.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-dae-jvm-0.8.0-29674e5d8fb61b6d.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-ioe-jvm-0.9.1-cb2a0150b3a1a4cd.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-ioe-jvm-0.9.1-cb2a0150b3a1a4cd.jar",
+          "type": "File",
+          "artifact": {
+            "size": 155088,
+            "MD5": "0ac24f59af7631d9ac1791e4f81085b0",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-ioe-jvm-0.9.1-cb2a0150b3a1a4cd.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-ioe-jvm-0.9.1-cb2a0150b3a1a4cd.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-iog-jvm-0.9.1-ac206d22d70080ef.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-iog-jvm-0.9.1-ac206d22d70080ef.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23364,
+            "MD5": "c941502127b4e50088d72d9a922f5f39",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-iog-jvm-0.9.1-ac206d22d70080ef.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-iog-jvm-0.9.1-ac206d22d70080ef.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-52108abbd787b7f9.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-52108abbd787b7f9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 408828,
+            "MD5": "da3954203dfc112095652355889e9797",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-52108abbd787b7f9.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-52108abbd787b7f9.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-8b8e43b961e1ce7f.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-8b8e43b961e1ce7f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 296773,
+            "MD5": "cb51ba029021334197592fa51d29e828",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-8b8e43b961e1ce7f.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-8b8e43b961e1ce7f.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-d7ffe353d5ab8d56.jar",
+          "name": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-d7ffe353d5ab8d56.jar",
+          "type": "File",
+          "artifact": {
+            "size": 72627,
+            "MD5": "7e87d328a499305293dc829413772abe",
+            "path": ".fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-d7ffe353d5ab8d56.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-d7ffe353d5ab8d56.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_quiltmc_parsers_gson-0.2.1-dca73e94c7c97f1f.jar",
+          "name": ".fabric/processedMods/org_quiltmc_parsers_gson-0.2.1-dca73e94c7c97f1f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4805,
+            "MD5": "31c4f0552232cd7f6d433a779ea222bd",
+            "path": ".fabric/processedMods/org_quiltmc_parsers_gson-0.2.1-dca73e94c7c97f1f.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_quiltmc_parsers_gson-0.2.1-dca73e94c7c97f1f.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/org_quiltmc_parsers_json-0.2.1-f4450bb516755a53.jar",
+          "name": ".fabric/processedMods/org_quiltmc_parsers_json-0.2.1-f4450bb516755a53.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23486,
+            "MD5": "fd8e70e047066a4a471b065364442cde",
+            "path": ".fabric/processedMods/org_quiltmc_parsers_json-0.2.1-f4450bb516755a53.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/org_quiltmc_parsers_json-0.2.1-f4450bb516755a53.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/sodium-0.5.11-4d25e4ccdc91fe6d.jar",
+          "name": ".fabric/processedMods/sodium-0.5.11-4d25e4ccdc91fe6d.jar",
+          "type": "File",
+          "artifact": {
+            "size": 481,
+            "MD5": "bf0146143395fb45a5a99a15c08422f2",
+            "path": ".fabric/processedMods/sodium-0.5.11-4d25e4ccdc91fe6d.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/sodium-0.5.11-4d25e4ccdc91fe6d.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/spruceui-5.0.0+1.20-a7e7164e506142b1.jar",
+          "name": ".fabric/processedMods/spruceui-5.0.0+1.20-a7e7164e506142b1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 190081,
+            "MD5": "1ebe7a8a39f7dd896cd43e9210c69ee4",
+            "path": ".fabric/processedMods/spruceui-5.0.0+1.20-a7e7164e506142b1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/spruceui-5.0.0%2B1.20-a7e7164e506142b1.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/transition-1.0.28-8a61597babd8efb8.jar",
+          "name": ".fabric/processedMods/transition-1.0.28-8a61597babd8efb8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1250710,
+            "MD5": "6c2deaa7d18fec359f6287760e556210",
+            "path": ".fabric/processedMods/transition-1.0.28-8a61597babd8efb8.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/transition-1.0.28-8a61597babd8efb8.jar"
+          }
+        },
+        {
+          "id": ".fabric/processedMods/trender-1.0.17-5e45decad154dc6c.jar",
+          "name": ".fabric/processedMods/trender-1.0.17-5e45decad154dc6c.jar",
+          "type": "File",
+          "artifact": {
+            "size": 335740,
+            "MD5": "e332fddb6d095ff7a895b1361ec19b06",
+            "path": ".fabric/processedMods/trender-1.0.17-5e45decad154dc6c.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/processedMods/trender-1.0.17-5e45decad154dc6c.jar"
+          }
+        },
+        {
+          "id": ".fabric/remappedJars/minecraft-1.20.1-0.19.5/client-intermediary.jar",
+          "name": ".fabric/remappedJars/minecraft-1.20.1-0.19.5/client-intermediary.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24733509,
+            "MD5": "c15451ee6410632e1237f7121405c0e6",
+            "path": ".fabric/remappedJars/minecraft-1.20.1-0.19.5/client-intermediary.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/.fabric/remappedJars/minecraft-1.20.1-0.19.5/client-intermediary.jar"
+          }
+        },
+        {
+          "id": "config/appleskin.json5",
+          "name": "config/appleskin.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1327,
+            "MD5": "406b4584562fb60304a8adc824de0000",
+            "path": "config/appleskin.json5",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/appleskin.json5"
+          }
+        },
+        {
+          "id": "config/badoptimizations.txt",
+          "name": "config/badoptimizations.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3458,
+            "MD5": "7714652525dd4a0c873ddfc124aac217",
+            "path": "config/badoptimizations.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/badoptimizations.txt"
+          }
+        },
+        {
+          "id": "config/configured-client.toml",
+          "name": "config/configured-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 93,
+            "MD5": "dfbfc8c0a1a8ee34d3e693b27378506e",
+            "path": "config/configured-client.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/configured-client.toml"
+          }
+        },
+        {
+          "id": "config/CoroUtil/General.toml",
+          "name": "config/CoroUtil/General.toml",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "MD5": "807d9cd61e8d8e97058eb49ac7fcfdba",
+            "path": "config/CoroUtil/General.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/CoroUtil/General.toml"
+          }
+        },
+        {
+          "id": "config/crash_assistant/config.toml",
+          "name": "config/crash_assistant/config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 24215,
+            "MD5": "cc30df2fa868cd6e9be6c07fabf00f33",
+            "path": "config/crash_assistant/config.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/crash_assistant/config.toml"
+          }
+        },
+        {
+          "id": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+          "name": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+          "type": "File",
+          "artifact": {
+            "size": 2650,
+            "MD5": "b5ff102e457b882185ca9611f33aebaa",
+            "path": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/crash_assistant/crash_assistant_localization_overrides/README.md"
+          }
+        },
+        {
+          "id": "config/crash_assistant/scripts/log_analysis/example.jexl",
+          "name": "config/crash_assistant/scripts/log_analysis/example.jexl",
+          "type": "File",
+          "artifact": {
+            "size": 3495,
+            "MD5": "cef0690ca119861569662f5587100dbb",
+            "path": "config/crash_assistant/scripts/log_analysis/example.jexl",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/crash_assistant/scripts/log_analysis/example.jexl"
+          }
+        },
+        {
+          "id": "config/crash_assistant/scripts/startup/example.jexl",
+          "name": "config/crash_assistant/scripts/startup/example.jexl",
+          "type": "File",
+          "artifact": {
+            "size": 4408,
+            "MD5": "b783fb48246a944f0faf2f79c5d8db42",
+            "path": "config/crash_assistant/scripts/startup/example.jexl",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/crash_assistant/scripts/startup/example.jexl"
+          }
+        },
+        {
+          "id": "config/cupboard.json",
+          "name": "config/cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1364,
+            "MD5": "bd41141b5a23985af15290e2d3cc3abb",
+            "path": "config/cupboard.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/cupboard.json"
+          }
+        },
+        {
+          "id": "config/debugify-descriptions.json",
+          "name": "config/debugify-descriptions.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/debugify-descriptions.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/debugify-descriptions.json"
+          }
+        },
+        {
+          "id": "config/debugify.json",
+          "name": "config/debugify.json",
+          "type": "File",
+          "artifact": {
+            "size": 1480,
+            "MD5": "80dc49aed4a85a085c2424afab3daef6",
+            "path": "config/debugify.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/debugify.json"
+          }
+        },
+        {
+          "id": "config/dynamic_fps.json",
+          "name": "config/dynamic_fps.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/dynamic_fps.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/dynamic_fps.json"
+          }
+        },
+        {
+          "id": "config/easy_npc/dialog_client.cfg",
+          "name": "config/easy_npc/dialog_client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 279,
+            "MD5": "a26f1781c80729b1e77ce2f1d78679ac",
+            "path": "config/easy_npc/dialog_client.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/dialog_client.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/dialog_options.cfg",
+          "name": "config/easy_npc/dialog_options.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 475,
+            "MD5": "81351c35a31f4b606ee26f7d01664a39",
+            "path": "config/easy_npc/dialog_options.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/dialog_options.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/highlight_client.cfg",
+          "name": "config/easy_npc/highlight_client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 192,
+            "MD5": "af2501331deef965a6851b1ba73288e7",
+            "path": "config/easy_npc/highlight_client.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/highlight_client.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/name_tag_client.cfg",
+          "name": "config/easy_npc/name_tag_client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 465,
+            "MD5": "387c57408e6f0088e335d27ae8275c0f",
+            "path": "config/easy_npc/name_tag_client.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/name_tag_client.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/npc_base.cfg",
+          "name": "config/easy_npc/npc_base.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "MD5": "639ad86b89ea8807e8b02fe812f2cbea",
+            "path": "config/easy_npc/npc_base.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/npc_base.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/remote_texture.cfg",
+          "name": "config/easy_npc/remote_texture.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 247,
+            "MD5": "f30703e54717524e1f835bdd50354267",
+            "path": "config/easy_npc/remote_texture.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/remote_texture.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/render_entity_type_support.cfg",
+          "name": "config/easy_npc/render_entity_type_support.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 34627,
+            "MD5": "36796af19c76e1eddef7644ea148e027",
+            "path": "config/easy_npc/render_entity_type_support.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/render_entity_type_support.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/security.cfg",
+          "name": "config/easy_npc/security.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4384,
+            "MD5": "8a11d3db68854e1df3c3d31305a38e5e",
+            "path": "config/easy_npc/security.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/security.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/allay/allay_template.png",
+          "name": "config/easy_npc/skin/allay/allay_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "MD5": "dc449d0dd6cb93d91fa6e34ecd44376a",
+            "path": "config/easy_npc/skin/allay/allay_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/allay/allay_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/cat/cat_template.png",
+          "name": "config/easy_npc/skin/cat/cat_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 283,
+            "MD5": "ddb9d8f03724aa1fe201fd7fbefb81da",
+            "path": "config/easy_npc/skin/cat/cat_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/cat/cat_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/chicken/chicken_template.png",
+          "name": "config/easy_npc/skin/chicken/chicken_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "MD5": "f06078d2850eb0020f2e86dd93c84a5a",
+            "path": "config/easy_npc/skin/chicken/chicken_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/chicken/chicken_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/creeper/creeper_template.png",
+          "name": "config/easy_npc/skin/creeper/creeper_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "MD5": "460afd5ae6039e184859666d02797e9d",
+            "path": "config/easy_npc/skin/creeper/creeper_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/creeper/creeper_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/ender_man/ender_man_template.png",
+          "name": "config/easy_npc/skin/ender_man/ender_man_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 276,
+            "MD5": "11a98be328121d89396fa59e1aa29df2",
+            "path": "config/easy_npc/skin/ender_man/ender_man_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/ender_man/ender_man_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/fairy/fairy_template.png",
+          "name": "config/easy_npc/skin/fairy/fairy_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 434,
+            "MD5": "531b238034eb6fdcf494378d6de62d69",
+            "path": "config/easy_npc/skin/fairy/fairy_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/fairy/fairy_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/fox/fox_template.png",
+          "name": "config/easy_npc/skin/fox/fox_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 335,
+            "MD5": "5850512e21b0c58b42207510a63a923d",
+            "path": "config/easy_npc/skin/fox/fox_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/fox/fox_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid/azul.png",
+          "name": "config/easy_npc/skin/humanoid/azul.png",
+          "type": "File",
+          "artifact": {
+            "size": 1772,
+            "MD5": "922e70a13ad95594442c36ca10d6a2b7",
+            "path": "config/easy_npc/skin/humanoid/azul.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid/azul.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid/humanoid_template.png",
+          "name": "config/easy_npc/skin/humanoid/humanoid_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "MD5": "a39224182358dcbf6615b9faeb732933",
+            "path": "config/easy_npc/skin/humanoid/humanoid_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid/humanoid_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid/luckyblock.png",
+          "name": "config/easy_npc/skin/humanoid/luckyblock.png",
+          "type": "File",
+          "artifact": {
+            "size": 3777,
+            "MD5": "cce08b33da83bb1141d23d720a986a85",
+            "path": "config/easy_npc/skin/humanoid/luckyblock.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid/luckyblock.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid/rosa.png",
+          "name": "config/easy_npc/skin/humanoid/rosa.png",
+          "type": "File",
+          "artifact": {
+            "size": 2541,
+            "MD5": "c0839401bbede22a16e682efb1eb744e",
+            "path": "config/easy_npc/skin/humanoid/rosa.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid/rosa.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid/roxo.png",
+          "name": "config/easy_npc/skin/humanoid/roxo.png",
+          "type": "File",
+          "artifact": {
+            "size": 2112,
+            "MD5": "52fc07a43dfa09303f2e60d8796efc61",
+            "path": "config/easy_npc/skin/humanoid/roxo.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid/roxo.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid/verde.png",
+          "name": "config/easy_npc/skin/humanoid/verde.png",
+          "type": "File",
+          "artifact": {
+            "size": 1821,
+            "MD5": "1bcbe543733bb19eb7cdc032df8819cd",
+            "path": "config/easy_npc/skin/humanoid/verde.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid/verde.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid/vermelho.png",
+          "name": "config/easy_npc/skin/humanoid/vermelho.png",
+          "type": "File",
+          "artifact": {
+            "size": 1571,
+            "MD5": "64fc90fe83e517bd478b8dd7a420aef8",
+            "path": "config/easy_npc/skin/humanoid/vermelho.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid/vermelho.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
+          "name": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 384,
+            "MD5": "41f831333d68c3a4535adbe574f0511c",
+            "path": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/husk/husk_template.png",
+          "name": "config/easy_npc/skin/husk/husk_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "MD5": "66e672cdead5768165586f4b24c1f61c",
+            "path": "config/easy_npc/skin/husk/husk_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/husk/husk_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/illager/illager_template.png",
+          "name": "config/easy_npc/skin/illager/illager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 300,
+            "MD5": "62e2eafe9879c26a5d39f6eed5a0d4c0",
+            "path": "config/easy_npc/skin/illager/illager_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/illager/illager_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/iron_golem/iron_golem_template.png",
+          "name": "config/easy_npc/skin/iron_golem/iron_golem_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 451,
+            "MD5": "041e19a3a9e328e569c1572c60bf7f82",
+            "path": "config/easy_npc/skin/iron_golem/iron_golem_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/iron_golem/iron_golem_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/orc/orc_template.png",
+          "name": "config/easy_npc/skin/orc/orc_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "MD5": "529d5d314ad4dc8f697f7341f35cab74",
+            "path": "config/easy_npc/skin/orc/orc_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/orc/orc_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/pig/pig_template.png",
+          "name": "config/easy_npc/skin/pig/pig_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 270,
+            "MD5": "cfc2538d1df812a5ee4ced14b78f9fd3",
+            "path": "config/easy_npc/skin/pig/pig_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/pig/pig_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/piglin/piglin_template.png",
+          "name": "config/easy_npc/skin/piglin/piglin_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 361,
+            "MD5": "54ae451400c57b4832f976487e7bf629",
+            "path": "config/easy_npc/skin/piglin/piglin_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/piglin/piglin_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/skeleton/skeleton_template.png",
+          "name": "config/easy_npc/skin/skeleton/skeleton_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "MD5": "b6f689ff48f8cd4b03a51947133a3857",
+            "path": "config/easy_npc/skin/skeleton/skeleton_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/skeleton/skeleton_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/spider/spider_template.png",
+          "name": "config/easy_npc/skin/spider/spider_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 308,
+            "MD5": "03664e96aea4f091f754f2b853f2b853",
+            "path": "config/easy_npc/skin/spider/spider_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/spider/spider_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/stray/stray_template.png",
+          "name": "config/easy_npc/skin/stray/stray_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "MD5": "66e672cdead5768165586f4b24c1f61c",
+            "path": "config/easy_npc/skin/stray/stray_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/stray/stray_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/vex/vex_template.png",
+          "name": "config/easy_npc/skin/vex/vex_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 247,
+            "MD5": "37f6d362729979569dd8f1f4e6429f07",
+            "path": "config/easy_npc/skin/vex/vex_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/vex/vex_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/villager/villager_template.png",
+          "name": "config/easy_npc/skin/villager/villager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 357,
+            "MD5": "30e84778924e6c66aef598b8a3cd728a",
+            "path": "config/easy_npc/skin/villager/villager_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/villager/villager_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/villager/villager_without_hat_template.png",
+          "name": "config/easy_npc/skin/villager/villager_without_hat_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 331,
+            "MD5": "3d8bca495a0fad6240e900d343c9f1d7",
+            "path": "config/easy_npc/skin/villager/villager_without_hat_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/villager/villager_without_hat_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/witch/witch_template.png",
+          "name": "config/easy_npc/skin/witch/witch_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 431,
+            "MD5": "3f15cb59a845607aca5614bd12e9df62",
+            "path": "config/easy_npc/skin/witch/witch_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/witch/witch_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/wolf/wolf_template.png",
+          "name": "config/easy_npc/skin/wolf/wolf_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 321,
+            "MD5": "0adf39c4b15ec11850e85fdfcd8e0a59",
+            "path": "config/easy_npc/skin/wolf/wolf_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/wolf/wolf_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/zombie/zombie_template.png",
+          "name": "config/easy_npc/skin/zombie/zombie_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 292,
+            "MD5": "a38b0b7043eb7c0e91379628aeed1db2",
+            "path": "config/easy_npc/skin/zombie/zombie_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/zombie/zombie_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
+          "name": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 356,
+            "MD5": "b0748467bd2149105ad4d922c7799ed0",
+            "path": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/skin/zombie_villager/zombie_villager_template.png"
+          }
+        },
+        {
+          "id": "config/easy_npc/spawner_type.cfg",
+          "name": "config/easy_npc/spawner_type.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1186,
+            "MD5": "8ae1a7a058898af5a1ce0b4707579216",
+            "path": "config/easy_npc/spawner_type.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/spawner_type.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/speech_bubble_client.cfg",
+          "name": "config/easy_npc/speech_bubble_client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 874,
+            "MD5": "3e10a86073c2aed15666f6b37183ead4",
+            "path": "config/easy_npc/speech_bubble_client.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/speech_bubble_client.cfg"
+          }
+        },
+        {
+          "id": "config/easy_npc/storage.cfg",
+          "name": "config/easy_npc/storage.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 665,
+            "MD5": "06f65cd561f0397f6c2ad1d89db6bf17",
+            "path": "config/easy_npc/storage.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/easy_npc/storage.cfg"
+          }
+        },
+        {
+          "id": "config/embeddium-fingerprint.json",
+          "name": "config/embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "MD5": "099d027d69cbf1207928c3d043f38ed8",
+            "path": "config/embeddium-fingerprint.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "config/embeddium-mixins.properties",
+          "name": "config/embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "MD5": "456d99888369486f42d6ea7f70294170",
+            "path": "config/embeddium-mixins.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "config/embeddium-options.json",
+          "name": "config/embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 809,
+            "MD5": "a9adbc48f0d5d2673dd80de30ac0cd65",
+            "path": "config/embeddium-options.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "config/enhanced_bes.properties",
+          "name": "config/enhanced_bes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 532,
+            "MD5": "412ce1413162d6a4f3aed312c3a48710",
+            "path": "config/enhanced_bes.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/enhanced_bes.properties"
+          }
+        },
+        {
+          "id": "config/entityculling.json",
+          "name": "config/entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 2248,
+            "MD5": "4b613a5aed83e0410c9d37c77b480d6a",
+            "path": "config/entityculling.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/entityculling.json"
+          }
+        },
+        {
+          "id": "config/escadona-utils/config.json",
+          "name": "config/escadona-utils/config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1965,
+            "MD5": "650c29c85497366d37dc963f8d8c99cb",
+            "path": "config/escadona-utils/config.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/config.json"
+          }
+        },
+        {
+          "id": "config/escadona-utils/schematics/azul.schem",
+          "name": "config/escadona-utils/schematics/azul.schem",
+          "type": "File",
+          "artifact": {
+            "size": 3579,
+            "MD5": "649ccced8b3bc30e718d81fb25e707a8",
+            "path": "config/escadona-utils/schematics/azul.schem",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/schematics/azul.schem"
+          }
+        },
+        {
+          "id": "config/escadona-utils/schematics/final.schem",
+          "name": "config/escadona-utils/schematics/final.schem",
+          "type": "File",
+          "artifact": {
+            "size": 3411,
+            "MD5": "b20ae832e18679464c072b3e15af4c05",
+            "path": "config/escadona-utils/schematics/final.schem",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/schematics/final.schem"
+          }
+        },
+        {
+          "id": "config/escadona-utils/schematics/lobby.schem",
+          "name": "config/escadona-utils/schematics/lobby.schem",
+          "type": "File",
+          "artifact": {
+            "size": 6755,
+            "MD5": "7fabfe6dc385482518ef79fc523a3d50",
+            "path": "config/escadona-utils/schematics/lobby.schem",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/schematics/lobby.schem"
+          }
+        },
+        {
+          "id": "config/escadona-utils/schematics/rosa.schem",
+          "name": "config/escadona-utils/schematics/rosa.schem",
+          "type": "File",
+          "artifact": {
+            "size": 3671,
+            "MD5": "8742e99e12ad358795cbc524c8b1f5e1",
+            "path": "config/escadona-utils/schematics/rosa.schem",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/schematics/rosa.schem"
+          }
+        },
+        {
+          "id": "config/escadona-utils/schematics/roxo.schem",
+          "name": "config/escadona-utils/schematics/roxo.schem",
+          "type": "File",
+          "artifact": {
+            "size": 3615,
+            "MD5": "ecd7c541506b0f8cba5d77c2e14d7ee8",
+            "path": "config/escadona-utils/schematics/roxo.schem",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/schematics/roxo.schem"
+          }
+        },
+        {
+          "id": "config/escadona-utils/schematics/verde.schem",
+          "name": "config/escadona-utils/schematics/verde.schem",
+          "type": "File",
+          "artifact": {
+            "size": 3627,
+            "MD5": "d32b788efb7e990294dc5dec63b35364",
+            "path": "config/escadona-utils/schematics/verde.schem",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/schematics/verde.schem"
+          }
+        },
+        {
+          "id": "config/escadona-utils/schematics/vermelho.schem",
+          "name": "config/escadona-utils/schematics/vermelho.schem",
+          "type": "File",
+          "artifact": {
+            "size": 3566,
+            "MD5": "040102b4e103a891349cc8937c3c4995",
+            "path": "config/escadona-utils/schematics/vermelho.schem",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/schematics/vermelho.schem"
+          }
+        },
+        {
+          "id": "config/escadona-utils/themes/classic.json",
+          "name": "config/escadona-utils/themes/classic.json",
+          "type": "File",
+          "artifact": {
+            "size": 4300,
+            "MD5": "4e28721278622aed850d3c2410793b9e",
+            "path": "config/escadona-utils/themes/classic.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/escadona-utils/themes/classic.json"
+          }
+        },
+        {
+          "id": "config/fabric/indigo-renderer.properties",
+          "name": "config/fabric/indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "MD5": "0f29670606ca6361fb6b2cbeedab42fe",
+            "path": "config/fabric/indigo-renderer.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "config/fabrishot.properties",
+          "name": "config/fabrishot.properties",
+          "type": "File",
+          "artifact": {
+            "size": 232,
+            "MD5": "3051836e9172a5729468c074d7096748",
+            "path": "config/fabrishot.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/fabrishot.properties"
+          }
+        },
+        {
+          "id": "config/fastquit.toml",
+          "name": "config/fastquit.toml",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "MD5": "f4ac9e2ceacd15ef29daab377cd9ef50",
+            "path": "config/fastquit.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/fastquit.toml"
+          }
+        },
+        {
+          "id": "config/ferritecore.mixin.properties",
+          "name": "config/ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1525,
+            "MD5": "bf3e6be63e300b0290cfc849beb64ede",
+            "path": "config/ferritecore.mixin.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "config/forgeconfigapiport.toml",
+          "name": "config/forgeconfigapiport.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1582,
+            "MD5": "d7a4bb7824a6e62553e5c6df78441291",
+            "path": "config/forgeconfigapiport.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/forgeconfigapiport.toml"
+          }
+        },
+        {
+          "id": "config/fzzy_config/keybinds.toml",
+          "name": "config/fzzy_config/keybinds.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6403,
+            "MD5": "db29914636f6e1455464345f8e91d353",
+            "path": "config/fzzy_config/keybinds.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/fzzy_config/keybinds.toml"
+          }
+        },
+        {
+          "id": "config/immediatelyfast.json",
+          "name": "config/immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1060,
+            "MD5": "7b2d05a9b2f2745055edf3c8d1d0b155",
+            "path": "config/immediatelyfast.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "config/indium-renderer.properties",
+          "name": "config/indium-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "MD5": "f68517bb7bc9a4f7d8689e26033a7d46",
+            "path": "config/indium-renderer.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/indium-renderer.properties"
+          }
+        },
+        {
+          "id": "config/invmove/unrecognized.json",
+          "name": "config/invmove/unrecognized.json",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "MD5": "f7189f01451799d9e88c0fd813c843fb",
+            "path": "config/invmove/unrecognized.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/invmove/unrecognized.json"
+          }
+        },
+        {
+          "id": "config/invmove/vanilla.json",
+          "name": "config/invmove/vanilla.json",
+          "type": "File",
+          "artifact": {
+            "size": 1092,
+            "MD5": "95587492c4a51a3beaa4b7d8869499fe",
+            "path": "config/invmove/vanilla.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/invmove/vanilla.json"
+          }
+        },
+        {
+          "id": "config/invmove.json",
+          "name": "config/invmove.json",
+          "type": "File",
+          "artifact": {
+            "size": 449,
+            "MD5": "fe69d57296c02c07d25f1bc0686488ed",
+            "path": "config/invmove.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/invmove.json"
+          }
+        },
+        {
+          "id": "config/iris.properties",
+          "name": "config/iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "MD5": "f74e0979a670b4e30626bba218b5bdc8",
+            "path": "config/iris.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/iris.properties"
+          }
+        },
+        {
+          "id": "config/jade/hide-blocks.json",
+          "name": "config/jade/hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
+            "path": "config/jade/hide-blocks.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "config/jade/hide-entities.json",
+          "name": "config/jade/hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
+            "path": "config/jade/hide-entities.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "config/jade/jade.json",
+          "name": "config/jade/jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 974,
+            "MD5": "bfdbc8df70932e88399bd6c039163be0",
+            "path": "config/jade/jade.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/jade/jade.json"
+          }
+        },
+        {
+          "id": "config/jade/plugins.json",
+          "name": "config/jade/plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1680,
+            "MD5": "17a70ddaba3dfe5fd9be59d881944a2f",
+            "path": "config/jade/plugins.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "config/jade/sort-order.json",
+          "name": "config/jade/sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1517,
+            "MD5": "0fbad86b00df74e87c1c039af71f236d",
+            "path": "config/jade/sort-order.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "config/languagereload.json",
+          "name": "config/languagereload.json",
+          "type": "File",
+          "artifact": {
+            "size": 234,
+            "MD5": "37c1a116c9604c75a9167aed1451fc70",
+            "path": "config/languagereload.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/languagereload.json"
+          }
+        },
+        {
+          "id": "config/lithium.properties",
+          "name": "config/lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 430,
+            "MD5": "422e0797eef9c35fe7d8ecea0ac3f567",
+            "path": "config/lithium.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lithium.properties"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/bow_drops.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/bow_drops.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4120,
+            "MD5": "0326562b7bea10d401ad23bd409c3953",
+            "path": "config/lucky/1.20.1-13.0-fabric/bow_drops.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/bow_drops.txt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/drops.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/drops.txt",
+          "type": "File",
+          "artifact": {
+            "size": 26834,
+            "MD5": "b4ad5aa2352f523bc3e6dca620a98d73",
+            "path": "config/lucky/1.20.1-13.0-fabric/drops.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/drops.txt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/luck_crafting.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/luck_crafting.txt",
+          "type": "File",
+          "artifact": {
+            "size": 341,
+            "MD5": "34451cc1929881b9dda130902cf2a54d",
+            "path": "config/lucky/1.20.1-13.0-fabric/luck_crafting.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/luck_crafting.txt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/natural_gen.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/natural_gen.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1100,
+            "MD5": "0fe5f47445d5c85ab5a59b69efbb8ef4",
+            "path": "config/lucky/1.20.1-13.0-fabric/natural_gen.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/natural_gen.txt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/potion_drops.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/potion_drops.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5828,
+            "MD5": "a088ed1ba82b7bacfe42dd53accadc4e",
+            "path": "config/lucky/1.20.1-13.0-fabric/potion_drops.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/potion_drops.txt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/properties.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 27,
+            "MD5": "33f979add1e2c9fae6fe999e43f8f337",
+            "path": "config/lucky/1.20.1-13.0-fabric/properties.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/properties.txt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/acropolis.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/acropolis.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 843,
+            "MD5": "e17d3f61b7e7e8b91f0327b2859ca2d3",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/acropolis.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/acropolis.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/bedrock_problem.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/bedrock_problem.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 203,
+            "MD5": "4047e713403b6cb6c303177736b8c929",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/bedrock_problem.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/bedrock_problem.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/bouncing_castle.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/bouncing_castle.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 472,
+            "MD5": "2f3b188177c8ce8720dd3f55d1921b8a",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/bouncing_castle.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/bouncing_castle.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/cage_sign.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/cage_sign.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "MD5": "c4fb975009fb9f59ccfb53109a2780f0",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/cage_sign.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/cage_sign.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/cage.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/cage.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 438,
+            "MD5": "146db3c33693574f97200a282e5f1482",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/cage.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/cage.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/drill_hole.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/drill_hole.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1094,
+            "MD5": "2056c6afd25a494fde8683b4cebe2f3a",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/drill_hole.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/drill_hole.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_1.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_1.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1273,
+            "MD5": "aafb1b30f6d0f2fe28c1dab19b125b9e",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_1.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_1.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_2.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_2.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1325,
+            "MD5": "5ec23c82e211a80257af55c1803476cd",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_2.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_2.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_3.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_3.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1382,
+            "MD5": "e8cd1c47a6992aab09ace81ff2511bef",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_3.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_3.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_4.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_4.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1404,
+            "MD5": "d729cab9ffda5c912f8a8bc9545adcf9",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_4.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_4.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_5.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_5.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1421,
+            "MD5": "e4f1fdebbb5e535c5adc489361ce733a",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_5.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/break_stage_5.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_bad.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_bad.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 627,
+            "MD5": "980a8b0ed0bc79744fa56d3a52d18c9d",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_bad.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_bad.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_good.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_good.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 858,
+            "MD5": "5ece37c94137b8487c65daec034fde31",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_good.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block_inner_good.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1475,
+            "MD5": "d397f6e019a4212ec48cb4aff74c4e12",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/giant_blocks/lucky_block.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort_inner.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort_inner.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 190,
+            "MD5": "7185c07fa082edc39021178767afb165",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort_inner.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort_inner.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 418,
+            "MD5": "ea747f0181dde52f9218001ffdef33f9",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/fort.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple_inner.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple_inner.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 334,
+            "MD5": "d54281d3d794d1b8a0afeef69bd637be",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple_inner.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple_inner.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 989,
+            "MD5": "0c3b99515483b1af67cd9e3ebc0c1b23",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/lucky_buildings/temple.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_left.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_left.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 264,
+            "MD5": "28a339cc51e84e6934d1768940484fff",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_left.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_left.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_right.luckystruct",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_right.luckystruct",
+          "type": "File",
+          "artifact": {
+            "size": 264,
+            "MD5": "090aa58e4ea9fee3b0fea7d5052937a6",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_right.luckystruct",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/lucky_choice_right.luckystruct"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/meteor.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/meteor.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 731,
+            "MD5": "c45b4fced8e87070cde09034047a5d44",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/meteor.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/meteor.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/water_cage.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/water_cage.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 283,
+            "MD5": "10a9dfbf2eb93c849629d9160c254a58",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/water_cage.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/water_cage.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures/wishing_well.nbt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures/wishing_well.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 551,
+            "MD5": "09d9bc61902ab05be7d23c593eeeaa08",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures/wishing_well.nbt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures/wishing_well.nbt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/structures.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/structures.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1944,
+            "MD5": "7cdc055e2e64e3f49d4990fbfc39a8a9",
+            "path": "config/lucky/1.20.1-13.0-fabric/structures.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/structures.txt"
+          }
+        },
+        {
+          "id": "config/lucky/1.20.1-13.0-fabric/sword_drops.txt",
+          "name": "config/lucky/1.20.1-13.0-fabric/sword_drops.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2589,
+            "MD5": "87f86f22565577aa99445da659cc81c4",
+            "path": "config/lucky/1.20.1-13.0-fabric/sword_drops.txt",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/lucky/1.20.1-13.0-fabric/sword_drops.txt"
+          }
+        },
+        {
+          "id": "config/modernfix-mixins.properties",
+          "name": "config/modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4418,
+            "MD5": "20a5c99e16346b4c4fae8762252c19fd",
+            "path": "config/modernfix-mixins.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "config/modmenu.json",
+          "name": "config/modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 814,
+            "MD5": "e8f3869015601ad3afae3fa4412c307c",
+            "path": "config/modmenu.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/modmenu.json"
+          }
+        },
+        {
+          "id": "config/moreculling.toml",
+          "name": "config/moreculling.toml",
+          "type": "File",
+          "artifact": {
+            "size": 530,
+            "MD5": "c6249759c97f46f606161b286fe400f1",
+            "path": "config/moreculling.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/moreculling.toml"
+          }
+        },
+        {
+          "id": "config/MouseTweaks.cfg",
+          "name": "config/MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "config/particle_core_config.toml",
+          "name": "config/particle_core_config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 361,
+            "MD5": "3a276ad5b9c8fff080028d2fdb8924d0",
+            "path": "config/particle_core_config.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/particle_core_config.toml"
+          }
+        },
+        {
+          "id": "config/particle_core_disabled_optimizations_v2.json",
+          "name": "config/particle_core_disabled_optimizations_v2.json",
+          "type": "File",
+          "artifact": {
+            "size": 1758,
+            "MD5": "a80f3e4b1f3c412d27ff8ed1b09029e7",
+            "path": "config/particle_core_disabled_optimizations_v2.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/particle_core_disabled_optimizations_v2.json"
+          }
+        },
+        {
+          "id": "config/quickskin-client.json",
+          "name": "config/quickskin-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 2202,
+            "MD5": "0e8e018c4e4f15550dfc6f7c8e274c9e",
+            "path": "config/quickskin-client.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/quickskin-client.json"
+          }
+        },
+        {
+          "id": "config/quickskin-server.json",
+          "name": "config/quickskin-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 390,
+            "MD5": "51be76ee504ddd4f7a1e3d1bae0325c4",
+            "path": "config/quickskin-server.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/quickskin-server.json"
+          }
+        },
+        {
+          "id": "config/rrp.properties",
+          "name": "config/rrp.properties",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "MD5": "d070df55ba89701c37d7a726f5dfc995",
+            "path": "config/rrp.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/rrp.properties"
+          }
+        },
+        {
+          "id": "config/skinlayers.json",
+          "name": "config/skinlayers.json",
+          "type": "File",
+          "artifact": {
+            "size": 497,
+            "MD5": "04d6f743e89a6fba20ddef26e3fbef9a",
+            "path": "config/skinlayers.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/skinlayers.json"
+          }
+        },
+        {
+          "id": "config/skinshift/library.json",
+          "name": "config/skinshift/library.json",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "MD5": "0ec475511a2ca57b9c0c5223f20cac37",
+            "path": "config/skinshift/library.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/skinshift/library.json"
+          }
+        },
+        {
+          "id": "config/smoothchunk.json",
+          "name": "config/smoothchunk.json",
+          "type": "File",
+          "artifact": {
+            "size": 1175,
+            "MD5": "ae2822f4c56cacb49fa839511318ab75",
+            "path": "config/smoothchunk.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/smoothchunk.json"
+          }
+        },
+        {
+          "id": "config/sodium-fingerprint.json",
+          "name": "config/sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "MD5": "526e82bc8d34c4e7fa8781db9805aa48",
+            "path": "config/sodium-fingerprint.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "config/transition.json",
+          "name": "config/transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "MD5": "31ba5caa4bcc56c2527e5d001e4f0f07",
+            "path": "config/transition.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/transition.json"
+          }
+        },
+        {
+          "id": "config/trender.json",
+          "name": "config/trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "MD5": "57d19d218711f08f8d7ce8c69f21d59f",
+            "path": "config/trender.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/trender.json"
+          }
+        },
+        {
+          "id": "config/watut-client.toml",
+          "name": "config/watut-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3196,
+            "MD5": "20fdbc0e7cc33b6b33a2b5b8a4e8a876",
+            "path": "config/watut-client.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/watut-client.toml"
+          }
+        },
+        {
+          "id": "config/watut-common.toml",
+          "name": "config/watut-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "MD5": "292397cff0ad268486e631c8022b048c",
+            "path": "config/watut-common.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/watut-common.toml"
+          }
+        },
+        {
+          "id": "config/watut-item-arm-adjustments.json",
+          "name": "config/watut-item-arm-adjustments.json",
+          "type": "File",
+          "artifact": {
+            "size": 3367,
+            "MD5": "25925ecf5d13afcb55b2d4fcff81361c",
+            "path": "config/watut-item-arm-adjustments.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/watut-item-arm-adjustments.json"
+          }
+        },
+        {
+          "id": "config/watut-server.toml",
+          "name": "config/watut-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2880,
+            "MD5": "fbed27698cf08450df11f943a78832e3",
+            "path": "config/watut-server.toml",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/watut-server.toml"
+          }
+        },
+        {
+          "id": "config/worldedit/worldedit.properties",
+          "name": "config/worldedit/worldedit.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2541,
+            "MD5": "ad6559b14a50fababc1f62a30fa904e1",
+            "path": "config/worldedit/worldedit.properties",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/worldedit/worldedit.properties"
+          }
+        },
+        {
+          "id": "config/yacl.json5",
+          "name": "config/yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/yacl.json5"
+          }
+        },
+        {
+          "id": "config/zoomify.json",
+          "name": "config/zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 708,
+            "MD5": "df36a9c5c341b2efb36fb3a60800d0cb",
+            "path": "config/zoomify.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/config/zoomify.json"
+          }
+        },
+        {
+          "id": "data/fabricDefaultResourcePacks.dat",
+          "name": "data/fabricDefaultResourcePacks.dat",
+          "type": "File",
+          "artifact": {
+            "size": 34,
+            "MD5": "4a18ab67b7cef1f7f7d5e9440dafde5a",
+            "path": "data/fabricDefaultResourcePacks.dat",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/data/fabricDefaultResourcePacks.dat"
+          }
+        },
+        {
+          "id": "irisUpdateInfo.json",
+          "name": "irisUpdateInfo.json",
+          "type": "File",
+          "artifact": {
+            "size": 315,
+            "MD5": "5ea4d58baabec2a60db0221a46d54907",
+            "path": "irisUpdateInfo.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/irisUpdateInfo.json"
+          }
+        },
+        {
+          "id": "manifest.json",
+          "name": "manifest.json",
+          "type": "File",
+          "artifact": {
+            "size": 4139,
+            "MD5": "44874f0041d72a29d92c609677960cf2",
+            "path": "manifest.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/manifest.json"
+          }
+        },
+        {
+          "id": "minecraftinstance.json",
+          "name": "minecraftinstance.json",
+          "type": "File",
+          "artifact": {
+            "size": 308000,
+            "MD5": "c53f4e84aa442a669f6d99a7939de4d4",
+            "path": "minecraftinstance.json",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/minecraftinstance.json"
+          }
+        },
+        {
+          "id": "modlist.html",
+          "name": "modlist.html",
+          "type": "File",
+          "artifact": {
+            "size": 3684,
+            "MD5": "5dfa19c19b5ffe2cececcba91d45f431",
+            "path": "modlist.html",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/modlist.html"
+          }
+        },
+        {
+          "id": "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
+          "name": "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1097240,
+            "MD5": "0f5aeb43d6949ddad88449ad29884b2b",
+            "path": "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/appleskin-fabric-mc1.20.1-2.5.2.jar"
+          }
+        },
+        {
+          "id": "mods/architectury-9.2.14-fabric.jar",
+          "name": "mods/architectury-9.2.14-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 585207,
+            "MD5": "2ae04e0dad60a390031ee341e0b2ab45",
+            "path": "mods/architectury-9.2.14-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/architectury-9.2.14-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/BadOptimizations-2.4.1-1.20.1.jar",
+          "name": "mods/BadOptimizations-2.4.1-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 460234,
+            "MD5": "f8dd994ef309213c5dae5cbeef53123c",
+            "path": "mods/BadOptimizations-2.4.1-1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/BadOptimizations-2.4.1-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/cloth-config-11.1.136-fabric.jar",
+          "name": "mods/cloth-config-11.1.136-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1172214,
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0",
+            "path": "mods/cloth-config-11.1.136-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/cloth-config-11.1.136-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
+          "name": "mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21987,
+            "MD5": "9bd27566262e06642637b78a6bc4fe8c",
+            "path": "mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/Clumps-fabric-1.20.1-12.0.0.4.jar"
+          }
+        },
+        {
+          "id": "mods/configured-fabric-1.20.1-2.2.3.jar",
+          "name": "mods/configured-fabric-1.20.1-2.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 591886,
+            "MD5": "04b8682e530bb58a8514f9763331662d",
+            "path": "mods/configured-fabric-1.20.1-2.2.3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/configured-fabric-1.20.1-2.2.3.jar"
+          }
+        },
+        {
+          "id": "mods/coroutil-fabric-1.20.1-1.3.7.jar",
+          "name": "mods/coroutil-fabric-1.20.1-1.3.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2392617,
+            "MD5": "44365b7447c9b4c3aeadcadf454494aa",
+            "path": "mods/coroutil-fabric-1.20.1-1.3.7.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/coroutil-fabric-1.20.1-1.3.7.jar"
+          }
+        },
+        {
+          "id": "mods/CrashAssistant-fabric-1.19-1.20.1-1.11.12.jar",
+          "name": "mods/CrashAssistant-fabric-1.19-1.20.1-1.11.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3493041,
+            "MD5": "d3733783d32142b1647996311c311425",
+            "path": "mods/CrashAssistant-fabric-1.19-1.20.1-1.11.12.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/CrashAssistant-fabric-1.19-1.20.1-1.11.12.jar"
+          }
+        },
+        {
+          "id": "mods/cupboard-fabric-1.20.1-4.2.jar",
+          "name": "mods/cupboard-fabric-1.20.1-4.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 35845,
+            "MD5": "3731b108f2194e6d8977e7c71354c06d",
+            "path": "mods/cupboard-fabric-1.20.1-4.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/cupboard-fabric-1.20.1-4.2.jar"
+          }
+        },
+        {
+          "id": "mods/Debugify-1.20.1+2.0.jar",
+          "name": "mods/Debugify-1.20.1+2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 337545,
+            "MD5": "39e6ead07cd3ce225fb24775e0cb0341",
+            "path": "mods/Debugify-1.20.1+2.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/Debugify-1.20.1%2B2.0.jar"
+          }
+        },
+        {
+          "id": "mods/dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+          "name": "mods/dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 223261,
+            "MD5": "fa6fd5fb937427830cf09b7708fcdc65",
+            "path": "mods/dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/dynamic-fps-3.11.4%2Bminecraft-1.20.0-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/easy_npc_bundle-fabric-1.20.1-7.16.0.jar",
+          "name": "mods/easy_npc_bundle-fabric-1.20.1-7.16.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25261,
+            "MD5": "f83292b497f57acff16013ae9a481efa",
+            "path": "mods/easy_npc_bundle-fabric-1.20.1-7.16.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/easy_npc_bundle-fabric-1.20.1-7.16.0.jar"
+          }
+        },
+        {
+          "id": "mods/easy_npc_config_ui-fabric-1.20.1-7.16.0.jar",
+          "name": "mods/easy_npc_config_ui-fabric-1.20.1-7.16.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1152395,
+            "MD5": "93882f382d9ad04a04b7294446c25af1",
+            "path": "mods/easy_npc_config_ui-fabric-1.20.1-7.16.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/easy_npc_config_ui-fabric-1.20.1-7.16.0.jar"
+          }
+        },
+        {
+          "id": "mods/easy_npc-fabric-1.20.1-7.16.0.jar",
+          "name": "mods/easy_npc-fabric-1.20.1-7.16.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3182175,
+            "MD5": "90acbd290c3b89a1b8d55c4dfb60afc2",
+            "path": "mods/easy_npc-fabric-1.20.1-7.16.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/easy_npc-fabric-1.20.1-7.16.0.jar"
+          }
+        },
+        {
+          "id": "mods/embeddium-fabric-0.3.25+mc1.20.1.jar",
+          "name": "mods/embeddium-fabric-0.3.25+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1414664,
+            "MD5": "ce2a31ed552ae0d8aa0fc9aeed363aea",
+            "path": "mods/embeddium-fabric-0.3.25+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/embeddium-fabric-0.3.25%2Bmc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/enhancedblockentities-0.9+1.20.jar",
+          "name": "mods/enhancedblockentities-0.9+1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 490690,
+            "MD5": "bfc7a62a2834f824bb426b73f383e0cb",
+            "path": "mods/enhancedblockentities-0.9+1.20.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/enhancedblockentities-0.9%2B1.20.jar"
+          }
+        },
+        {
+          "id": "mods/entityculling-fabric-1.12.1-mc1.20.1.jar",
+          "name": "mods/entityculling-fabric-1.12.1-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1530343,
+            "MD5": "ec9cbc7d61e285a664fa73aee473ff22",
+            "path": "mods/entityculling-fabric-1.12.1-mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/entityculling-fabric-1.12.1-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/escadona-utils-1.0.jar",
+          "name": "mods/escadona-utils-1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 646600,
+            "MD5": "f2aebd03f9830ea6f1a804bc5ec602a1",
+            "path": "mods/escadona-utils-1.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/escadona-utils-1.0.jar"
+          }
+        },
+        {
+          "id": "mods/fabric-api-0.92.12+1.20.1.jar",
+          "name": "mods/fabric-api-0.92.12+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2137232,
+            "MD5": "0e405ca544d986fb65f3f524e393c11a",
+            "path": "mods/fabric-api-0.92.12+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/fabric-api-0.92.12%2B1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+          "name": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8142878,
+            "MD5": "08b201c7d0e80ba7a3d77cca0b2d3d3f",
+            "path": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar"
+          }
+        },
+        {
+          "id": "mods/fabrishot-1.10.1.jar",
+          "name": "mods/fabrishot-1.10.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 46663,
+            "MD5": "2e08783777a9735f056911f190c3b722",
+            "path": "mods/fabrishot-1.10.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/fabrishot-1.10.1.jar"
+          }
+        },
+        {
+          "id": "mods/fastquit-3.0.0+1.20+.jar",
+          "name": "mods/fastquit-3.0.0+1.20+.jar",
+          "type": "File",
+          "artifact": {
+            "size": 79306,
+            "MD5": "a1b2847e248207157f5bbe7285b41927",
+            "path": "mods/fastquit-3.0.0+1.20+.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/fastquit-3.0.0%2B1.20%2B.jar"
+          }
+        },
+        {
+          "id": "mods/ferritecore-6.0.1-fabric.jar",
+          "name": "mods/ferritecore-6.0.1-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 125197,
+            "MD5": "a19272e427f75fea59127de6610ea26b",
+            "path": "mods/ferritecore-6.0.1-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/ferritecore-6.0.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/fzzy_config-0.7.7+1.20.1.jar",
+          "name": "mods/fzzy_config-0.7.7+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2395040,
+            "MD5": "576803e6acda4d82c55b7571dab54a54",
+            "path": "mods/fzzy_config-0.7.7+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/fzzy_config-0.7.7%2B1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/gamemenuremovegfarb-fabric-mc1.19.4-2.1.2.jar",
+          "name": "mods/gamemenuremovegfarb-fabric-mc1.19.4-2.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 34571,
+            "MD5": "5a309e2a14c25a6e5f77213a831327bc",
+            "path": "mods/gamemenuremovegfarb-fabric-mc1.19.4-2.1.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/gamemenuremovegfarb-fabric-mc1.19.4-2.1.2.jar"
+          }
+        },
+        {
+          "id": "mods/gpumemleakfix-fabric-1.20.1-1.8.jar",
+          "name": "mods/gpumemleakfix-fabric-1.20.1-1.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6949,
+            "MD5": "166ae7ae556227b7cfb74856b171ec74",
+            "path": "mods/gpumemleakfix-fabric-1.20.1-1.8.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/gpumemleakfix-fabric-1.20.1-1.8.jar"
+          }
+        },
+        {
+          "id": "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
+          "name": "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 348818,
+            "MD5": "16c0232c08af7c32737295253d810ff7",
+            "path": "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/ImmediatelyFast-Fabric-1.5.5%2B1.20.4.jar"
+          }
+        },
+        {
+          "id": "mods/InvMove-0.9.3+1.20.1-Fabric.jar",
+          "name": "mods/InvMove-0.9.3+1.20.1-Fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 84095,
+            "MD5": "4084420f0b5527bb004442ab921a9bc6",
+            "path": "mods/InvMove-0.9.3+1.20.1-Fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/InvMove-0.9.3%2B1.20.1-Fabric.jar"
+          }
+        },
+        {
+          "id": "mods/iris-1.7.6+mc1.20.1.jar",
+          "name": "mods/iris-1.7.6+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2726899,
+            "MD5": "45577adb5ab16505572c6ea4b1006e58",
+            "path": "mods/iris-1.7.6+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/iris-1.7.6%2Bmc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/Jade-1.20-Fabric-11.13.3.jar",
+          "name": "mods/Jade-1.20-Fabric-11.13.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 553868,
+            "MD5": "de1a0808a3c61c44b57d2adcdaf52632",
+            "path": "mods/Jade-1.20-Fabric-11.13.3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/Jade-1.20-Fabric-11.13.3.jar"
+          }
+        },
+        {
+          "id": "mods/lan-direct-1.0.1+1.20.1-fabric.jar",
+          "name": "mods/lan-direct-1.0.1+1.20.1-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 258420,
+            "MD5": "94f3ce987afc55778a8d55ddffdf67d4",
+            "path": "mods/lan-direct-1.0.1+1.20.1-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/lan-direct-1.0.1%2B1.20.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/language-reload-1.7.5+1.20.1.jar",
+          "name": "mods/language-reload-1.7.5+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 73012,
+            "MD5": "e54d06e9846fc770c6f0b7fd94c7d33e",
+            "path": "mods/language-reload-1.7.5+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/language-reload-1.7.5%2B1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/lithium-fabric-mc1.20.1-0.11.4.jar",
+          "name": "mods/lithium-fabric-mc1.20.1-0.11.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 691483,
+            "MD5": "01fba3b3678fadc34d4d2878031762cd",
+            "path": "mods/lithium-fabric-mc1.20.1-0.11.4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/lithium-fabric-mc1.20.1-0.11.4.jar"
+          }
+        },
+        {
+          "id": "mods/lucky-block-fabric-1.20.1-13.0.jar",
+          "name": "mods/lucky-block-fabric-1.20.1-13.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2023543,
+            "MD5": "bfb33ef869f709ae3e9d2b82a3a2017c",
+            "path": "mods/lucky-block-fabric-1.20.1-13.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/lucky-block-fabric-1.20.1-13.0.jar"
+          }
+        },
+        {
+          "id": "mods/modernfix-fabric-5.25.2+mc1.20.1.jar",
+          "name": "mods/modernfix-fabric-5.25.2+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 545175,
+            "MD5": "f4b88179db335a7e4f0234357b1a5ed1",
+            "path": "mods/modernfix-fabric-5.25.2+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/modernfix-fabric-5.25.2%2Bmc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/modmenu-7.2.2.jar",
+          "name": "mods/modmenu-7.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 721366,
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e",
+            "path": "mods/modmenu-7.2.2.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/modmenu-7.2.2.jar"
+          }
+        },
+        {
+          "id": "mods/moreculling-1.20.1-0.24.6.jar",
+          "name": "mods/moreculling-1.20.1-0.24.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 274523,
+            "MD5": "877f2e0587e9c49ecde5ef2712908f7c",
+            "path": "mods/moreculling-1.20.1-0.24.6.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/moreculling-1.20.1-0.24.6.jar"
+          }
+        },
+        {
+          "id": "mods/MouseTweaks-fabric-mc1.20-2.26.jar",
+          "name": "mods/MouseTweaks-fabric-mc1.20-2.26.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77943,
+            "MD5": "3138c776d370c90603938eb54d17469a",
+            "path": "mods/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/MouseTweaks-fabric-mc1.20-2.26.jar"
+          }
+        },
+        {
+          "id": "mods/particle_core-0.3.3+1.20.1.jar",
+          "name": "mods/particle_core-0.3.3+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148084,
+            "MD5": "ca3084116c6743c9df6906172bfb2548",
+            "path": "mods/particle_core-0.3.3+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/particle_core-0.3.3%2B1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/Quick-Skin-Fabric-1.20.1-4.2.0.jar",
+          "name": "mods/Quick-Skin-Fabric-1.20.1-4.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5869550,
+            "MD5": "8f56dae88ea3ebcded0d1e1f4c7aece1",
+            "path": "mods/Quick-Skin-Fabric-1.20.1-4.2.0.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/Quick-Skin-Fabric-1.20.1-4.2.0.jar"
+          }
+        },
+        {
+          "id": "mods/skinlayers3d-fabric-1.11.4-mc1.20.1.jar",
+          "name": "mods/skinlayers3d-fabric-1.11.4-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1914357,
+            "MD5": "e5c54faa32e513b206507870ab290722",
+            "path": "mods/skinlayers3d-fabric-1.11.4-mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/skinlayers3d-fabric-1.11.4-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mods/smoothchunk-fabric-1.20.1-4.4.jar",
+          "name": "mods/smoothchunk-fabric-1.20.1-4.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18590,
+            "MD5": "7cacfb6928f7a888edc8e4751e26ec69",
+            "path": "mods/smoothchunk-fabric-1.20.1-4.4.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/smoothchunk-fabric-1.20.1-4.4.jar"
+          }
+        },
+        {
+          "id": "mods/spark-1.10.53-fabric.jar",
+          "name": "mods/spark-1.10.53-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3082974,
+            "MD5": "d590c2c10bb832130029c37d1bdd6bf9",
+            "path": "mods/spark-1.10.53-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/spark-1.10.53-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/watut-fabric-1.20.1-1.2.3.jar",
+          "name": "mods/watut-fabric-1.20.1-1.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 789018,
+            "MD5": "3c3bafc1f68e028ebc6224cc68ecb99e",
+            "path": "mods/watut-fabric-1.20.1-1.2.3.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/watut-fabric-1.20.1-1.2.3.jar"
+          }
+        },
+        {
+          "id": "mods/worldedit-mod-7.2.15.jar",
+          "name": "mods/worldedit-mod-7.2.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5825402,
+            "MD5": "bd0e7cff7896348faab92e43300d0639",
+            "path": "mods/worldedit-mod-7.2.15.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/worldedit-mod-7.2.15.jar"
+          }
+        },
+        {
+          "id": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+          "name": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1294234,
+            "MD5": "b6960b2defbf8cb1b983cffd261089ba",
+            "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/yet_another_config_lib_v3-3.6.6%2B1.20.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mods/zoomify-2.15.2+1.20.1.jar",
+          "name": "mods/zoomify-2.15.2+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 871089,
+            "MD5": "764f1cd15375affb70b5abb277847b4e",
+            "path": "mods/zoomify-2.15.2+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/mods/zoomify-2.15.2%2B1.20.1.jar"
+          }
+        },
+        {
+          "id": "profileImage/escadonalogomodpack.png",
+          "name": "profileImage/escadonalogomodpack.png",
+          "type": "File",
+          "artifact": {
+            "size": 195720,
+            "MD5": "c3d9bac9392612530e1124e141a7f6cb",
+            "path": "profileImage/escadonalogomodpack.png",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/files/profileImage/escadonalogomodpack.png"
+          }
+        }
+      ],
+      "kekeChunkedFiles": [],
+      "icon": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/luckyEscalon/icon.png"
     }
   ]
 }

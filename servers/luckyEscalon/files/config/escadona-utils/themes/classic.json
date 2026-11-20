@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "nameKey": "escadona_utils.theme.classic.name",
+  "descriptionKey": "escadona_utils.theme.classic.description",
+  "color": 16171844,
+  "choices": {
+    "vermelho": {
+      "nameKey": "escadona.time.vermelho",
+      "signNameKey": "escadona_utils.hologram.choice.vermelho",
+      "descriptionKey": "escadona_utils.choice.description.classic",
+      "kitKey": "escadona_utils.choice.kit.classic",
+      "teamName": "Vermelho",
+      "schematic": "vermelho",
+      "selectCommand": "",
+      "kitId": "classic_vermelho",
+      "teamColor": "red",
+      "color": 16733525
+    },
+    "azul": {
+      "nameKey": "escadona.time.azul",
+      "signNameKey": "escadona_utils.hologram.choice.azul",
+      "descriptionKey": "escadona_utils.choice.description.classic",
+      "kitKey": "escadona_utils.choice.kit.classic",
+      "teamName": "Azul",
+      "schematic": "azul",
+      "selectCommand": "",
+      "kitId": "classic_azul",
+      "teamColor": "blue",
+      "color": 5592575
+    },
+    "verde": {
+      "nameKey": "escadona.time.verde",
+      "signNameKey": "escadona_utils.hologram.choice.verde",
+      "descriptionKey": "escadona_utils.choice.description.classic",
+      "kitKey": "escadona_utils.choice.kit.classic",
+      "teamName": "Verde",
+      "schematic": "verde",
+      "selectCommand": "",
+      "kitId": "classic_verde",
+      "teamColor": "green",
+      "color": 5635925
+    },
+    "roxo": {
+      "nameKey": "escadona.time.roxo",
+      "signNameKey": "escadona_utils.hologram.choice.roxo",
+      "descriptionKey": "escadona_utils.choice.description.classic",
+      "kitKey": "escadona_utils.choice.kit.classic",
+      "teamName": "Roxo",
+      "schematic": "roxo",
+      "selectCommand": "",
+      "kitId": "classic_roxo",
+      "teamColor": "dark_purple",
+      "color": 11141290
+    },
+    "rosa": {
+      "nameKey": "escadona.time.rosa",
+      "signNameKey": "escadona_utils.hologram.choice.rosa",
+      "descriptionKey": "escadona_utils.choice.description.classic",
+      "kitKey": "escadona_utils.choice.kit.classic",
+      "teamName": "Rosa",
+      "schematic": "rosa",
+      "selectCommand": "",
+      "kitId": "classic_rosa",
+      "teamColor": "light_purple",
+      "color": 16733695
+    }
+  },
+  "kits": {
+    "classic_vermelho": {
+      "nameKey": "escadona_utils.choice.kit.classic",
+      "clearInventory": true,
+      "commands": [
+        "give @s escadona_utils:bow{CustomModelData:1101,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],Unbreakable:1b,HideFlags:4} 1",
+        "give @s minecraft:arrow 1",
+        "give @s escadona_utils:pickaxe{CustomModelData:1201,Unbreakable:1b,HideFlags:4} 1"
+      ]
+    },
+    "classic_azul": {
+      "nameKey": "escadona_utils.choice.kit.classic",
+      "clearInventory": true,
+      "commands": [
+        "give @s escadona_utils:bow{CustomModelData:1102,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],Unbreakable:1b,HideFlags:4} 1",
+        "give @s minecraft:arrow 1",
+        "give @s escadona_utils:pickaxe{CustomModelData:1202,Unbreakable:1b,HideFlags:4} 1"
+      ]
+    },
+    "classic_verde": {
+      "nameKey": "escadona_utils.choice.kit.classic",
+      "clearInventory": true,
+      "commands": [
+        "give @s escadona_utils:bow{CustomModelData:1103,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],Unbreakable:1b,HideFlags:4} 1",
+        "give @s minecraft:arrow 1",
+        "give @s escadona_utils:pickaxe{CustomModelData:1203,Unbreakable:1b,HideFlags:4} 1"
+      ]
+    },
+    "classic_roxo": {
+      "nameKey": "escadona_utils.choice.kit.classic",
+      "clearInventory": true,
+      "commands": [
+        "give @s escadona_utils:bow{CustomModelData:1104,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],Unbreakable:1b,HideFlags:4} 1",
+        "give @s minecraft:arrow 1",
+        "give @s escadona_utils:pickaxe{CustomModelData:1204,Unbreakable:1b,HideFlags:4} 1"
+      ]
+    },
+    "classic_rosa": {
+      "nameKey": "escadona_utils.choice.kit.classic",
+      "clearInventory": true,
+      "commands": [
+        "give @s escadona_utils:bow{CustomModelData:1105,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],Unbreakable:1b,HideFlags:4} 1",
+        "give @s minecraft:arrow 1",
+        "give @s escadona_utils:pickaxe{CustomModelData:1205,Unbreakable:1b,HideFlags:4} 1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slots": {
+    "A": {
+      "x": -25,
+      "y": -58,
+      "z": 14
+    },
+    "B": {
+      "x": -7,
+      "y": -58,
+      "z": 14
+    },
+    "C": {
+      "x": 11,
+      "y": -58,
+      "z": 14
+    },
+    "D": {
+      "x": 29,
+      "y": -58,
+      "z": 14
+    },
+    "E": {
+      "x": 47,
+      "y": -58,
+      "z": 14
+    }
+  },
+  "teleports": {
+    "A": {
+      "x": -24.5,
+      "y": -58.0,
+      "z": 14.5,
+      "yaw": 180.0,
+      "pitch": 0.0,
+      "dimension": "minecraft:overworld"
+    },
+    "B": {
+      "x": -6.5,
+      "y": -58.0,
+      "z": 14.5,
+      "yaw": 180.0,
+      "pitch": 0.0,
+      "dimension": "minecraft:overworld"
+    },
+    "C": {
+      "x": 11.5,
+      "y": -58.0,
+      "z": 14.5,
+      "yaw": 180.0,
+      "pitch": 0.0,
+      "dimension": "minecraft:overworld"
+    },
+    "D": {
+      "x": 29.5,
+      "y": -58.0,
+      "z": 14.5,
+      "yaw": 180.0,
+      "pitch": 0.0,
+      "dimension": "minecraft:overworld"
+    },
+    "E": {
+      "x": 47.5,
+      "y": -58.0,
+      "z": 14.5,
+      "yaw": 180.0,
+      "pitch": 0.0,
+      "dimension": "minecraft:overworld"
+    }
+  },
+  "loaded": {},
+  "points": {
+    "lobby": {
+      "x": 3.5,
+      "y": 59.0,
+      "z": 330.5,
+      "yaw": 180.0,
+      "pitch": 0.0,
+      "dimension": "minecraft:overworld"
+    },
+    "final": {
+      "x": 11.48,
+      "y": 186.0,
+      "z": -145.51,
+      "yaw": -179.4,
+      "pitch": -2.1,
+      "dimension": "minecraft:overworld"
+    },
+    "espectador": {
+      "x": 3.5,
+      "y": 59.0,
+      "z": 330.5,
+      "yaw": 180.0,
+      "pitch": 0.0,
+      "dimension": "minecraft:overworld"
+    }
+  },
+  "match": {
+    "teamCount": 2,
+    "finalists": 1
+  },
+  "creatorLinks": {
+    "creatorName": "GuBlack",
+    "tutorialChannelName": "GuBlack",
+    "tutorialChannelUrl": "https://www.youtube.com/@guublack",
+    "liveChannelName": "GuBlack Lives",
+    "liveChannelUrl": "https://www.youtube.com/@GuBlackOficial"
+  },
+  "activeTheme": "classic"
+}
