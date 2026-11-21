@@ -14392,7 +14392,7 @@
     {
       "id": "squidgames4444",
       "name": "squidgames4444",
-      "version": "1.0.2",
+      "version": "1.0.6",
       "description": "squidgames4444asdas",
       "serverPackage": {
         "schemaVersion": 1,
@@ -15630,10 +15630,24 @@
             "parts": null
           },
           {
+            "path": "mods/trashslot-forge-1.20-15.1.1.jar",
+            "size": 117752,
+            "sha256": "6e1cba48ec4f62c7452357c603af64afe705984895dcb2e46c6e83c47119f0a9",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/squidgames4444/server-files/mods/trashslot-forge-1.20-15.1.1.jar",
+            "parts": null
+          },
+          {
             "path": "mods/twilightforest-1.20.1-4.3.2508-universal.jar",
             "size": 23332091,
             "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778",
             "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/squidgames4444/server-files/mods/twilightforest-1.20.1-4.3.2508-universal.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/watut-forge-1.20.1-1.2.3.jar",
+            "size": 435496,
+            "sha256": "19a7291187e1074dac0ade56f95cdb84936e8563c55afdc0b86c90ea7cd80a9e",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/squidgames4444/server-files/mods/watut-forge-1.20.1-1.2.3.jar",
             "parts": null
           },
           {
@@ -16142,7 +16156,7 @@
             "id": "trashslot",
             "version": "15.1.1",
             "path": "mods/trashslot-forge-1.20-15.1.1.jar",
-            "included": false
+            "included": true
           },
           {
             "id": "twilightforest",
@@ -16154,7 +16168,7 @@
             "id": "watut",
             "version": "1.20.1-1.2.3",
             "path": "mods/watut-forge-1.20.1-1.2.3.jar",
-            "included": false
+            "included": true
           },
           {
             "id": "waystones",
