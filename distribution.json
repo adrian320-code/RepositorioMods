@@ -6555,7 +6555,344 @@
         }
       ],
       "kekeChunkedFiles": [],
-      "icon": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/icon.jpg"
+      "icon": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/icon.jpg",
+      "serverPackage": {
+        "schemaVersion": 1,
+        "minecraftVersion": "26.2",
+        "loader": "fabric",
+        "loaderVersion": "0.19.3",
+        "javaOptions": {
+          "supported": ">=25.x",
+          "suggestedMajor": 25
+        },
+        "levelName": "world",
+        "files": [
+          {
+            "path": "config/c2me.toml",
+            "size": 10307,
+            "sha256": "c177b686bbb4daeaeb8b9f35fde5b34923e2591e22f50c59cad46019028e1e37",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/c2me.toml",
+            "parts": null
+          },
+          {
+            "path": "config/crash_assistant/config.toml",
+            "size": 22358,
+            "sha256": "2db5fb04e10da708f25966869654a0d1f55c5ee304db5e0a64fc53d1594507f5",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/crash_assistant/config.toml",
+            "parts": null
+          },
+          {
+            "path": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+            "size": 2650,
+            "sha256": "943e1c3672b8a03f27519b357091133205119c7b3db2fcc4c25b597cabf8926d",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/crash_assistant/crash_assistant_localization_overrides/README.md",
+            "parts": null
+          },
+          {
+            "path": "config/crash_assistant/modlist.json",
+            "size": 4718,
+            "sha256": "ae3c8b3d649600aa9a678b6b42060edc2d2def9e4607d83d0d14ba795307aa3f",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/crash_assistant/modlist.json",
+            "parts": null
+          },
+          {
+            "path": "config/crash_assistant/scripts/log_analysis/example.jexl",
+            "size": 3495,
+            "sha256": "adde7e5e42b9d716f14a9bc49797999a21a0ee05cc67e71410a232f830115b3b",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/crash_assistant/scripts/log_analysis/example.jexl",
+            "parts": null
+          },
+          {
+            "path": "config/crash_assistant/scripts/startup/example.jexl",
+            "size": 4408,
+            "sha256": "346378f04a9e7319cdcb405fad82d6e7f1b36b39e0e4129c00a226b49f41cf37",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/crash_assistant/scripts/startup/example.jexl",
+            "parts": null
+          },
+          {
+            "path": "config/DistantHorizons.toml",
+            "size": 34292,
+            "sha256": "116a2bae554485ba9c2b6b9a227c59acdf42b3ec7d1f8d70cb3c775549e7e2e2",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/DistantHorizons.toml",
+            "parts": null
+          },
+          {
+            "path": "config/fabric/indigo-renderer.properties",
+            "size": 307,
+            "sha256": "2533a9bf05850418a06889e6f7de43272fddfb9870bdd4428923ab8895a82b82",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/fabric/indigo-renderer.properties",
+            "parts": null
+          },
+          {
+            "path": "config/fabric_loader_dependencies.json",
+            "size": 48,
+            "sha256": "cbef76bd9f072c9b7002a44b2fd6af9409bd5f8e6ffd5e1b2bb8e7822376b1c6",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/fabric_loader_dependencies.json",
+            "parts": null
+          },
+          {
+            "path": "config/ferritecore.mixin.properties",
+            "size": 815,
+            "sha256": "71d5e19e278cb843d92f90a99b8a9772780c62e5611b7c8cc92097cd18399b08",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/ferritecore.mixin.properties",
+            "parts": null
+          },
+          {
+            "path": "config/indium-renderer.properties",
+            "size": 116,
+            "sha256": "aac385348c52b37e7c8a8d2e526ff0740a89289c1c1233f64139ab4e3bd04e99",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/indium-renderer.properties",
+            "parts": null
+          },
+          {
+            "path": "config/iris-excluded.json",
+            "size": 31,
+            "sha256": "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/iris-excluded.json",
+            "parts": null
+          },
+          {
+            "path": "config/iris.properties",
+            "size": 287,
+            "sha256": "9e0d8f9e342b0e8b37a1a5fc59cf971af1d232839b67fa46c1732d15ad0b384f",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/iris.properties",
+            "parts": null
+          },
+          {
+            "path": "config/lithium.properties",
+            "size": 430,
+            "sha256": "76765e8e5ff8e927d80beb0739aababcf36e7babfd94262f2afece256cc5cd2e",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/lithium.properties",
+            "parts": null
+          },
+          {
+            "path": "config/modernfix-mixins.properties",
+            "size": 3525,
+            "sha256": "1698583a3852f97cbad649b2e5a162a4fad041a474278c943c535985c9de2779",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/modernfix-mixins.properties",
+            "parts": null
+          },
+          {
+            "path": "config/modmenu.json",
+            "size": 839,
+            "sha256": "ad8040ac3156dafd8b436fc035438ff1a07bcfed24d02a2dbe901158525592f9",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/modmenu.json",
+            "parts": null
+          },
+          {
+            "path": "config/noisium.json",
+            "size": 146,
+            "sha256": "3b6acdbc5ce36d9a81fb2a889760b5eb9fd88683cb06e234eca92559ad151329",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/noisium.json",
+            "parts": null
+          },
+          {
+            "path": "config/resourceful-config-web.json",
+            "size": 196,
+            "sha256": "782db8b7af7c71b04b1970be16e42d3f1b55875dc7cf5c76febcfe21a3f4d93a",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/resourceful-config-web.json",
+            "parts": null
+          },
+          {
+            "path": "config/sodium-extra-options.json",
+            "size": 1459,
+            "sha256": "1875082bf761989c15827386634bace843e63d15ddbd500585230ddcd0143654",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/sodium-extra-options.json",
+            "parts": null
+          },
+          {
+            "path": "config/sodium-extra.properties",
+            "size": 360,
+            "sha256": "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/sodium-extra.properties",
+            "parts": null
+          },
+          {
+            "path": "config/sodium-fingerprint.json",
+            "size": 427,
+            "sha256": "8b7bc01193f0b7fbf85f48ebca7bb3deb5be9c4dfa4500b8e2c922a0a44bdf8d",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/sodium-fingerprint.json",
+            "parts": null
+          },
+          {
+            "path": "config/sodium-mixins.properties",
+            "size": 265,
+            "sha256": "8939df3a10627cf3b9a3cc0e2824337923e9a26d11e60f5a1f7c0cfbd171a574",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/sodium-mixins.properties",
+            "parts": null
+          },
+          {
+            "path": "config/sodium-options.json",
+            "size": 744,
+            "sha256": "ab8c4bd12e2c0397eaf94703451f152033d62da9dad2cb6b4bb5a67e3c5494f0",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/sodium-options.json",
+            "parts": null
+          },
+          {
+            "path": "config/structure_layout_optimizer.jsonc",
+            "size": 1058,
+            "sha256": "5a9058652bc0b88b8810e0b94eba0e1a90cbff2472845c53a7e67442682a1579",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/structure_layout_optimizer.jsonc",
+            "parts": null
+          },
+          {
+            "path": "config/zfastnoise.mixin.toml",
+            "size": 1091,
+            "sha256": "869457ea7a5f78803c7003b694cba54a95c9176b3632f327f7a74a99a62ea454",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/config/zfastnoise.mixin.toml",
+            "parts": null
+          },
+          {
+            "path": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+            "size": 3775368,
+            "sha256": "aaa2d1c54126de073df5413e8ffe329d0cd5d67c3c4fe1647032c294d0e46fb0",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+            "size": 3163424,
+            "sha256": "3bda3cf3ef958bb791bfa11176daed5ec27d49c26d317d09a553afb1cd99fbf6",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+            "size": 29653883,
+            "sha256": "876b0b710a1fa2c0faa37aa8d8e9c454501333c77b0506c3e7db21993717702e",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/fabric-api-0.152.2+26.2.jar",
+            "size": 2501396,
+            "sha256": "e9b77ca81fc0bd8af3205847fc0442178245900ce3acc8dbf38bc8c98cf4d8f5",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/fabric-api-0.152.2%2B26.2.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/ferritecore-9.0.0-fabric.jar",
+            "size": 72677,
+            "sha256": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/ferritecore-9.0.0-fabric.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+            "size": 911462,
+            "sha256": "67b3356cc77d430b567b55e5302df8ee8b761814678677b1e077e80f53bb8fea",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/lithium-fabric-0.25.0%2Bmc26.2.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/ResourcefulConfig-5.0.0.jar",
+            "size": 443979,
+            "sha256": "e1f3138849b7ec68d029ba07a8158e9bec4032c02f20c3999fe335c638fc8d89",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/ResourcefulConfig-5.0.0.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+            "size": 71476,
+            "sha256": "189a4356cc34b34156ec18dd22b9d63e617f12dddfe31729c640fcc62b5ad1fc",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/structure_layout_optimizer-1.1.4%2B26.1-fabric.jar",
+            "parts": null
+          },
+          {
+            "path": "mods/zfastnoise-1.0.36+26.2.jar",
+            "size": 473288,
+            "sha256": "11b183b23219a1f8b79438bc1c389b6c1fadb69ae2b2d18722094cfcd0c2d246",
+            "url": "https://raw.githubusercontent.com/adrian320-code/RepositorioMods/main/servers/DistantHorizons2/server-files/mods/zfastnoise-1.0.36%2B26.2.jar",
+            "parts": null
+          }
+        ],
+        "mods": [
+          {
+            "id": "c2me",
+            "version": "0.4.1-beta.1.0+26.2",
+            "path": "mods/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
+            "included": true
+          },
+          {
+            "id": "crash_assistant",
+            "version": "1.11.10",
+            "path": "mods/CrashAssistant-fabric-26.2-1.11.10.jar",
+            "included": true
+          },
+          {
+            "id": "distanthorizons",
+            "version": "3.1.2-b",
+            "path": "mods/DistantHorizons-3.1.2-b-26.2-fabric-neoforge.jar",
+            "included": true
+          },
+          {
+            "id": "fabric-api",
+            "version": "0.152.2+26.2",
+            "path": "mods/fabric-api-0.152.2+26.2.jar",
+            "included": true
+          },
+          {
+            "id": "ferritecore",
+            "version": "9.0.0",
+            "path": "mods/ferritecore-9.0.0-fabric.jar",
+            "included": true
+          },
+          {
+            "id": "iris",
+            "version": "1.11.1+mc26.2",
+            "path": "mods/iris-fabric-1.11.1+mc26.2.jar",
+            "included": false
+          },
+          {
+            "id": "lithium",
+            "version": "0.25.0+mc26.2",
+            "path": "mods/lithium-fabric-0.25.0+mc26.2.jar",
+            "included": true
+          },
+          {
+            "id": "modmenu",
+            "version": "20.0.0-beta.3",
+            "path": "mods/modmenu-20.0.0-beta.3.jar",
+            "included": false
+          },
+          {
+            "id": "reeses-sodium-options",
+            "version": "2.1.0+mc26.2",
+            "path": "mods/reeses-sodium-options-fabric-2.1.0+mc26.2.jar",
+            "included": false
+          },
+          {
+            "id": "resourcefulconfig",
+            "version": "5.0.0",
+            "path": "mods/ResourcefulConfig-5.0.0.jar",
+            "included": true
+          },
+          {
+            "id": "sodium-extra",
+            "version": "0.8.9+mc26.2",
+            "path": "mods/sodium-extra-fabric-0.8.9+mc26.2.jar",
+            "included": false
+          },
+          {
+            "id": "sodium",
+            "version": "0.9.0+mc26.2",
+            "path": "mods/sodium-fabric-0.9.0+mc26.2.jar",
+            "included": false
+          },
+          {
+            "id": "structure_layout_optimizer",
+            "version": "1.1.4+26.1-fabric",
+            "path": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+            "included": true
+          },
+          {
+            "id": "zfastnoise",
+            "version": "1.0.36+26.2",
+            "path": "mods/zfastnoise-1.0.36+26.2.jar",
+            "included": true
+          }
+        ]
+      }
     },
     {
       "id": "luckyEscalon",
