@@ -1,9 +1,10 @@
 {
-  "md5": "62dfd91130e484ba20de4e1dbc7c0fa4",
+  "md5": "d2e2c218bfe3b9e82016adbb239c372b",
   "servers": {
     "KekeCraft-1.20.1": "1.0.0",
     "DistantHorizons2": "1.5.0",
     "luckyEscalon": "1.0.1",
-    "squidgames44": "1.0.4"
+    "squidgames44": "1.0.4",
+    "squidquizaaa": "1.1.2"
   }
 }
